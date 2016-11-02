@@ -1,11 +1,14 @@
 
-# First Round (C++) 289 solved
+### Solutions and Explanations of problems on leetcode.
 
-- Source files can be found at the folder "First\_round\_cpp"
-- [Click here ](http://blog.csdn.net/zlqdhrdhrdhr) for more infomation	
 
-# Second Round (Python/C++/C) 
+-  First Round (C++), about 290 solved, 2015
 
-- Think deeper and Add some details.
+-  Second Round (Python mainly), Updating, 2016
+
+  - Think deeper.
+  - Cleaner code.
+  - More methods.
+  - Make explanations.
 
 
