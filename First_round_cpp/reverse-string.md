@@ -1,8 +1,8 @@
 ```c++
 class Solution {
-public:
-    string reverseString(string s) {
-        return string(s.rbegin(),s.rend());
-    }
+    public:
+        string reverseString(string s) {
+            return string(s.rbegin(), s.rend());
+        }
 }
 ```

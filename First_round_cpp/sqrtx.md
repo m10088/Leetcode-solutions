@@ -1,8 +1,8 @@
 ```c++
 class Solution {
-public:
-    int mySqrt(int x) {
-        return sqrt(x);
-    }
+    public:
+        int mySqrt(int x) {
+            return sqrt(x); 
+        }
 }
 ```

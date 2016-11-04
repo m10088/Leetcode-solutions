@@ -1,11 +1,14 @@
 ```c++
 class Solution {
-public:
-   void moveZeroes(vector<int>& nums) {
-        for (int index = 0, current = 0; current < nums.size(); current++) {
-            if (nums[current] != 0)
-                swap(nums[index++], nums[current]);
+    public:
+        void moveZeroes(vector<int>& a) {
+
+            for (auto j = 0; j < a.size() - 1; j++) {
+                for (auto i = 0; i < a.size() - 1 - j; i++) {
+                    if (!a[i] && a[i + 1])
+                        std::swap(a[i], a[i + 1]);
+                }
+            }
         }
-    }
 }
 ```
