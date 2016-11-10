@@ -1,26 +1,20 @@
 ```c++
 void dfs(vector<vector<int>>&final, vector<int>&v, vector<int>&tmp, int cur, int sum, int target, int depth) {
-    if (sum == target) {
-        
+	if (sum == target) {
         vector<int> ans(tmp.begin(), tmp.begin() + depth);
         std::sort(ans.begin(), ans.end());
         final.push_back(ans);
-        return;
-        }else if(sum>target){
-        return;
-        }else{
-        if (cur == v.size())return;
-        tmp[depth] = v[cur];
-        
-        dfs(final, v, tmp, cur, sum + v[cur], target, depth + 1);
+    	return;
+    }else if(sum>target){
+    	return;
+    }else{
+    	if (cur == v.size())return;
+    	tmp[depth] = v[cur];
+    	dfs(final, v, tmp, cur, sum + v[cur], target, depth + 1);
+    	dfs(final, v, tmp, cur + 1, sum + v[cur], target, depth + 1);
+    	dfs(final, v, tmp, cur + 1, sum, target, depth);
 
-        
-        dfs(final, v, tmp, cur + 1, sum + v[cur], target, depth + 1);
-
-        
-        dfs(final, v, tmp, cur + 1, sum, target, depth);
-
-    }
+	}
 }
 class Solution {
     public:
