@@ -28,9 +28,9 @@ class Solution(object):
                 _mul = (ord(num1[i]) - ord('0')) * (ord(num2[j]) - ord('0'))
                 p1 = i + j;
                 p2 = i + j + 1;
-                _sum = _mul + pos[p2]
+                _sum = _mul
                 pos[p1] += _sum / 10;
-                pos[p2] = (_sum) % 10;
+                pos[p2] += (_sum) % 10;
         carry = 0
         ret = ''
         for i in range(m+n-1, -1, -1):
