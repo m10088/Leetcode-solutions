@@ -1,4 +1,4 @@
-[原题](https://discuss.leetcode.com/topic/38342/who-can-beat-this-code)
+[原题](https://leetcode.com/problems/restore-ip-addresses/)
 
 
 题意：
