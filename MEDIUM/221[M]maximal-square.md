@@ -1,4 +1,4 @@
-[原题](https://leetcode.com/problems/maximal-squar)
+[原题](https://leetcode.com/problems/maximal-square)
 
 题意:
 

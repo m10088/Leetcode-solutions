@@ -1,4 +1,4 @@
-[原题](https://leetcode.com/problems/longest-palindromic-substrin)
+[原题](https://leetcode.com/problems/longest-palindromic-substring)
 
 题意:
 

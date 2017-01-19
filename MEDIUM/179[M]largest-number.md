@@ -1,4 +1,4 @@
-[原题](https://leetcode.com/problems/largest-numbe)
+[原题](https://leetcode.com/problems/largest-number)
 
 题意:
 

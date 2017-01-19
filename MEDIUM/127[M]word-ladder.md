@@ -1,4 +1,4 @@
-[原题](https://leetcode.com/problems/word-ladde)
+[原题](https://leetcode.com/problems/word-ladder)
 
 题意:
 

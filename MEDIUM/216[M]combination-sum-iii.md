@@ -1,4 +1,4 @@
-[原题](https://discuss.leetcode.com/topic/14641/my-c-solution-backtracking)
+[原题](https://leetcode.com/problems/combination-sum-iii/)
 
 题意：
 

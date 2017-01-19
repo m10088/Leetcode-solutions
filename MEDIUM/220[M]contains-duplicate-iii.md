@@ -1,4 +1,4 @@
-[原题](https://leetcode.com/problems/contains-duplicate-ii)
+[原题](https://leetcode.com/problems/contains-duplicate-iii)
 
 题意:
 

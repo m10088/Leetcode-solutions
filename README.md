@@ -12,7 +12,7 @@
 |7|[reverse-integer](https://leetcode.com/problems/reverse-integer)|[Python](EASY/7[E]reverse-integer.md)|E|
 |8|[string-to-integer-atoi](https://leetcode.com/problems/string-to-integer-atoi)|[Python](EASY/8[E]string-to-integer-atoi.md)|E|
 |9|[palindrome-number](https://leetcode.com/problems/palindrome-number)|[Python](EASY/9[E]palindrome-number.md)|E|
-|13|[opic/7378/python-solution](https://discuss.leetcode.com/topic/7378/python-solution)|[Python](EASY/13[E]python-solutio.md)|E|
+|13|[roman-to-integer](https://leetcode.com/problems/roman-to-integer)|[Python](EASY/13[E]roman-to-integer.md)|E|
 |14|[longest-common-prefix](https://leetcode.com/problems/longest-common-prefix)|[Python](EASY/14[E]longest-common-prefix.md)|E|
 |19|[remove-nth-node-from-end-of-list](https://leetcode.com/problems/remove-nth-node-from-end-of-list)|[Python](EASY/19[E]remove-nth-node-from-end-of-list.md)|E|
 |20|[valid-parentheses](https://leetcode.com/problems/valid-parentheses)|[Python](EASY/20[E]valid-parentheses.md)|E|
@@ -37,6 +37,7 @@
 |110|[balanced-binary-tree](https://leetcode.com/problems/balanced-binary-tree)|[Python](EASY/110[E]balanced-binary-tree.md)|E|
 |111|[minimum-depth-of-binary-tree](https://leetcode.com/problems/minimum-depth-of-binary-tree)|[Python](EASY/111[E]minimum-depth-of-binary-tree.md)|E|
 |112|[path-sum](https://leetcode.com/problems/path-sum)|[Python](EASY/112[E]path-sum.md)|E|
+|118|[pascals-triangle](https://leetcode.com/problems/pascals-triangle)|[Python](EASY/118[E]pascals-triangle.md)|E|
 |119|[pascals-triangle-ii](https://leetcode.com/problems/pascals-triangle-ii)|[Python](EASY/119[E]pascals-triangle-ii.md)|E|
 |121|[best-time-to-buy-and-sell-stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock)|[Python](EASY/121[E]best-time-to-buy-and-sell-stock.md)|E|
 |125|[valid-palindrome](https://leetcode.com/problems/valid-palindrome)|[Python](EASY/125[E]valid-palindrome.md)|E|
@@ -49,7 +50,6 @@
 |169|[majority-element](https://leetcode.com/problems/majority-element)|[Python](EASY/169[E]majority-element.md)|E|
 |171|[excel-sheet-column-number](https://leetcode.com/problems/excel-sheet-column-number)|[Python](EASY/171[E]excel-sheet-column-number.md)|E|
 |172|[factorial-trailing-zeroes](https://leetcode.com/problems/factorial-trailing-zeroes)|[Python](EASY/172[E]factorial-trailing-zeroes.md)|E|
-|181|[pascals-triangle](https://leetcode.com/problems/pascals-triangle)|[Python](EASY/181[E]pascals-triangle.md)|E|
 |189|[rotate-array](https://leetcode.com/problems/rotate-array)|[Python](EASY/189[E]rotate-array.md)|E|
 |190|[reverse-bits](https://leetcode.com/problems/reverse-bits)|[Python](EASY/190[E]reverse-bits.md)|E|
 |191|[number-of-1-bits](https://leetcode.com/problems/number-of-1-bits)|[Python](EASY/191[E]number-of-1-bits.md)|E|
@@ -76,6 +76,7 @@
 |278|[first-bad-version](https://leetcode.com/problems/first-bad-version)|[Python](EASY/278[E]first-bad-version.md)|E|
 |283|[move-zeroes](https://leetcode.com/problems/move-zeroes)|[Python](EASY/283[E]move-zeroes.md)|E|
 |290|[word-pattern](https://leetcode.com/problems/word-pattern)|[Python](EASY/290[E]word-pattern.md)|E|
+|292|[nim-game](https://leetcode.com/problems/nim-game)|[Python](EASY/292[E]nim-game.md)|E|
 |299|[bulls-and-cows](https://leetcode.com/problems/bulls-and-cows)|[Python](EASY/299[E]bulls-and-cows.md)|E|
 |303|[range-sum-query-immutable](https://leetcode.com/problems/range-sum-query-immutable)|[Python](EASY/303[E]range-sum-query-immutable.md)|E|
 |326|[power-of-three](https://leetcode.com/problems/power-of-three)|[Python](EASY/326[E]power-of-three.md)|E|
@@ -95,6 +96,7 @@
 |404|[sum-of-left-leaves](https://leetcode.com/problems/sum-of-left-leaves)|[Python](EASY/404[E]sum-of-left-leaves.md)|E|
 |405|[convert-a-number-to-hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal)|[Python](EASY/405[E]convert-a-number-to-hexadecimal.md)|E|
 |409|[longest-palindrome](https://leetcode.com/problems/longest-palindrome)|[Python](EASY/409[E]longest-palindrome.md)|E|
+|412|[fizz-buzz](https://leetcode.com/problems/fizz-buzz)|[Python](EASY/412[E]fizz-buzz.md)|E|
 |414|[third-maximum-number](https://leetcode.com/problems/third-maximum-number)|[Python](EASY/414[E]third-maximum-number.md)|E|
 |415|[add-strings](https://leetcode.com/problems/add-strings)|[Python](EASY/415[E]add-strings.md)|E|
 |434|[number-of-segments-in-a-string](https://leetcode.com/problems/number-of-segments-in-a-string)|[Python](EASY/434[E]number-of-segments-in-a-string.md)|E|
@@ -112,7 +114,6 @@
 
 
 
-
 -------------
 
 ### Medium-section
@@ -121,7 +122,7 @@
 |---|-----|--------|--------|
 |2|[add-two-numbers](https://leetcode.com/problems/add-two-numbers)|[Python](MEDIUM/2[M]add-two-numbers.md)|M|
 |3|[longest-substring-without-repeating-characters](https://leetcode.com/problems/longest-substring-without-repeating-characters)|[Python](MEDIUM/3[M]longest-substring-without-repeating-characters.md)|M|
-|5|[longest-palindromic-substrin](https://leetcode.com/problems/longest-palindromic-substrin)|[Python](MEDIUM/5[M]longest-palindromic-substrin.md)|M|
+|5|[longest-palindromic-substring](https://leetcode.com/problems/longest-palindromic-substring)|[Python](MEDIUM/5[M]longest-palindromic-substring.md)|M|
 |11|[container-with-most-water](https://leetcode.com/problems/container-with-most-water)|[Python](MEDIUM/11[M]container-with-most-water.md)|M|
 |12|[integer-to-roman](https://leetcode.com/problems/integer-to-roman)|[Python](MEDIUM/12[M]integer-to-roman.md)|M|
 |15|[ategory/23/3sum](https://discuss.leetcode.com/category/23/3sum)|[Python](MEDIUM/15[M]3-sum.md)|M|
@@ -129,14 +130,16 @@
 |17|[letter-combinations-of-a-phone-number](https://leetcode.com/problems/letter-combinations-of-a-phone-number)|[Python](MEDIUM/17[M]letter-combinations-of-a-phone-number.md)|M|
 |18|[4sum](https://leetcode.com/problems/4sum)|[Python](MEDIUM/18[M]4sum.md)|M|
 |22|[generate-parentheses](https://leetcode.com/problems/generate-parentheses)|[Python](MEDIUM/22[M]generate-parentheses.md)|M|
-|29|[divide-two-integer](https://leetcode.com/problems/divide-two-integer)|[Python](MEDIUM/29[M]divide-two-integer.md)|M|
+|29|[divide-two-integers](https://leetcode.com/problems/divide-two-integers)|[Python](MEDIUM/29[M]divide-two-integers.md)|M|
+|31|[next-permutation](https://leetcode.com/problems/next-permutation)|[Python](MEDIUM/31[M]next-permutation.md)|M|
 |33|[search-in-rotated-sorted-array](https://leetcode.com/problems/search-in-rotated-sorted-array)|[Python](MEDIUM/33[M]search-in-rotated-sorted-array.md)|M|
+|34|[search-for-a-range](https://leetcode.com/problems/search-for-a-range)|[Python](MEDIUM/34[M]search-for-a-range.md)|M|
 |35|[search-insert-position](https://leetcode.com/problems/search-insert-position)|[Python](MEDIUM/35[M]search-insert-position.md)|M|
 |39|[combination-sum](https://leetcode.com/problems/combination-sum)|[Python](MEDIUM/39[M]combination-sum.md)|M|
 |40|[combination-sum-ii](https://leetcode.com/problems/combination-sum-ii)|[Python](MEDIUM/40[M]combination-sum-ii.md)|M|
 |43|[multiply-strings](https://leetcode.com/problems/multiply-strings)|[Python](MEDIUM/43[M]multiply-strings.md)|M|
 |46|[permutations](https://leetcode.com/problems/permutations)|[Python](MEDIUM/46[M]permutations.md)|M|
-|47|[permutations-i](https://leetcode.com/problems/permutations-i)|[Python](MEDIUM/47[M]permutations-i.md)|M|
+|47|[permutations-ii](https://leetcode.com/problems/permutations-ii)|[Python](MEDIUM/47[M]permutations-ii.md)|M|
 |48|[rotate-image](https://leetcode.com/problems/rotate-image)|[Python](MEDIUM/48[M]rotate-image.md)|M|
 |49|[anagrams](https://leetcode.com/problems/anagrams)|[Python](MEDIUM/49[M]anagrams.md)|M|
 |50|[powx-n](https://leetcode.com/problems/powx-n)|[Python](MEDIUM/50[M]powx-n.md)|M|
@@ -166,7 +169,7 @@
 |90|[subsets-ii](https://leetcode.com/problems/subsets-ii)|[Python](MEDIUM/90[M]subsets-ii.md)|M|
 |91|[decode-ways](https://leetcode.com/problems/decode-ways)|[Python](MEDIUM/91[M]decode-ways.md)|M|
 |92|[reverse-linked-list-ii](https://leetcode.com/problems/reverse-linked-list-ii)|[Python](MEDIUM/92[M]reverse-linked-list-ii.md)|M|
-|93|[restore-ip-addresses](https://leetcode.com/problems/restore-ip-addresses)|[Python](MEDIUM/93[M]who-can-beat-this-cod.md)|M|
+|93|[restore-ip-addresses](https://leetcode.com/problems/restore-ip-addresses)|[Python](MEDIUM/93[M]restore-ip-addresses.md)|M|
 |94|[binary-tree-inorder-traversal](https://leetcode.com/problems/binary-tree-inorder-traversal)|[Python](MEDIUM/94[M]binary-tree-inorder-traversal.md)|M|
 |95|[unique-binary-search-trees-ii](https://leetcode.com/problems/unique-binary-search-trees-ii)|[Python](MEDIUM/95[M]unique-binary-search-trees-ii.md)|M|
 |96|[unique-binary-search-trees](https://leetcode.com/problems/unique-binary-search-trees)|[Python](MEDIUM/96[M]unique-binary-search-trees.md)|M|
@@ -182,29 +185,29 @@
 |117|[populating-next-right-pointers-in-each-node-ii](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii)|[Python](MEDIUM/117[M]populating-next-right-pointers-in-each-node-ii.md)|M|
 |120|[triangle](https://leetcode.com/problems/triangle)|[Python](MEDIUM/120[M]triangle.md)|M|
 |122|[best-time-to-buy-and-sell-stock-ii](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii)|[Python](MEDIUM/122[M]best-time-to-buy-and-sell-stock-ii.md)|M|
-|127|[word-ladde](https://leetcode.com/problems/word-ladde)|[Python](MEDIUM/127[M]word-ladde.md)|M|
+|127|[word-ladder](https://leetcode.com/problems/word-ladder)|[Python](MEDIUM/127[M]word-ladder.md)|M|
 |129|[sum-root-to-leaf-numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers)|[Python](MEDIUM/129[M]sum-root-to-leaf-numbers.md)|M|
-|130|[surrounded-regions](https://leetcode.com/problems/surrounded-regions)|[Python](MEDIUM/130[M]surrounded-region.md)|M|
-|131|[palindrome-partitionin](https://leetcode.com/problems/palindrome-partitionin)|[Python](MEDIUM/131[M]palindrome-partitionin.md)|M|
+|130|[surrounded-regions](https://leetcode.com/problems/surrounded-regions)|[Python](MEDIUM/130[M]surrounded-regions.md)|M|
+|131|[palindrome-partitioning](https://leetcode.com/problems/palindrome-partitioning)|[Python](MEDIUM/131[M]palindrome-partitioning.md)|M|
 |133|[clone-graph](https://leetcode.com/problems/clone-graph)|[Python](MEDIUM/133[M]clone-graph.md)|M|
-|134|[gas-statio](https://leetcode.com/problems/gas-statio)|[Python](MEDIUM/134[M]gas-statio.md)|M|
-|137|[single-number-i](https://leetcode.com/problems/single-number-i)|[Python](MEDIUM/137[M]single-number-i.md)|M|
+|134|[gas-station](https://leetcode.com/problems/gas-station)|[Python](MEDIUM/134[M]gas-station.md)|M|
+|137|[single-number-ii](https://leetcode.com/problems/single-number-ii)|[Python](MEDIUM/137[M]single-number-ii.md)|M|
 |139|[word-break](https://leetcode.com/problems/word-break)|[Python](MEDIUM/139[M]word-break.md)|M|
 |142|[linked-list-cycle-ii](https://leetcode.com/problems/linked-list-cycle-ii)|[Python](MEDIUM/142[M]linked-list-cycle-ii.md)|M|
 |143|[reorder-list](https://leetcode.com/problems/reorder-list)|[Python](MEDIUM/143[M]reorder-list.md)|M|
 |144|[binary-tree-preorder-traversal](https://leetcode.com/problems/binary-tree-preorder-traversal)|[Python](MEDIUM/144[M]binary-tree-preorder-traversal.md)|M|
 |145|[binary-tree-postorder-traversal](https://leetcode.com/problems/binary-tree-postorder-traversal)|[Python](MEDIUM/145[M]binary-tree-postorder-traversal.md)|M|
+|147|[insertion-sort-list](https://leetcode.com/problems/insertion-sort-list)|[Python](MEDIUM/147[M].md)|M|
 |148|[sort-list](https://leetcode.com/problems/sort-list)|[Python](MEDIUM/148[M]sort-list.md)|M|
 |150|[evaluate-reverse-polish-notation](https://leetcode.com/problems/evaluate-reverse-polish-notation)|[Python](MEDIUM/150[M]evaluate-reverse-polish-notation.md)|M|
 |151|[reverse-words-in-a-string](https://leetcode.com/problems/reverse-words-in-a-string)|[Python](MEDIUM/151[M]reverse-words-in-a-string.md)|M|
 |152|[maximum-product-subarray](https://leetcode.com/problems/maximum-product-subarray)|[Python](MEDIUM/152[M]maximum-product-subarray.md)|M|
 |153|[find-minimum-in-rotated-sorted-array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array)|[Python](MEDIUM/153[M]find-minimum-in-rotated-sorted-array.md)|M|
 |162|[find-peak-element](https://leetcode.com/problems/find-peak-element)|[Python](MEDIUM/162[M]find-peak-element.md)|M|
-|166|[fraction-to-recurring-decima](https://leetcode.com/problems/fraction-to-recurring-decima)|[Python](MEDIUM/166[M]fraction-to-recurring-decima.md)|M|
+|166|[fraction-to-recurring-decimal](https://leetcode.com/problems/fraction-to-recurring-decimal)|[Python](MEDIUM/166[M]fraction-to-recurring-decimal.md)|M|
 |167|[two-sum-ii-input-array-is-sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted)|[Python](MEDIUM/167[M]two-sum-ii-input-array-is-sorted.md)|M|
-|167|[two-sum-ii-input-array-is-sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted)|[Python](MEDIUM/167[M]two_sum_sorted_array.md)|M|
 |173|[binary-search-tree-iterator](https://leetcode.com/problems/binary-search-tree-iterator)|[Python](MEDIUM/173[M]binary-search-tree-iterator.md)|M|
-|179|[largest-numbe](https://leetcode.com/problems/largest-numbe)|[Python](MEDIUM/179[M]largest-numbe.md)|M|
+|179|[largest-number](https://leetcode.com/problems/largest-number)|[Python](MEDIUM/179[M]largest-number.md)|M|
 |187|[repeated-dna-sequences](https://leetcode.com/problems/repeated-dna-sequences)|[Python](MEDIUM/187[M]repeated-dna-sequences.md)|M|
 |199|[binary-tree-right-side-view](https://leetcode.com/problems/binary-tree-right-side-view)|[Python](MEDIUM/199[M]binary-tree-right-side-view.md)|M|
 |200|[number-of-islands](https://leetcode.com/problems/number-of-islands)|[Python](MEDIUM/200[M]number-of-islands.md)|M|
@@ -213,12 +216,12 @@
 |208|[implement-trie-prefix-tree](https://leetcode.com/problems/implement-trie-prefix-tree)|[Python](MEDIUM/208[M]implement-trie-prefix-tree.md)|M|
 |209|[minimum-size-subarray-sum](https://leetcode.com/problems/minimum-size-subarray-sum)|[Python](MEDIUM/209[M]minimum-size-subarray-sum.md)|M|
 |210|[course-schedule-ii](https://leetcode.com/problems/course-schedule-ii)|[Python](MEDIUM/210[M]course-schedule-ii.md)|M|
-|211|[add-and-search-word-data-structure-desig](https://leetcode.com/problems/add-and-search-word-data-structure-desig)|[Python](MEDIUM/211[M]add-and-search-word-data-structure-desig.md)|M|
+|211|[add-and-search-word-data-structure-design](https://leetcode.com/problems/add-and-search-word-data-structure-design)|[Python](MEDIUM/211[M]add-and-search-word-data-structure-design.md)|M|
 |213|[house-robber-ii](https://leetcode.com/problems/house-robber-ii)|[Python](MEDIUM/213[M]house-robber-ii.md)|M|
 |215|[kth-largest-element-in-an-array](https://leetcode.com/problems/kth-largest-element-in-an-array)|[Python](MEDIUM/215[M]kth-largest-element-in-an-array.md)|M|
-|216|[opic/14641/my-c-solution-backtracking](https://discuss.leetcode.com/topic/14641/my-c-solution-backtracking)|[Python](MEDIUM/216[M]my-c-solution-backtrackin.md)|M|
-|220|[contains-duplicate-ii](https://leetcode.com/problems/contains-duplicate-ii)|[Python](MEDIUM/220[M]contains-duplicate-ii.md)|M|
-|221|[maximal-squar](https://leetcode.com/problems/maximal-squar)|[Python](MEDIUM/221[M]maximal-squar.md)|M|
+|216|[combination-sum-iii](https://leetcode.com/problems/combination-sum-iii)|[Python](MEDIUM/216[M]combination-sum-iii.md)|M|
+|220|[contains-duplicate-iii](https://leetcode.com/problems/contains-duplicate-iii)|[Python](MEDIUM/220[M]contains-duplicate-iii.md)|M|
+|221|[maximal-square](https://leetcode.com/problems/maximal-square)|[Python](MEDIUM/221[M]maximal-square.md)|M|
 |222|[count-complete-tree-nodes](https://leetcode.com/problems/count-complete-tree-nodes)|[Python](MEDIUM/222[M]count-complete-tree-nodes.md)|M|
 |227|[basic-calculator-ii](https://leetcode.com/problems/basic-calculator-ii)|[Python](MEDIUM/227[M]basic-calculator-ii.md)|M|
 |228|[summary-ranges](https://leetcode.com/problems/summary-ranges)|[Python](MEDIUM/228[M]summary-ranges.md)|M|
@@ -227,8 +230,8 @@
 |236|[lowest-common-ancestor-of-a-binary-tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree)|[Python](MEDIUM/236[M]lowest-common-ancestor-of-a-binary-tree.md)|M|
 |238|[product-of-array-except-self](https://leetcode.com/problems/product-of-array-except-self)|[Python](MEDIUM/238[M]product-of-array-except-self.md)|M|
 |240|[search-a-2d-matrix-ii](https://leetcode.com/problems/search-a-2d-matrix-ii)|[Python](MEDIUM/240[M]search-a-2d-matrix-ii.md)|M|
-|241|[different-ways-to-add-parenthese](https://leetcode.com/problems/different-ways-to-add-parenthese)|[Python](MEDIUM/241[M]different-ways-to-add-parenthese.md)|M|
-|260|[single-number-iii](https://leetcode.com/problems/single-number-iii)|[Python](MEDIUM/260[M]single-number-ii.md)|M|
+|241|[different-ways-to-add-parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses)|[Python](MEDIUM/241[M]different-ways-to-add-parentheses.md)|M|
+|260|[single-number-iii](https://leetcode.com/problems/single-number-iii)|[Python](MEDIUM/260[M]single-number-iii.md)|M|
 |264|[ugly-number-ii](https://leetcode.com/problems/ugly-number-ii)|[Python](MEDIUM/264[M]ugly-number-ii.md)|M|
 |268|[missing-number](https://leetcode.com/problems/missing-number)|[Python](MEDIUM/268[M]missing-number.md)|M|
 |274|[h-index](https://leetcode.com/problems/h-index)|[Python](MEDIUM/274[M]h-index.md)|M|
@@ -238,9 +241,9 @@
 |289|[game-of-life](https://leetcode.com/problems/game-of-life)|[Python](MEDIUM/289[M]game-of-life.md)|M|
 |300|[longest-increasing-subsequence](https://leetcode.com/problems/longest-increasing-subsequence)|[Python](MEDIUM/300[M]longest-increasing-subsequence.md)|M|
 |304|[range-sum-query-2d-immutable](https://leetcode.com/problems/range-sum-query-2d-immutable)|[Python](MEDIUM/304[M]range-sum-query-2d-immutable.md)|M|
-|306|[additive-numbe](https://leetcode.com/problems/additive-numbe)|[Python](MEDIUM/306[M]additive-numbe.md)|M|
+|306|[additive-number](https://leetcode.com/problems/additive-number)|[Python](MEDIUM/306[M]additive-number.md)|M|
 |307|[range-sum-query-mutable](https://leetcode.com/problems/range-sum-query-mutable)|[Python](MEDIUM/307[M]range-sum-query-mutable.md)|M|
-|309|[longest-repeating-character-replacemen](https://leetcode.com/problems/longest-repeating-character-replacemen)|[Python](MEDIUM/309[M]longest-repeating-character-replacemen.md)|M|
+|309|[best-time-to-buy-and-sell-stock-with-cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown)|[Python](MEDIUM/309[M]best-time-to-buy-and-sell-stock-with-cooldown.md)|M|
 |310|[minimum-height-trees](https://leetcode.com/problems/minimum-height-trees)|[Python](MEDIUM/310[M]minimum-height-trees.md)|M|
 |313|[super-ugly-number](https://leetcode.com/problems/super-ugly-number)|[Python](MEDIUM/313[M]super-ugly-number.md)|M|
 |318|[maximum-product-of-word-length](https://leetcode.com/problems/maximum-product-of-word-length)|[Python](MEDIUM/318[M]maximum-product-of-word-length.md)|M|
@@ -249,7 +252,7 @@
 |324|[wiggle-sort-ii](https://leetcode.com/problems/wiggle-sort-ii)|[Python](MEDIUM/324[M]wiggle-sort-ii.md)|M|
 |328|[odd-even-linked-list](https://leetcode.com/problems/odd-even-linked-list)|[Python](MEDIUM/328[M]odd-even-linked-list.md)|M|
 |331|[verify-preorder-serialization-of-a-binary-tree](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree)|[Python](MEDIUM/331[M]verify-preorder-serialization-of-a-binary-tree.md)|M|
-|332|[reconstruct-itinerar](https://leetcode.com/problems/reconstruct-itinerar)|[Python](MEDIUM/332[M]reconstruct-itinerar.md)|M|
+|332|[reconstruct-itinerary](https://leetcode.com/problems/reconstruct-itinerary)|[Python](MEDIUM/332[M]reconstruct-itinerary.md)|M|
 |334|[increasing-triplet-subsequence](https://leetcode.com/problems/increasing-triplet-subsequence)|[Python](MEDIUM/334[M]increasing-triplet-subsequence.md)|M|
 |337|[house-robber-iii](https://leetcode.com/problems/house-robber-iii)|[Python](MEDIUM/337[M]house-robber-iii.md)|M|
 |338|[counting-bits](https://leetcode.com/problems/counting-bits)|[Python](MEDIUM/338[M]counting-bits.md)|M|
@@ -257,18 +260,20 @@
 |343|[integer-break](https://leetcode.com/problems/integer-break)|[Python](MEDIUM/343[M]integer-break.md)|M|
 |347|[top-k-frequent-elements](https://leetcode.com/problems/top-k-frequent-elements)|[Python](MEDIUM/347[M]top-k-frequent-elements.md)|M|
 |355|[design-twitter](https://leetcode.com/problems/design-twitter)|[Python](MEDIUM/355[M]design-twitter.md)|M|
+|357|[count-numbers-with-unique-digits](https://leetcode.com/problems/count-numbers-with-unique-digits)|[Python](MEDIUM/357[M]count-numbers-with-unique-digits.md)|M|
 |365|[water-and-jug-problem](https://leetcode.com/problems/water-and-jug-problem)|[Python](MEDIUM/365[M]water-and-jug-problem.md)|M|
 |367|[valid-perfect-square](https://leetcode.com/problems/valid-perfect-square)|[Python](MEDIUM/367[M]valid-perfect-square.md)|M|
 |368|[largest-divisible-subset](https://leetcode.com/problems/largest-divisible-subset)|[Python](MEDIUM/368[M]largest-divisible-subset.md)|M|
 |372|[super-pow](https://leetcode.com/problems/super-pow)|[Python](MEDIUM/372[M]super-pow.md)|M|
-|375|[count-numbers-with-unique-digits](https://leetcode.com/problems/count-numbers-with-unique-digits)|[Python](MEDIUM/375[M]count-numbers-with-unique-digits.md)|M|
+|373|[find-k-pairs-with-smallest-sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums)|[Python](MEDIUM/373[M]find-k-pairs-with-smallest-sums.md)|M|
 |375|[guess-number-higher-or-lower-ii](https://leetcode.com/problems/guess-number-higher-or-lower-ii)|[Python](MEDIUM/375[M]guess-number-higher-or-lower-ii.md)|M|
 |376|[wiggle-subsequence](https://leetcode.com/problems/wiggle-subsequence)|[Python](MEDIUM/376[M]wiggle-subsequence.md)|M|
-|377|[combination-sum-ii](https://leetcode.com/problems/combination-sum-ii)|[Python](MEDIUM/377[M]combination-sum-ii.md)|M|
+|377|[combination-sum-iv](https://leetcode.com/problems/combination-sum-iv)|[Python](MEDIUM/377[M]combination-sum-iv.md)|M|
 |378|[kth-smallest-element-in-a-sorted-matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix)|[Python](MEDIUM/378[M]kth-smallest-element-in-a-sorted-matrix.md)|M|
 |382|[linked-list-random-node](https://leetcode.com/problems/linked-list-random-node)|[Python](MEDIUM/382[M]linked-list-random-node.md)|M|
 |384|[shuffle-an-array](https://leetcode.com/problems/shuffle-an-array)|[Python](MEDIUM/384[M]shuffle-an-array.md)|M|
 |385|[mini-parser](https://leetcode.com/problems/mini-parser)|[Python](MEDIUM/385[M]mini-parser.md)|M|
+|386|[lexicographical-numbers](https://leetcode.com/problems/lexicographical-numbers)|[Python](MEDIUM/386[M]lexicographical-numbers.md)|M|
 |388|[longest-absolute-file-path](https://leetcode.com/problems/longest-absolute-file-path)|[Python](MEDIUM/388[M]longest-absolute-file-path.md)|M|
 |390|[elimination-game](https://leetcode.com/problems/elimination-game)|[Python](MEDIUM/390[M]elimination-game.md)|M|
 |392|[is-subsequence](https://leetcode.com/problems/is-subsequence)|[Python](MEDIUM/392[M]is-subsequence.md)|M|
@@ -300,10 +305,12 @@
 |462|[minimum-moves-to-equal-array-elements-ii](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii)|[Python](MEDIUM/462[M]minimum-moves-to-equal-array-elements-ii.md)|M|
 |464|[can-i-win](https://leetcode.com/problems/can-i-win)|[Python](MEDIUM/464[M]can-i-win.md)|M|
 |467|[unique-substrings-in-wraparound-string](https://leetcode.com/problems/unique-substrings-in-wraparound-string)|[Python](MEDIUM/467[M]unique-substrings-in-wraparound-string.md)|M|
-|468|[validate-ip-address](https://leetcode.com/problems/validate-ip-address)|[Python](MEDIUM/468[M]validate-ip-addres.md)|M|
+|468|[validate-ip-address](https://leetcode.com/problems/validate-ip-address)|[Python](MEDIUM/468[M]validate-ip-address.md)|M|
 |473|[matchsticks-to-square](https://leetcode.com/problems/matchsticks-to-square)|[Python](MEDIUM/473[M]matchsticks-to-square.md)|M|
-|474|[ones-and-zeroes](https://leetcode.com/problems/ones-and-zeroes)|[Python](MEDIUM/474[M]ones-and-zeroe.md)|M|
+|474|[ones-and-zeroes](https://leetcode.com/problems/ones-and-zeroes)|[Python](MEDIUM/474[M]ones-and-zeroes.md)|M|
+|476|[number-complement](https://leetcode.com/problems/number-complement)|[Python](MEDIUM/476[M]number-complement.md)|M|
 |477|[total-hamming-distance](https://leetcode.com/problems/total-hamming-distance)|[Python](MEDIUM/477[M]total-hamming-distance.md)|M|
+
 
 
 ### Remarks

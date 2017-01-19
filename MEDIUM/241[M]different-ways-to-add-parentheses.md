@@ -1,4 +1,4 @@
-[原题](https://leetcode.com/problems/different-ways-to-add-parenthese)
+[原题](https://leetcode.com/problems/different-ways-to-add-parentheses)
 
 题意:
 

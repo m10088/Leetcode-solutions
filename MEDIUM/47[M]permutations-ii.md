@@ -1,4 +1,4 @@
-[原题](https://leetcode.com/problems/permutations-i)
+[原题](https://leetcode.com/problems/permutations-ii)
 
 题意:
 

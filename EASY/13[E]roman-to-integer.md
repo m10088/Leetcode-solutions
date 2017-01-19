@@ -1,4 +1,4 @@
-[原题](https://discuss.leetcode.com/topic/7378/python-solution)
+[原题](https://leetcode.com/problems/roman-to-integer/)
 
 题意：
 

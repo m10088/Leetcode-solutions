@@ -1,4 +1,4 @@
-[原题](https://leetcode.com/problems/palindrome-partitionin)
+[原题](https://leetcode.com/problems/palindrome-partitioning)
 
 题意:
 

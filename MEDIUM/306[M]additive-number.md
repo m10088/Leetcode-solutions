@@ -1,4 +1,4 @@
-[原题](https://leetcode.com/problems/additive-numbe)
+[原题](https://leetcode.com/problems/additive-number)
 
 题意:
 
