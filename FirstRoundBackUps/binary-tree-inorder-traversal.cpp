@@ -27,16 +27,16 @@ public:
         stack[cur++]=Node(root);
         while(cur>0){
             TreeNode*back=stack[cur-1].ptr;
-            if(stack[cur-1].flag==0){//æ²¡æéåä»»ä½å­æ 
-                stack[cur-1].flag=1;//æ å¿å·²ç»éåäºå·¦å­æ 
+            if(stack[cur-1].flag==0){
+                stack[cur-1].flag=1;
                 if(back->left==NULL){}
                 else stack[cur++]=Node(back->left);
-            }else if(stack[cur-1].flag==1){//å·²ç»éåäºå·¦å­æ 
+            }else if(stack[cur-1].flag==1){
                 res.push_back(back->val);
-                stack[cur-1].flag=2;//æ å¿å·²ç»éåäºå³å­æ 
+                stack[cur-1].flag=2;
                 if(back->right==NULL){}
                 else stack[cur++]=Node(back->right);
-            }else{//å·²ç»éåå®äºææçå­æ ï¼åºæ 
+            }else{
                 cur--;
             }
         }

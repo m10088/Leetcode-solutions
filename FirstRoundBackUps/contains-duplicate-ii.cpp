@@ -12,9 +12,9 @@ public:
             if(res==m.end()){
                 m[v[i]]=i;
             }else{
-                if(i-res->second<=k)//å¦æå°äºæèç­äºké£ä¹å°±å­å¨
+                if(i-res->second<=k)
                     return true;
-                else{//å¦æå¤§äºké£ä¹æ´æ°å½åçå¼
+                else{
                     m[v[i]]=i;
                 }
             }

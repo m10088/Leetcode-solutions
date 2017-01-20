@@ -6,13 +6,13 @@ public:
 
         int len = strs.size();
 
-        //å°å­ç¬¦ä¸²æ°ç»æç§å­å¸é¡ºåºæåº
+        
         sort(strs.begin(), strs.end());
 
-        //å­å¨ç»æ
+        
         vector<vector<string> > ret;
 
-        //å©ç¨åå¸ææ³æå»ºmapï¼å°æåºåç¸ç­çå­ç¬¦ä¸²å­å¨ç¸åºçvector
+        
         map<string, vector<string>> mv;
 
         for (int i = 0; i < len; i++)

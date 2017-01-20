@@ -11,7 +11,7 @@ unordered_map<TreeNode*,int> _true;
 unordered_map<TreeNode*,int> _false;
 class Solution {
 public:
-    int dfs_true(TreeNode*root){//å·æ ¹çæå¤§å¼
+    int dfs_true(TreeNode*root){
         if(_true.find(root)!=_true.end()){
             return _true[root];
         }
@@ -21,7 +21,7 @@ public:
             return _true[root]=dfs_false(root->left)+dfs_false(root->right)+root->val;
         }
     }
-    int dfs_false(TreeNode*root){//ä¸å·æ ¹çæå¤§å¼
+    int dfs_false(TreeNode*root){
         if(_false.find(root)!=_false.end()){
             return _false[root];
         }

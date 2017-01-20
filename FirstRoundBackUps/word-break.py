@@ -14,7 +14,7 @@ class Solution(object):
         if s in d:
             self.cache[s] = True
             return True
-        half = (len(s))//2
+        half = (len(s))
         k = 0
         while k <= half:
             i = half + k

@@ -8,7 +8,7 @@
  */
  
 struct TreeNode* buildTree(int* pre, int n, int* in, int m) {
-    //å°ä¸ä¸ªåºååæä¸é¨åï¼éå½è§£å³
+    
    
     if(n==0)return NULL;
     struct TreeNode* root=(struct TreeNode*)malloc(sizeof(struct TreeNode));

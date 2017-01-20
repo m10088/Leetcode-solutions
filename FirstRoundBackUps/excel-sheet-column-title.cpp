@@ -10,7 +10,7 @@ public:
         tar=tar+pow(26,i);
         tar=tar-1;
         vector<int> res(i);
-        //å¡«åres
+        
         int cnt=0;
         while(tar){
             res[cnt++]=tar%26;

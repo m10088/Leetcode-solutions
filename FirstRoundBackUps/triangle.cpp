@@ -1,4 +1,4 @@
-//ç¨ä¸ä¸ªä¸ä½æ°ç»å­æ¾ç¶æå¼
+
 
 class Solution {
 public:
@@ -15,7 +15,7 @@ public:
         {
             d[i]=t[k-1][i];
         }
-        // put the last into array
+        
         for(int i=k-2;i>=0;i--)
         {
             for(auto j=0;j<=i;j++)

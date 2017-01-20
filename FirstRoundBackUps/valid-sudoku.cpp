@@ -1,9 +1,9 @@
 class Solution {
 public:
   bool isValidSudoku(vector<vector<char> > &board) {
-    int rowValid[10] = {0};//ç¨äºå¤æ­æä¸è¡æ¯å¦åæ³ï¼å¯¹äºè¡æ¥è¯´è¿ä¸ªæ°ç»å¯ä»¥éå¤ä½¿ç¨
-    int columnValid[9][10] = {0};//ç¨äºå¤æ­æä¸åæ¯å¦åæ³
-    int subBoardValid[9][10] = {0};//ç¨äºå¤æ­æä¸ä¸ªä¹å®«æ ¼æ¯å¦åæ³
+    int rowValid[10] = {0};
+    int columnValid[9][10] = {0};
+    int subBoardValid[9][10] = {0};
     for(int i = 0; i < 9; i++)
     {
       memset(rowValid, 0, sizeof(rowValid));

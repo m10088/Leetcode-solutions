@@ -5,7 +5,7 @@ class Solution {
 public:
     bool isMatch(string s, string p) {
         
-        //å¿å¥½ç´¯ï¼ç´æ¥ä½å¼å¥½äºï¼
+        
         if (s=="" && p == "*a*") return false;
        if (p.size()==0 && s.size()==0) return true;
         if (s.size() && p.size()==0) return false;

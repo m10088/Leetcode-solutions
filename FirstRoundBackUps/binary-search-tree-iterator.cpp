@@ -28,9 +28,9 @@ public:
     int next() {
         auto top=stack.back();
         int res=top->val;
-        //ååºé¡¶é¨çåéä¹å
+        
         stack.pop_back();
-        //ç¶åå¦æpopæçåç´ ææå³æ ï¼ä¾æ¬¡è¿æ 
+        
         auto p=top->right;
         while(p){
             stack.push_back(p);

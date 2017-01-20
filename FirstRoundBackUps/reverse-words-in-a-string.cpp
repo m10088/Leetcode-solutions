@@ -6,7 +6,7 @@ T StringTo(const std::string &s){
     sout >> tmp;
     return tmp;
 }
-//string è½¬åævector
+
 template<typename T>
 std::vector<T> StringToVec(const std::string &s){
     std::stringstream sout;

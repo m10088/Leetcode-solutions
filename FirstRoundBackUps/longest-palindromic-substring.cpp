@@ -21,7 +21,7 @@ int dfs(int i,int j,const string&s){
 }
 class Solution {
 public:
-    //ç»è¿å°è¯ï¼åæéè¡ä¸éï¼ä½¿ç¨å¨æè§å
+    
     string longestPalindrome(string s) {
          memset(dp,-1,sizeof(dp));
          dfs(0,s.size()-1,s);

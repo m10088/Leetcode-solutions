@@ -26,10 +26,10 @@ public:
     }
 
 public:
-ListNode* splitlist(ListNode*head){//åå²é¾è¡¨æä¸¤é¨å,è¦æ±ç¬¬äºé¨åæå¤æ¯ç¬¬ä¸é¨åå¤ä¸ä¸ªåç´ 
+ListNode* splitlist(ListNode*head){
     ListNode*fast=head,*slow=head;
     while(1){
-        //å¿«æéè¿ä¸¤ä¸ª
+        
         fast=fast->next->next;
         slow=slow->next;
         if(fast==NULL||fast->next==NULL||fast->next->next==NULL){

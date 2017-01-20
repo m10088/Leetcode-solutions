@@ -1,7 +1,7 @@
 
 class Solution {
 public:
-    //dp[i] = sum(dp[i - nums[j]]),  (i-nums[j] > 0);
+    
     int combinationSum4(vector<int>& nums, int target) {
         vector<int> dp(target+1, 0);
         dp[0] = 1;

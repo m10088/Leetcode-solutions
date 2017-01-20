@@ -13,18 +13,18 @@ public:
         
         ListNode* head=new ListNode(-1);
         head->next=li;
-        //å¦æä»må¼å§ï¼åè¿å°m-1ä¸ªåç´ 
+        
         ListNode*q=head,*p=head->next;
         for(int i=1;i<m;i++){
             q=p;
             p=p->next;
         }
-        /////////////////////////////////
+        
         auto tmp_head = q;
         q = tmp_head->next, p = q->next;
         auto tmp=tmp_head->next;
         
-        ////////////////////////////////
+        
         int cnt=0;
         while(p){
             

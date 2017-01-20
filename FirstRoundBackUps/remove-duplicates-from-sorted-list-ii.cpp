@@ -11,11 +11,11 @@ public:
     ListNode* deleteDuplicates(ListNode*li) {
         if(!li)return li;
         ListNode*head=new ListNode(-1);
-        head->next=li;//æ·»å å¤´èç¹
+        head->next=li;
         map<int,int> times;
         auto p=head->next;
         while(p){
-            times[p->val]++;//ç»è®¡åºç°çæ¬¡æ°
+            times[p->val]++;
             p=p->next;
         }
         auto q=head;

@@ -1,7 +1,7 @@
 #define INF 0x7fffffff
 int n, m;
 int cnt(vector<vector<int>> v, int tar) {
-    //ä¸¥æ ¼å°äºtarçæ°æå¤å°ä¸ª
+    
     int y=m-1, x=0;
     int ret = 0;
     while (x != n) {

@@ -9,7 +9,7 @@ public:
         
         for(int i=0;i<v.size()-2;i++)
         {
-            if(i!=0&&v[i]==v[i-1])//don't need sovle it.
+            if(i!=0&&v[i]==v[i-1])
             {
                 continue;
             }

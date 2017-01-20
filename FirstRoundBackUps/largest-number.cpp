@@ -1,6 +1,6 @@
 
 template<typename T>
-//intè½¬åæstring
+
 std::string ToString(T x){
     std::stringstream sout;
     sout << x;
@@ -23,7 +23,7 @@ public:
         for(int i=nums.size()-1;i>=0;i--){
             ans+=res[i];
         }
-        //å»æåé¢çé¶
+        
         for(auto p=ans.begin();(*p)=='0';){
             p=ans.erase(p);
         }

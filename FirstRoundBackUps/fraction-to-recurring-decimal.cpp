@@ -1,5 +1,5 @@
 template<typename T>
-//intè½¬åæstring
+
 std::string ToString(T x){
     std::stringstream sout;
     sout << x;
@@ -19,8 +19,8 @@ public:
 
     n=n%d;
 
-    res+=ToString(fir);//æ´æ°é¨åå å¥
-    if(n==0)return res;//æ´é¤ä¸ç¨ç»§ç»­
+    res+=ToString(fir);
+    if(n==0)return res;
 
     used[0]=1;
 
@@ -48,8 +48,8 @@ public:
                 break;
             }
         }
-    }else{//ä½æ°åä¸æ¬¡åºç°
-        //å¤çæ éä¸å¾ªç¯å°æ°
+    }else{
+        
         res.push_back('.');
         int cnt=0;
         int flag=0;

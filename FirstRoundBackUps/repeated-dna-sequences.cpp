@@ -1,7 +1,7 @@
 unordered_map<char,int> m;
 
 unordered_map<int,int>times;
-unordered_map<int,int>beg;//ä¿å­ç¼ç åå¼å§çä½ç½®çé®å¼å¯¹
+unordered_map<int,int>beg;
 
 int decode(int begin,const string&s){
     int ans=0;

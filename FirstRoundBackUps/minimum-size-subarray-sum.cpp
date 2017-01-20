@@ -1,7 +1,7 @@
 #define INF 0x3f3f3f3f
 class Solution {
 public:
-    //æ¹æ³:å°ºåæ³
+    
     int minSubArrayLen(int target, vector<int>& nums) {
         int t=0,s=0,sum=0,ans=INF,flag=0;
         while(1){

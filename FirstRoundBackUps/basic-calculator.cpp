@@ -5,7 +5,7 @@ std::string ToString(T x){
     return sout.str();
 }
 
-//stringè½¬åæint
+
 template<typename T>
 T StringTo(const std::string &s){
     std::stringstream sout;
@@ -25,7 +25,7 @@ public:
                p++;
            }
        }
-       //é¤æç©ºæ ¼
+       
         vector<string> v;
         auto p=s.begin();
         auto q=p+1;
@@ -33,33 +33,33 @@ public:
             if((*p)<='9'&&(*p)>='0'){
                 while(q!=s.end()&&(*q)<='9'&&(*q)>='0'){
                     q++;
-                }//å¦ææ¯æ°å­ä¸ç´æ¾å°é£ä¸ªä¸æ¯æ°å­çå­ç¬¦åä¸
+                }
                 v.push_back(string(p,q));
                 p=q;
                 q=p+1;
             }else{
-                //å¦ææ¯å¶ä»çå­ç¬¦
+                
                 v.push_back(string(p,q));
                 p=q;
                 q=q+1;
             }
             
         }
-        //è½¬åæéæ³¢å°å¼å­æ¾
+        
         vector<string> rev;
         vector<string> stack;
         for(int i=0;i<v.size();i++){
-            if(v[i][0]<='9'&&v[i][0]>='0'){//æ¯æ°å­
+            if(v[i][0]<='9'&&v[i][0]>='0'){
                 rev.push_back(v[i]);
             }else if(v[i]=="("){
                 stack.push_back("(");
-            }else if(v[i]==")"){//å°å·¦æ¬å·åé¢çå¨é¨æ¿åºæ¥
+            }else if(v[i]==")"){
                 while(stack.back()!="("){
                     rev.push_back(stack.back());
                     stack.pop_back();
                 }
                 stack.pop_back();
-            }else{//å æ³æèåæ³,å°æ¬å·åé¢çè¿ç®ç¬¦å·å¨é¨æ¿åºæ¥ï¼ç¶åå°èªå·±æ¾è¿å»
+            }else{
                 while(stack.empty()==false&&stack.back()!="("){
                     rev.push_back(stack.back());
                     stack.pop_back();
@@ -72,7 +72,7 @@ public:
             stack.pop_back();
         }
         
-        //æ ¹æ®éæ³¢å°æ°è®¡ç®è¡¨è¾¾å¼çå¼
+        
         vector<int> res;
         for(int i=0;i<rev.size();i++){
             if(rev[i][0]<='9'&&rev[i][0]>='0'){

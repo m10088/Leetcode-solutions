@@ -17,7 +17,7 @@ int recur(vector<int>&nums,int lo,int hi){
 class Solution {
 public:
     int findDuplicate(vector<int>& nums) {
-        //æ½å±åç
+        
         int lo=1,hi=nums.size()-1;
         return recur(nums,lo,hi);
     }

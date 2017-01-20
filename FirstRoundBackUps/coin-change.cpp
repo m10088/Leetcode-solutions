@@ -7,7 +7,7 @@ public:
         int size=W+7;
         int *dp=new int [size];
         for(int i=0;i<size;i++){dp[i]=INF;}
-        //åæ´æ°ç¬¬ä¸ç§
+        
         for(int i=0;i<=W;i++){
             if(i%c[0]==0){
                 dp[i]=i/c[0];

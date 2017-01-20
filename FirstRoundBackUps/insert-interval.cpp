@@ -19,15 +19,15 @@ public:
         int fir=-1, sec=-1;
         if (n==0) { ret.push_back(x); return ret; }
         
-        //åå¤æ­æ¯ä¸æ¯åå«å¨å·²ç»æ¥æçåºé´å
-        // int ok = false;
-        // for (int i=0; i<n; i++) {
-        //     if (a[i].end > e && a[i].start < b) {
-        //         ok = true;
-        //         break;
-        //     }
-        // }
-        // if (ok) return a;
+        
+        
+        
+        
+        
+        
+        
+        
+        
         
         for (int i=0; i<n; i++) {
             if (a[i].start <= b && b <= a[i].end) {
@@ -38,8 +38,8 @@ public:
             }
         }
         
-        //è¿éåä¸ºå ç§æåµï¼
-        //1.åä»»ä½åºé´æ²¡æäº¤éï¼ä½æ¯å¯è½å·²ç»åå«äºæäºåºé´
+        
+        
         if (fir == -1 && sec == -1) {
             for (int i=0; i<n; i++) {
                 if (a[i].start > b && a[i].end < e) {}
@@ -47,7 +47,7 @@ public:
             }
             ret.push_back(x);
         }
-        //2.è·¨è¿äºä¸¤ä¸ªåºé´
+        
         else if (fir != -1 && sec != -1) {
             for (int i=0; i<n; i++) {
                 if (i==fir || i==sec) {}
@@ -56,7 +56,7 @@ public:
             }
             ret.push_back(Interval(a[fir].start, a[sec].end));
         }
-        //3.åªæ¯è·¨è¿äºåä¸ªåºé´
+        
         else if (fir != -1 && sec == -1) {
             for (int i=0; i<n; i++) {
                 if (i==fir) {}
@@ -65,7 +65,7 @@ public:
             }
             ret.push_back(Interval(a[fir].start, e));
         }
-        //4.åªæ¯è·¨è¿äºåä¸ªåºé´
+        
         else {
             for (int i=0; i<n; i++) {
                 if (i==sec) {}

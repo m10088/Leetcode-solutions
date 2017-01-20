@@ -1,5 +1,5 @@
 
-//æ±ç»åæ°çå½æ° ä¸ä¼æº¢åºçç®æ³
+
 long long c(long long x,long long y)
 {
     if(y==0)return 1;

@@ -16,7 +16,7 @@
 class Solution {
 public:
     vector<int> rightSideView(TreeNode* root) {
-        //å±æ¬¡éåï¼æ¯æ¬¡éåå°æåä¸ä¸ªèç¹å°±æ¾å¥ç»æä¸­
+        
         vector<int> res;
         if(!root)return res;
         deque<Node> d;
@@ -24,7 +24,7 @@ public:
         while(d.empty()==false){
             auto fro=d.front();
             d.pop_front();
-            int flag=0;//æ¯å¦å å¥çæ å¿
+            int flag=0;
             if(d.empty()==true){flag=1;}
             else{
                 auto sec=d.front();

@@ -5,7 +5,7 @@ public:
         reverse(r.begin(), r.end());
         string t = s + "#" + r;
         
-        //è¿éçpç¸å½äºï¼æä»¬æ±çé£ä¸ªnextæ°ç»
+        
         vector<int> p(t.size(), 0);
         for (int i = 1; i < t.size(); ++i) {
             int j = p[i - 1];

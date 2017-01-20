@@ -7,7 +7,7 @@ public:
         int n=a.size();
         if(n==0)return 0;
         if(n==1)return a[0];
-        //dpånä¸ªåæèä¸åè½å¾å°çæå¤§å¼
+        
         dp[0][0]=0;
         dp[0][1]=a[0];
         for(int i=1;i<n;i++){

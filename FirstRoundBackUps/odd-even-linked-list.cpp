@@ -6,7 +6,7 @@
  *     ListNode(int x) : val(x), next(NULL) {}
  * };
  */
- //æè·¯ï¼åå«æé ä¸¤ä¸ªé¾è¡¨ï¼ç¶ååå¹¶
+ 
 class Solution {
 public:
     ListNode* oddEvenList(ListNode* head) {
@@ -31,7 +31,7 @@ public:
                 break;
             }
         }
-        //åä¸ºä¸¤ä¸ªé¾è¡¨ç¶åèç»èµ·æ¥å³å¯
+        
         p=head;
         while(p->next!=NULL){
             p=p->next;

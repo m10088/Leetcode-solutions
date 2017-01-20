@@ -7,7 +7,7 @@
  *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
  * };
  */
- //å¦æä¸¤ä¸ªå¼æ­£å¥½è·¨è¿å½åèç¹ï¼å°±è¿åå½åèç¹ï¼å¦æå¤§äºï¼å¨å³å­æ ä¸­æ¾ï¼å¦æå°äºå¨å·¦å­æ ä¸­æ¾
+ 
 class Solution {
 public:
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {

@@ -3,7 +3,7 @@ class NumArray {
 public:
     struct Node  {  
         int l,r,val;  
-        int lazy; //è¥ä¸éè¦åºé´æ´æ°ï¼åå¯ä»¥å»æ;pushdownå½æ°ï¼ä»¥åææå¯¹å¶çè°ç¨ï¼ä¹ä¸å¹¶å»æ  
+        int lazy; 
     };
     int n,m,x,y,z,type,*a;
     Node* t;
@@ -67,8 +67,8 @@ public:
 };
 
 
-// Your NumArray object will be instantiated and called as such:
-// NumArray numArray(nums);
-// numArray.sumRange(0, 1);
-// numArray.update(1, 10);
-// numArray.sumRange(1, 2);
+
+
+
+
+

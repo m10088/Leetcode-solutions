@@ -1,7 +1,7 @@
 class Solution {
 public:
     vector<vector<int>> permute(vector<int>& nums) {
-        //å·ä¸ªæç¨stl
+        
         vector<vector<int> > res;
         std::sort(nums.begin(),nums.end());
         do

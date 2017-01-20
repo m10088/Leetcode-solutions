@@ -38,23 +38,23 @@ public:
     }
 
 public:
-ListNode* splitlist(ListNode*head){//åå²é¾è¡¨æä¸¤é¨å,è¦æ±ç¬¬äºé¨åæå¤æ¯ç¬¬ä¸é¨åå¤ä¸ä¸ªåç´ 
+ListNode* splitlist(ListNode*head){
     ListNode*fast=head,*slow=head;
     while(1){
-        //å¿«æéè¿ä¸¤ä¸ª
+        
         fast=fast->next->next;
         slow=slow->next;
         if(fast==NULL||fast->next==NULL||fast->next->next==NULL){
             break;
         }
     }
-    //å¹¶ä¸å°ä¸ä¸ä¸ªçæåä¸ä¸ªç½®ä¸ºé¶
+    
     ListNode*p=head;
     while(p->next!=slow){
         p=p->next;
     }
     p->next=NULL;
-    //è¿åä¸­é´çå¼
+    
     return slow;
     }
 };

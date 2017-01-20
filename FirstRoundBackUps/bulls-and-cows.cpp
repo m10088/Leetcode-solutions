@@ -1,5 +1,5 @@
 template<typename T>
-//intè½¬åæstring
+
 std::string ToString(T x){
     std::stringstream sout;
     sout << x;

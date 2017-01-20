@@ -1,7 +1,7 @@
 class Solution {
 public:
     bool isPalindrome(string s) {
-        //ç°å°Sé¢å¤çæ
+        
         for(auto p=s.begin();p!=s.end();){
             if((*p)>='A'&&(*p)<='Z'){
                 (*p)=(*p)+32;

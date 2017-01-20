@@ -14,7 +14,7 @@ public:
             root.flag=1;
             return;
         }
-        if(root.next[s[cur]-'a']){//å¦æå·²ç»å­å¨äºè¿ä¸ªèç¹
+        if(root.next[s[cur]-'a']){
             add_recur(*(root.next[s[cur]-'a']),s,cur+1);
         }else{
             root.next[s[cur]-'a']=new Node();
@@ -46,19 +46,19 @@ public:
         }
     }
 
-    // Adds a word into the data structure.
+    
     void addWord(string word) {
         add_recur(root,word,0);
     }
     
-    // Returns if the word is in the data structure. A word could
-    // contain the dot character '.' to represent any one letter.
+    
+    
     bool search(string word) {
         return search_recur(root,word,0);
     }
 };
 
-// Your WordDictionary object will be instantiated and called as such:
-// WordDictionary wordDictionary;
-// wordDictionary.addWord("word");
-// wordDictionary.search("pattern");
+
+
+
+

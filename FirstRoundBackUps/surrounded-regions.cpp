@@ -30,7 +30,7 @@ void bfs(vector<vector<char>>&v,int i,int j){
 class Solution {
 public:
     void solve(vector<vector<char>>& v) {
-       //å°è¾¹çä¸è¿éçç¹ï¼ååç½®ä¸º'.'ï¼ç¶åè¿è¡ä¸æ¬¡ååæä½ 
+       
        if(v.size()==0)return;
        int n=v.size(),m=v[0].size();
        for(int i=0;i<m;i++){

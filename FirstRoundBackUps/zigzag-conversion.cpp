@@ -7,13 +7,13 @@ public:
          for(int i=0;i<n;i++){
              v[i].resize(M);
          }
-         int dir=1;//0,1ä¸¤ç§å¡«åæ¹åè¿è¡
+         int dir=1;
          int i=0,j=0;
          for(int k=0;k<s.size();k++){
             v[i][j]=s[k];
             if(k%(n-1)==0)dir=1-dir;
             
-            if(dir==0){//æ ¹æ®æ¹åæ¹åä½ç½®
+            if(dir==0){
                 i++;
             }else{
                 i--;j++;

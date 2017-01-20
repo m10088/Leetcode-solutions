@@ -23,7 +23,7 @@ public:
         b=v[cur].start;
         cur--;
         int cnt=0;
-        while(1){//éè¦å¤æ­åç§æ¡ä»¶
+        while(1){
         
            
             if(v[cur].end<b){

@@ -13,21 +13,21 @@ public:
             for(int j=m-1;j>=0;j--){
                 if(j==m-1&&i==n-1){
                     a[i][j]=1;
-                }else if(i==n-1&&j!=m-1){//å¨æä¸é¢
+                }else if(i==n-1&&j!=m-1){
                     int tmp=a[i][j+1]-v[i][j+1];
                     if(tmp<=0){
                         a[i][j]=1;
                     }else{
                         a[i][j]=tmp;
                     }
-                }else if(i!=n-1&&j==m-1){//å¨æå³è¾¹
+                }else if(i!=n-1&&j==m-1){
                     int tmp=a[i+1][j]-v[i+1][j];
                     if(tmp<=0){
                         a[i][j]=1;
                     }else{
                         a[i][j]=tmp;
                     }
-                }else{//å¦æå¨ä¸­é´é£ä¹éæ©ä¸ä¸ªéè¦çè¡éå°ç
+                }else{
                     int tmp=std::min(a[i][j+1]-v[i][j+1],a[i+1][j]-v[i+1][j]);
                     
                     if(tmp<=0){

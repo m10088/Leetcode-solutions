@@ -2,8 +2,8 @@ int patition(int *a,int lo,int hi){
     int piv=a[lo];
     int i=lo,j=hi+1;
     while(true){
-        while(a[++i]<piv)if(i==hi)break;//ä¸ç´å°å¤§äºæèç­äºï¼åæ­¢ï¼åå°éå¤åç´ çäº¤æ¢
-        while(piv<a[--j]);//if(j==lo)break;//è¿ä¸ªè¾¹çæ¡ä»¶æ£æ¥å¯ä»¥å»æ
+        while(a[++i]<piv)if(i==hi)break;
+        while(piv<a[--j]);
         if(i>=j)break;
         int tmp=a[i];
         a[i]=a[j];
@@ -16,7 +16,7 @@ int patition(int *a,int lo,int hi){
 }
 
 int dfs(int *a,int n,int k){
-    //æ¾ç¬¬kå°çåç´ ï¼kä»0å¼å§
+    
     if(n==1){
         return a[0];
     }

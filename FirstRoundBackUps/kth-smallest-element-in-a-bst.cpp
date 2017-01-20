@@ -15,7 +15,7 @@
      }
      
  }
- //è§£å³æ¹æ¡ï¼åºå½åå¾å°ä¸é¢æ çå¤§å°
+ 
 class Solution {
 public:
     int kthSmallest(TreeNode* root, int k) {

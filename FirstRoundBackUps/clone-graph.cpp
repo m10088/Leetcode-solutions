@@ -15,7 +15,7 @@ public:
         if(node == NULL)
             return NULL;
         
-        if(m.find(node) != m.end())   //if node is visited, just return the recorded nodeClone
+        if(m.find(node) != m.end())   
             return m[node];
             
         UndirectedGraphNode *nodeClone = new UndirectedGraphNode(node->label);

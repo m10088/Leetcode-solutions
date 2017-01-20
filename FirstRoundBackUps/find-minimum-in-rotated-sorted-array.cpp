@@ -14,4 +14,4 @@ public:
         }
         return nums[left];
     }
-};//æ¥äºå¤äº
+};

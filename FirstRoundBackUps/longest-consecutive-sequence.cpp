@@ -22,7 +22,7 @@ public:
                 fa[a[i]]=a[i];
                 mark[a[i]]=1;
             }
-            //ç¡®å®åé¢çåç´ 
+            
             if(fa.find(a[i]-1)!=fa.end()){
                 fa[a[i]-1]=a[i];
                 mark.erase(a[i]);

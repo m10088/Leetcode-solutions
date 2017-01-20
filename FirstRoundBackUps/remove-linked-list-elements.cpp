@@ -12,7 +12,7 @@ public:
         if(head==nullptr)return nullptr;
         auto p=head;
         
-        //åºå½åå¤çå¤´é¨æé
+        
         while(p->val==val)
         {
             p=p->next;

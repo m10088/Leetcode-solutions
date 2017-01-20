@@ -1,4 +1,4 @@
-//ç»´æ¤ä¸ä¸ªå½åçå·¦å³åºé´ç«¯ç¹å·²ç»éåè¿çæå¤§å¼åç¬¬äºå¤§çå¼
+
 class Solution {
 public:
     int trap(vector<int>& a) {
@@ -13,21 +13,21 @@ public:
                 wheresec=0;
             else
                 wheresec=1;
-            int flag=wheresec;//æéæ¨è¿æ å¿
+            int flag=wheresec;
             while(lo<hi){
                 if(flag==0){
                     lo++;
-                    if(a[lo]<=sec){//æ¯æå°çè¿å°
+                    if(a[lo]<=sec){
                         ans+=(sec-a[lo]);
                         cout<<"adder"<<sec-a[lo]<<"_in_"<<lo<<endl;
-                    }else if(a[lo]>sec&&a[lo]<fir){//å¤äºä¸¤èä¹é´èä¸ç¬¬äºå¤§çä½ç½®å¨æä»¬è¿è¾¹ææ´æ°
+                    }else if(a[lo]>sec&&a[lo]<fir){
                         if(wheresec==0)
                             sec=a[lo];
-                    }else{//ç´æ¥è¶è¿äºæå¤§çå¼
+                    }else{
                         sec=fir;
                             wheresec=1;
                         fir=a[lo];
-                        flag=1;//äº¤æ¢æé
+                        flag=1;
                     }
                 }else{
                     hi--;

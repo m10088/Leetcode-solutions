@@ -68,12 +68,12 @@ void BFS() {
             } else if (step > dp[tar]) {}
         }
     }
-//    for (int i=0; i<n; i++) {
-//        //cout << v[i] << " -- " << endl;
-//        for (int j=0; i<fa[i].size(); j++) {
-//            cout << fa[i][j] << " ";
-//        }cout << endl;
-//    }
+
+
+
+
+
+
 }
 
 
@@ -118,13 +118,13 @@ public:
         getans(v);
     
         for (int i=0; i<res.size(); i++) {
-    //        for (int j=0; j<res[i].size(); j++) {
-    //            cout << res[i][j] << " ";
-    //        }cout << endl;
+    
+    
+    
             reverse(res[i].begin(), res[i].end());
         }
-        //sort(res.begin(), res.end());
-        //res.erase(unique(res.begin(), res.end()), res.end());
+        
+        
     
     
     

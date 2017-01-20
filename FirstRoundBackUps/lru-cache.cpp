@@ -21,7 +21,7 @@ public:
 
     int get(int key) {
         if (tm.find(key) == tm.end()) return -1;
-        //getçæ¶åä¹è¦æ´æ°ç³»ç»çæ¶é´
+        
 
         int time = tm[key];
         int ret = mp[time].val;
@@ -36,7 +36,7 @@ public:
 
     }
     void set(int key, int value) {
-        if (tm.find(key) != tm.end()) { //æ´æ°è·åçæ¶é´
+        if (tm.find(key) != tm.end()) { 
             int old_time = tm[key];
             int new_time = ++timer;
             tm[key] = new_time;
@@ -44,14 +44,14 @@ public:
             mp[new_time] = Node(key, value);
 
         } else {
-            //ä»¥åæ²¡æè¿ä¸ªåç´ ,
-            if (mp.size() == maxer) { //å¦æè¶è¿å®¹éäºï¼éè¦å é¤ææ©çé£ä¸ªåç´ 
+            
+            if (mp.size() == maxer) { 
                 auto timekey = mp.begin() -> first;
                 tm.erase(mp.begin()->second.key);
                  mp.erase(timekey);
             }
 
-            //å¦ææ²¡æè¶è¿å®¹éï¼ç´æ¥å¢å è¿ä¸ªåç´ 
+            
             ++timer;
             int new_time = timer;
             mp[new_time] = Node(key, value);
@@ -62,7 +62,7 @@ public:
 
     int timer;
     int maxer;
-    //ä¸¤ä¸ªmpåæ¶ç»´æ¤ï¼åæ¶å¢å åç´ æåå°åç´ 
-    map<int,Node> mp; // time - node
-    map<int, int> tm; // key - time
+    
+    map<int,Node> mp; 
+    map<int, int> tm; 
 };

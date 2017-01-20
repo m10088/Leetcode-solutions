@@ -11,9 +11,9 @@ class Solution
 public:
     ListNode* swapPairs(ListNode* head)
     {
-      //åå¦ç©ºè¡¨ï¼è¿å 
+      
       if(!head)return head;
-      //åå¦åªæä¸ä¸ªæ°æ®ï¼è¿å
+      
       if(!head->next)return head;
       
       auto former=new ListNode(-1);

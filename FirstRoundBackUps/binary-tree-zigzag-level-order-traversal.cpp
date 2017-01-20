@@ -10,7 +10,7 @@
 class Solution {
 public:
     vector<vector<int>> zigzagLevelOrder(TreeNode* root) {
-    //å¯ä»¥åå­æ¾æéï¼ç¶åå°æéç¿»è¯ææ°æ®
+    
         vector<vector<int>> res;
         if(!root)return res;
         vector<vector<TreeNode*>> v;
@@ -22,7 +22,7 @@ public:
             update=false;
             vector<TreeNode*> tmp;
             for(int i=v[cur].size()-1;i>=0;i--){
-                if(cur%2){//åæ¾å·¦è¾¹
+                if(cur%2){
                     if(v[cur][i]->left){
                         tmp.push_back(v[cur][i]->left);
                         update=true;
@@ -31,7 +31,7 @@ public:
                         tmp.push_back(v[cur][i]->right);
                         update=true;
                     }
-                }else{//åæ¾å³è¾¹
+                }else{
                      if(v[cur][i]->right){
                         tmp.push_back(v[cur][i]->right);
                         update=true;

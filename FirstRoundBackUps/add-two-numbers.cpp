@@ -27,7 +27,7 @@ public:
             {
                 res.push_back(q->val);
                 q=q->next;
-                // cout<<p->next<<endl;
+                
             }
         }
         else
@@ -36,7 +36,7 @@ public:
             {
                 res.push_back(p->val);
                 p=p->next;
-                //cout<<q->next<<endl;
+                
             }
         }
 

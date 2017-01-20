@@ -7,7 +7,7 @@
  *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
  * };
  */
- //éå½çå»ºç«
+ 
  vector<TreeNode*> dfs(const vector<int>&v){
     vector<TreeNode*> res;
     if(v.size()==0){
@@ -20,7 +20,7 @@
         res.push_back(root);
         return res;
     }else{
-        //å¦æè¶è¿äº1ä¸ªåç´ 
+        
         for(int i=0;i<v.size();i++){
             auto lefter=dfs(vector<int>(v.begin(),v.begin()+i));
             auto righter=dfs(vector<int>(v.begin()+i+1,v.end()));

@@ -7,7 +7,7 @@
  *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
  * };
  */
-//stringè½¬åæint
+
 template<typename T>
 T StringTo(const std::string &s){
     std::stringstream sout;
@@ -17,7 +17,7 @@ T StringTo(const std::string &s){
     return tmp;
 }
 
-//string è½¬åævector
+
 template<typename T>
 std::vector<T> StringToVec(const std::string &s){
     std::stringstream sout;
@@ -30,7 +30,7 @@ std::vector<T> StringToVec(const std::string &s){
     return res;
 }
 template<typename T>
-//intè½¬åæstring
+
 std::string ToString(T x){
     std::stringstream sout;
     sout << x;
@@ -41,7 +41,7 @@ std::string ToString(T x){
 class Codec{
 public:
     
-    //ååºéå
+    
     void Preorder(TreeNode*root,vector<string>&res){
         if(root){
             res.push_back(ToString<int>(root->val));
@@ -52,7 +52,7 @@ public:
         }
     }
     
-    // Encodes a tree to a single string.
+    
     string serialize(TreeNode* root) {
         vector<string>res;
         Preorder(root,res);
@@ -72,7 +72,7 @@ public:
     
     
     void build(TreeNode*&root,int& cur,const vector<string>&v){
-        if(v[cur][0]=='#'){//è¡¨ç¤ºç»æäº
+        if(v[cur][0]=='#'){
             root=NULL;
             cur++;
             return;
@@ -84,8 +84,8 @@ public:
     }
     
     
-    // Decodes your encoded data to tree.
-    TreeNode* deserialize(string data) {//éç¨ååºéåçæ¹å¼
+    
+    TreeNode* deserialize(string data) {
         vector<string> v=StringToVec<string>(data);
         int cur=0;
         TreeNode*root;
@@ -94,6 +94,6 @@ public:
     }
 };
 
-// Your Codec object will be instantiated and called as such:
-// Codec codec;
-// codec.deserialize(codec.serialize(root));
+
+
+

@@ -1,4 +1,4 @@
-//åæº¯ï¼æ¾ç½®çåæ¬å·çæ°éä¸è½è¶è¿å·¦æ¬å·çæ°é
+
 void dfs(vector<string>&final,string&tmp,int lc,int rc,int n,int depth){
     if(rc==n+1||lc==n+1)
         return;
@@ -6,10 +6,10 @@ void dfs(vector<string>&final,string&tmp,int lc,int rc,int n,int depth){
         final.push_back(string(tmp.begin(),tmp.begin()+depth));
     }
     
-    if(rc+1>lc){//ä¸è½æ¾å³æ¬å·
+    if(rc+1>lc){
         tmp[depth]='(';
         dfs(final,tmp,lc+1,rc,n,depth+1);
-    }else{//æ¢å¯ä»¥æ¾å·¦æ¬å·ï¼ä¹å¯ä»¥æ¾å³æ¬å·
+    }else{
         tmp[depth]='(';
         dfs(final,tmp,lc+1,rc,n,depth+1);
         tmp[depth]=')';
@@ -23,7 +23,7 @@ public:
         string tmp;
         vector<string>res;
         tmp.resize(307);
-        dfs(res,tmp,0,0,n,0);//å·¦è¾¹å·²ç»æå¤å°ä¸ªï¼å³è¾¹å·²ç»æå¤å°ä¸ªï¼éå¶æ¯å¤å°ä¸ªï¼ç°å¨æ·±åº¦æ¯ä»ä¹
+        dfs(res,tmp,0,0,n,0);
         return res;
     }
 };

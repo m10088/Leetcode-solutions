@@ -2,4 +2,17 @@
 
 题意：
 
+最简单的尼姆博弈。
+
 题解：
+
+```
+class Solution(object):
+    def canWinNim(self, n):
+        """
+        :type n: int
+        :rtype: bool
+        """
+        return n % 4 != 0
+        
+```

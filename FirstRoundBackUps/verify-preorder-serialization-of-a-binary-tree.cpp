@@ -21,7 +21,7 @@ public:
         }
         if(res[0]=="#")return false;
         vector<string> tmp;
-        int flag=0;//sucess
+        int flag=0;
         int cur=res.size();
         
         while(1){

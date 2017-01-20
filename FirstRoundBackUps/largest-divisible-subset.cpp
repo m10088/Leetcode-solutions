@@ -18,7 +18,7 @@ public:
         vector<int> ret;
         int n = nums.size();
         if (n==0) return ret;
-        if (n==1) return vector<int>(nums);//ä¸ç¡®å®æ¯ä»ä¹
+        if (n==1) return vector<int>(nums);
         
         sort(nums.begin(), nums.end());
         for (int i=n-1; i>=0; i--) dfs(i, nums);

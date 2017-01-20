@@ -34,13 +34,13 @@ public:
         sort(v.begin(), v.end(), cmp);
         int ret = 1;
         for (int i=0; i<v.size(); i++) {
-            //å½åçæ åæ¯i
+            
             int same = 1;
             map<double, int> mp;
             for (int j=0; j<v.size(); j++) {
                 if (i==j)continue;
                 if (equaler(v[i], v[j])) {  same++; continue; }
-                //çä¸æ¯ä¸æ¯æçä¸å­å¨
+                
                 if (a[i].x == a[j].x) {
                     mp[INF] ++;
                 } else {

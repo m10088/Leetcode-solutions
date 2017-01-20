@@ -1,13 +1,13 @@
 #define N 1000
 int dp[N][N];
 
-int dfs(int i,int j,const string& s,const string &t){//
+int dfs(int i,int j,const string& s,const string &t){
     if(dp[i][j]!=-1)return dp[i][j];
     if(i==0&&j==0)return dp[i][j]=0;
     else if(i==0) return dp[0][j]=j;
     else if(j==0) return dp[i][0]=i;
     else{
-        int first=dfs(i-1,j,s,t)+1;//èèæ·»å æèå é¤
+        int first=dfs(i-1,j,s,t)+1;
         int second=dfs(i,j-1,s,t)+1;
         int third;
         if(s[i-1]==t[j-1]){

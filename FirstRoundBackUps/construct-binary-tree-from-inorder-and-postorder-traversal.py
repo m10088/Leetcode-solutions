@@ -1,7 +1,7 @@
 
 
 struct TreeNode* buildTree(int* in, int n, int* pre, int m) {
-    //å°ä¸ä¸ªåºååæä¸é¨åï¼éå½è§£å³
+    
     if(n==0)return NULL;
     struct TreeNode* root=(struct TreeNode*)malloc(sizeof(struct TreeNode));
     root->val=pre[n-1];

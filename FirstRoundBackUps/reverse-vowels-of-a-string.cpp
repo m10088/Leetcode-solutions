@@ -5,7 +5,7 @@ bool isvow(char c){
 class Solution {
 public:
     string reverseVowels(string s) {
-        //éç½®åé³å­ç¬¦
+        
         int p=0;
         int q=s.size()-1;
         while(p<q){

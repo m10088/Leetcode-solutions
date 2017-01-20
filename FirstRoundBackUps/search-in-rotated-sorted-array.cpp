@@ -19,7 +19,7 @@ public:
         }
         int miner=nums[min_index];
         
-        if(miner<=target&&target<=nums[nums.size()-1]){//å³è¾¹å¯»æ¾
+        if(miner<=target&&target<=nums[nums.size()-1]){
             auto low=lower_bound(nums.begin()+min_index,nums.end(),target);
             auto upp=upper_bound(nums.begin()+min_index,nums.end(),target);
             if(upp==low)return -1;

@@ -1,6 +1,6 @@
 
 template<typename T>
-//intè½¬åæstring
+
 std::string ToString(T x){
     std::stringstream sout;
     sout<<x;
@@ -29,7 +29,7 @@ public:
                 }
             }
             ans[i] = j+48, vis[j] = true;  
-            k %= fac(n - i - 1);///ä½æ°
+            k %= fac(n - i - 1);
         }
         return ans;
     }

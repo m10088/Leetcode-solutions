@@ -24,7 +24,7 @@ public:
         for(int i=0;i<k;i++){
             m[Node(i,a[i])]=1;
         }
-        //åå°å¼å§çæå¤§å¼æ¿åºæ¥
+        
         
         res.push_back(GetMax());
         for(int i=k;i<a.size();i++){

@@ -28,7 +28,7 @@ ListNode* MergeSort(ListNode*head){
     head=MergeSort(head);
     mid=MergeSort(mid);
     
-    //åå¹¶ä¸¤ä¸ªé¾è¡¨å°ç¬¬äºä¸ªé¾è¡¨åå¹¶å°ç¬¬ä¸ä¸ªä¸é¢
+    
     ListNode*h=new ListNode(-1);
     h->next=head;
     ListNode*q=h,*p=h->next,*p2=mid;
@@ -52,23 +52,23 @@ public:
         return MergeSort(head);
     }
 public:
-ListNode* splitlist(ListNode*head){//åå²é¾è¡¨æä¸¤é¨å,è¦æ±ç¬¬äºé¨åæå¤æ¯ç¬¬ä¸é¨åå¤ä¸ä¸ªåç´ 
+ListNode* splitlist(ListNode*head){
     ListNode*fast=head,*slow=head;
     while(1){
-        //å¿«æéè¿ä¸¤ä¸ª
+        
         fast=fast->next->next;
         slow=slow->next;
         if(fast==NULL||fast->next==NULL||fast->next->next==NULL){
             break;
         }
     }
-    //å¹¶ä¸å°ä¸ä¸ä¸ªçæåä¸ä¸ªç½®ä¸ºé¶
+    
     ListNode*p=head;
     while(p->next!=slow){
         p=p->next;
     }
     p->next=NULL;
-    //è¿åä¸­é´çå¼
+    
     return slow;
     }
 };

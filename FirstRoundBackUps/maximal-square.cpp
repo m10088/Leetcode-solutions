@@ -8,7 +8,7 @@ public:
         memset(dp,0,sizeof(dp));
         int n=v.size(),m=v[0].size();
         
-        // first row
+        
         int maxer = 0;  
   
         for(int i=0; i<n; i++) {  

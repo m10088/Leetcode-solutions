@@ -1,6 +1,6 @@
 #define N 15000
 vector<int> G[N];
-int d[N];//åº¦
+int d[N];
 int mark[N];
 
 
@@ -30,7 +30,7 @@ public:
             d_is_zero.clear();
             int lefter=0;
             for(int i=0;i<n;i++){
-                if(mark[i]!=-1){//mark[i]==-1è¡¨ç¤ºæ²¡æå¨å¾éé¢
+                if(mark[i]!=-1){
                     lefter++;
                     if(d[i]==1){
                         mark[i]=-1;
@@ -48,16 +48,16 @@ public:
                 return d_is_one;
             }
             
-            for(int i=0;i<d_is_one.size();i++){//é£äºå¥åº¦æ¯1çç¹
+            for(int i=0;i<d_is_one.size();i++){
                 auto & x=d_is_one[i];
-                //cout<<"now"<<x<<endl;
+                
                 for(int j=0;j<G[x].size();j++){
                     if(mark[G[x][j]]!=-1){
                         d[G[x][j]]--;
                     }
                 }
             }
-            //cout<<endl;
+            
         }
         return res;
         

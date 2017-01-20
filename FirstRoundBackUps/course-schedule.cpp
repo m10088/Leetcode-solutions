@@ -3,7 +3,7 @@ int in[N];
 vector<int> G[N];
 class Solution {
 public:
-    bool canFinish(int n, vector<pair<int, int>>& v) {//çæ¯ä¸æ¯DAGå¾,æåæ ç¯å¾
+    bool canFinish(int n, vector<pair<int, int>>& v) {
         sort(v.begin(),v.end());
         auto diff=unique(v.begin(),v.end());
         memset(in,0,sizeof(in));

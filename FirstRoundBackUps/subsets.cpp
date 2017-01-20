@@ -1,7 +1,7 @@
 class Solution {
 public:
     vector<vector<int>> subsets(vector<int>& v) {
-        //  äºè¿å¶æ³
+        
         vector< vector<int> > res;
         
         int sz=v.size();

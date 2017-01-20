@@ -10,7 +10,7 @@ public:
         f[0] = 0;
         int miner = a[0];
         for (int i=1; i<=n; i++) {
-            //å®éä¸æ¯æä½çi-1
+            
             if (a[i-1] >= miner)
                 f[i] = max(a[i-1] - miner, f[i-1]);
             else  {
@@ -31,7 +31,7 @@ public:
         
         maxer = -INF;
         for (int i=0; i<=n; i++) {
-            //cout << f[i]<< " " << g[i] << endl;
+            
             maxer = max(maxer, g[i] + f[i]);
         }
         return maxer;

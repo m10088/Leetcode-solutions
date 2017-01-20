@@ -9,7 +9,7 @@ public:
     string intToRoman(int num) {
         string res;
         int begin=1000;
-        while(num/begin==0){begin=begin/10;}//æ¾å°å¼å§çæ°å­æ¯é£ä¸ä½
+        while(num/begin==0){begin=begin/10;}
         while(1){
             
             int tmp=num/begin;

@@ -13,7 +13,7 @@ public:
         vector<pair<int,int> > ret;
         if (v1.size()==0 || v2.size()==0 ) return ret;
         int n1 = v1.size(), n2 = v2.size();
-        //åå°v1é¢å¤çå®æ
+        
         for (int i=0; i<n1; i++) { pq.push(Node(v1[i], v2[0])); }
         int now = 1;
         while (k--) {
@@ -21,7 +21,7 @@ public:
             Node fro = pq.top();
             pq.pop();
             ret.push_back(pair<int,int>(fro.fir, fro.sec));
-            if (now < v2.size()) {//å°v2ä¸­çä¸ä¸ªåç´ åå«åææçå åæ¾å°éåä¸­å»
+            if (now < v2.size()) {
                 for (int i=0; i<v1.size(); i++) { pq.push(Node(v1[i], v2[now])); }
                 now ++;
             }

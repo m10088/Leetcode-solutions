@@ -111,6 +111,7 @@
 |461|[hamming-distance](https://leetcode.com/problems/hamming-distance)|[Python](EASY/461[E]hamming-distance.md)|E|
 |463|[island-perimeter](https://leetcode.com/problems/island-perimeter)|[Python](EASY/463[E]island-perimeter.md)|E|
 |475|[heaters](https://leetcode.com/problems/heaters)|[Python](EASY/475[E]heaters.md)|E|
+|476|[number-complement](https://leetcode.com/problems/number-complement)|[Python](EASY/476[M]number-complement.md)|E|
 
 
 
@@ -197,7 +198,7 @@
 |143|[reorder-list](https://leetcode.com/problems/reorder-list)|[Python](MEDIUM/143[M]reorder-list.md)|M|
 |144|[binary-tree-preorder-traversal](https://leetcode.com/problems/binary-tree-preorder-traversal)|[Python](MEDIUM/144[M]binary-tree-preorder-traversal.md)|M|
 |145|[binary-tree-postorder-traversal](https://leetcode.com/problems/binary-tree-postorder-traversal)|[Python](MEDIUM/145[M]binary-tree-postorder-traversal.md)|M|
-|147|[insertion-sort-list](https://leetcode.com/problems/insertion-sort-list)|[Python](MEDIUM/147[M].md)|M|
+|147|[insertion-sort-list](https://leetcode.com/problems/insertion-sort-list)|[Python](MEDIUM/147[M]insertion-sort-list.md)|M|
 |148|[sort-list](https://leetcode.com/problems/sort-list)|[Python](MEDIUM/148[M]sort-list.md)|M|
 |150|[evaluate-reverse-polish-notation](https://leetcode.com/problems/evaluate-reverse-polish-notation)|[Python](MEDIUM/150[M]evaluate-reverse-polish-notation.md)|M|
 |151|[reverse-words-in-a-string](https://leetcode.com/problems/reverse-words-in-a-string)|[Python](MEDIUM/151[M]reverse-words-in-a-string.md)|M|
@@ -308,7 +309,6 @@
 |468|[validate-ip-address](https://leetcode.com/problems/validate-ip-address)|[Python](MEDIUM/468[M]validate-ip-address.md)|M|
 |473|[matchsticks-to-square](https://leetcode.com/problems/matchsticks-to-square)|[Python](MEDIUM/473[M]matchsticks-to-square.md)|M|
 |474|[ones-and-zeroes](https://leetcode.com/problems/ones-and-zeroes)|[Python](MEDIUM/474[M]ones-and-zeroes.md)|M|
-|476|[number-complement](https://leetcode.com/problems/number-complement)|[Python](MEDIUM/476[M]number-complement.md)|M|
 |477|[total-hamming-distance](https://leetcode.com/problems/total-hamming-distance)|[Python](MEDIUM/477[M]total-hamming-distance.md)|M|
 
 

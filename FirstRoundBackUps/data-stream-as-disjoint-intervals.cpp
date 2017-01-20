@@ -11,23 +11,23 @@ class SummaryRanges {
 public:
     /** Initialize your data structure here. */
     SummaryRanges() {
-        //fa.clear();
+        
         st.clear();
     }
     
     void addNum(int val) {
-        // if (fa.find(val-1)==fa.end()) fa[val] = val; //å¦ææ¾ä¸å°ä¸ä¸ä¸ªåç´ ï¼å°±å°è¿ä¸ªåç´ èªå·±æ¾å°éåä¸­
-        // else fa[val] = val-1;
         
-        // if (fa.find(val+1) == fa.end()) {} //å¦ææ¾ä¸å°ä¸ä¸ä¸ªåç´ ï¼ç´æ¥è·³è¿
-        // else fa[val+1] = val;
+        
+        
+        
+        
         
         st.insert(val);
         
     }
     
     vector<Interval> getIntervals() {
-        // auto p = fa.end();
+        
         vector<Interval> ret;
         int begin, end;
         int last = -2;
@@ -44,7 +44,7 @@ public:
         ret.push_back(Interval(begin, end));
         return ret;
     }
-    //map<int,int> fa;
+    
     set<int> st;
 };
 

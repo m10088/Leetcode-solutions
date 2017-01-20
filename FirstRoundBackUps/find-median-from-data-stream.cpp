@@ -1,7 +1,7 @@
 class MedianFinder {
 private:
-    priority_queue<int,vector<int>,less<int> >left;//å¤§é¡¶å 
-    priority_queue<int,vector<int>,greater<int> >right;//å°é¡¶å 
+    priority_queue<int,vector<int>,less<int> >left;
+    priority_queue<int,vector<int>,greater<int> >right;
     int size=0;
 public:
     void addNum(int num) {
@@ -17,7 +17,7 @@ public:
                 left.push(num);
             }
             size++;
-        }else if(size%2==0){//ç°å¨æ¯æå¶æ°ä¸ªæ°
+        }else if(size%2==0){
             if(num>left.top()){
                 right.push(num);
             }else{
@@ -26,7 +26,7 @@ public:
                 left.push(num);
             }
             size++;
-        }else{//ç°å¨æ¯å¥æ°ä¸ªæ°
+        }else{
             if(num<right.top()){
                 left.push(num); 
             }else{
@@ -38,7 +38,7 @@ public:
         }
     }
 
-    // Returns the median of current data stream
+    
     double findMedian() {
         if(size%2==0){
             return (left.top()+right.top())/2.0;
@@ -48,7 +48,7 @@ public:
     }
 };
 
-// Your MedianFinder object will be instantiated and called as such:
-// MedianFinder mf;
-// mf.addNum(1);
-// mf.findMedian();
+
+
+
+

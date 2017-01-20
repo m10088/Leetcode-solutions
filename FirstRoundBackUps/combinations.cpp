@@ -1,12 +1,12 @@
-void dfs(vector<vector<int>>&final,const vector<int>& v, vector<int>&tmp, int cur,int depth, int n,int k){//
+void dfs(vector<vector<int>>&final,const vector<int>& v, vector<int>&tmp, int cur,int depth, int n,int k){
     if(depth==k){
         final.push_back(vector<int>(tmp.begin(),tmp.begin()+depth));
         return;
     }
     if(cur==n)return;
-    tmp[depth]=v[cur];//éæ©å½åèç¹
+    tmp[depth]=v[cur];
     dfs(final,v,tmp,cur+1,depth+1,n,k);
-    //ä¸éæ©å½åèç¹
+    
     dfs(final,v,tmp,cur+1,depth,n,k);
 }
 

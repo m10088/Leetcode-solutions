@@ -20,11 +20,11 @@ public:
                 count++;
                 while(count --)
                     stk.push_back(v[i]);
-                //stk.push_back(v[i]);
+                
             }
         }
         
-        //çå¨vectorä¸­æ¯å¦ä¼åºç°æ¯resæ´å¤§çå¼
+        
         for(int i=0;i<stk.size();i++){
             
             int tmp=(v.size()-i)*stk[i];

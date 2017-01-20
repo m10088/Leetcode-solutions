@@ -5,8 +5,8 @@ public:
     int countNumbersWithUniqueDigits(int n) {
         if (n==0) return 1;
         a[1] = 10;
-        //a[2] = 9 * 9;
-        //a[3] = 9 * 9 * 8;
+        
+        
         for(int i=2; i<100; i++) {
             a[i] = 9;
             int x = i-1, fac = 9;

@@ -22,7 +22,7 @@ public:
                 
                 counter[tmp]++;
                 if (ori[tmp] < counter[tmp]) {
-                   // cout << "now " << i << " " << j << endl;
+                   
                     break;
                 }
             }

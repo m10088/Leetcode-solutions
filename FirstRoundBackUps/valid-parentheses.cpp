@@ -1,7 +1,7 @@
 class Solution {
 public:
     bool isValid(string s) {
-        //å©ç¨æ è¿è¡è¿ç®
+        
         vector<char> t;
         for(int i=0;i<s.size();i++)
         {

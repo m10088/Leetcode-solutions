@@ -1,6 +1,6 @@
 vector<int> partation(int x,int n){
     if(n>x) return vector<int>();
-   //å°æä¸ä¸ªæ°xåænä»½å°½éçç¸ç­
+   
     int offset=x/n;
     int mod=x%n;
     vector<int> res;

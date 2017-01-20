@@ -18,11 +18,11 @@ int largestRectangleArea(vector<int>& v) {
                 count++;
                 while(count --)
                     stk.push_back(v[i]);
-                //stk.push_back(v[i]);
+                
             }
         }
         
-        //çå¨vectorä¸­æ¯å¦ä¼åºç°æ¯resæ´å¤§çå¼
+        
         for(int i=0;i<stk.size();i++){
             
             int tmp=(v.size()-i)*stk[i];
@@ -41,7 +41,7 @@ public:
         for(int i=0;i<n;i++){
             a[i].resize(m);
         }
-        //first row 
+        
         for(int j=0;j<m;j++){
             if(v[0][j]=='1'){
                 a[0][j]=1;

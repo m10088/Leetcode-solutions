@@ -1,6 +1,6 @@
 #define INF 0x3f3f3f3f
 
-int isprefix(const string&s,const string&t){//å¯¹äºæ¯ä¸ä¸ªæ¯té¿ç åºåè¿åä¸ä¸ªå¹éçå¼
+int isprefix(const string&s,const string&t){
     for(int i=0;i<t.size();i++){
         if(s[i]!=t[i])
             return i;

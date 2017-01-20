@@ -1,4 +1,4 @@
-//ä½¿ç¨å¨å±çvectorè®°å½è½å¦è·³å°ä¸ä¸ä¸ªä½ç½®ï¼å¦æè½ï¼å°±è®°å½ä¸é£äºä½ç½®ä¿¡æ¯ï¼å¦æä¸è½å°±ä¸ºç©º
+
 #define N 207
 vector<int> G[N];
 void genTable(string &s, unordered_set<string> &dict)
@@ -10,7 +10,7 @@ void genTable(string &s, unordered_set<string> &dict)
     }
     for (int i = n - 2; i >= 0; i--)
     {
-      if (!G[i+1].empty())//if we can break i->n
+      if (!G[i+1].empty())
       {
         for (int j = i, d = 1; j >= 0 ; j--, d++)
         {

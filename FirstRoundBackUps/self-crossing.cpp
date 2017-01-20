@@ -1,7 +1,7 @@
 class Solution {
 public:
     bool isSelfCrossing(vector<int>& x) {
-        //æ£æ¥åä¸ªèç¹çæåµ
+        
         int n = x.size();
         if (n < 4) return false;
         for (int i=0; i<n; i++) {

@@ -5,10 +5,10 @@ long long mergerandget(vector<long long>&a,long long lo,long long mid,long long 
     for(long long i=mid;i<hi;i++){
         long long s = a[i]-R;
         long long t = a[i]-L;
-        //å¨å·¦è¾¹çåºé´åå¯»æ¾s<=x<=tçä¸ªæ°
+        
         res += upper_bound(a.begin()+lo,a.begin()+mid,t)-lower_bound(a.begin()+lo,a.begin()+mid,s);
     }
-    //sort
+    
     const long long N=a.size();
     long long aid[N];
     for(long long i=lo;i<hi;i++){
@@ -53,11 +53,11 @@ public:
         if(v.size()==0)return 0;
         long long n=v.size();
         vector<long long> sum(n);
-        //vä¿å­åiä¸ªæ°çå
+        
         sum[0]=v[0];
         for(long long i=1;i<n;i++){
             sum[i]=sum[i-1]+v[i];
         }
-        return sortandget(sum,0,n,L,R);//åé­åå¼åºé´
+        return sortandget(sum,0,n,L,R);
     }
 };

@@ -9,11 +9,11 @@ vector<string> ret;
 
 class TrieNode {
 public:
-    // Initialize your data structure here.
+    
     TrieNode() { for (int i=0; i<26; i++) a[i]=NULL; flag = false; }
 
     TrieNode* a[26];
-    bool flag; //æ è®°æ¯ä¸æ¯ä¸ä¸ªåè¯
+    bool flag; 
 
 };
 
@@ -23,7 +23,7 @@ public:
         root = new TrieNode();
     }
 
-    // Inserts a word into the trie.
+    
     void insert(string word) { insert_aid(root, word, 0); }
 
 
@@ -34,7 +34,7 @@ public:
 
     }
 
-    // Returns if the word is in the trie.
+    
     bool search(string word) {
         return search_aid(root, word, 0);
     }
@@ -46,8 +46,8 @@ public:
             return search_aid(root->a[s[cur]-'a'], s, cur+1);
         }
     }
-    // Returns if there is any word in the trie
-    // that starts with the given prefix.
+    
+    
     bool startsWith(string prefix) {
         return fx_aid(root, prefix, 0);
     }

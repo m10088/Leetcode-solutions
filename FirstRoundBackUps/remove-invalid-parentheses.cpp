@@ -1,5 +1,5 @@
  
-//ç§»é¤æ¬å·ï¼ä¹åç¶æè½¬ç§»
+
 bool isvalid(const string &s){
     int lefter=0;
     int righter=0;
@@ -30,12 +30,12 @@ public:
     string first=s;
     d.push_back(Node(first,0));
     vis[s]=1;
-    int flag=0;//æ è®°ææ²¡ææ¾å°ææçåç´ ï¼å¦ææ¾å°äºææçåç´ å°±ä¸å¨å å¥éåäº
+    int flag=0;
     while(d.empty()==false){
         Node tmp=d.front();
         d.pop_front();
         if(tmp.step>minmum){
-            break;//åé¢å¨æ¯å¤§äºç
+            break;
         }
         
         if(isvalid(tmp.s)){

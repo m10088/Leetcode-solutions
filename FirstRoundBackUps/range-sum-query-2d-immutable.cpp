@@ -2,12 +2,12 @@
 class NumMatrix {
 public:
     int sum[N][N];
-    //è¿ä¸ªé¢ç®æç¹å...
+    
     NumMatrix(vector<vector<int>> &v) {
         if(v.size()==0)return;
         memset(sum,0,sizeof(sum));
         int n=v.size(),m=v[0].size();
-        //åæç¬¬ä¸è¡åç¬¬ä¸åæ´æ°å®
+        
         sum[0][0]=v[0][0];
         for(int i=1;i<m;i++)sum[0][i]=sum[0][i-1]+v[0][i];
         for(int i=1;i<n;i++)sum[i][0]=sum[i-1][0]+v[i][0];
@@ -27,7 +27,7 @@ public:
 };
 
 
-// Your NumMatrix object will be instantiated and called as such:
-// NumMatrix numMatrix(matrix);
-// numMatrix.sumRegion(0, 1, 2, 3);
-// numMatrix.sumRegion(1, 2, 3, 4);
+
+
+
+

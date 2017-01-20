@@ -32,7 +32,7 @@ public:
             link.push_back(fl);
             
         }
-        //ä»¥ä¸å»ºç«äºåç§°ä¸ºlinkçä¸ä¸ªç´¢å¼è¡¨ï¼æå±åå¸ï¼ç±ä¸å¾ä¸ã
+        
         for(int p=link.size()-1;p>=0;p--)
         {
             vector<int> layer;

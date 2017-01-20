@@ -4,7 +4,7 @@
 class Solution {
 public:
     int threeSumClosest(vector<int>& nums, int target) {
-        //åå¯¹æ°ç»æåºï¼ç¶åå¯¹äºæ¯ä¸ä¸ªåç´ ï¼è¿è¡åæéå¤æ­ï¼å¤æåº¦ä¸ºn*n
+        
         std::sort(nums.begin(),nums.end());
         vector<int> res;
         for(int i=0;i<nums.size()-2;i++){

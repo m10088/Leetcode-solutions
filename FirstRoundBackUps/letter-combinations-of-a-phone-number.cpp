@@ -1,19 +1,19 @@
 char m[10][4]={
-    {'@','@','@','@'},//0
-    {'@','@','@','@'},//1
-    {'a','b','c','#'},//2
-    {'d','e','f','#'},//3
+    {'@','@','@','@'},
+    {'@','@','@','@'},
+    {'a','b','c','#'},
+    {'d','e','f','#'},
     {'g','h','i','#'},
     {'j','k','l','#'},
     {'m','n','o','#'},
     {'p','q','r','s'},
     {'t','u','v','#'},
-    {'w','x','y','z'},//9
+    {'w','x','y','z'},
 };
 
 void dfs(vector<string>&final,const string& s,string& res,int cur){
     if(cur==s.size()){
-        final.push_back(string(res.begin(),res.begin()+cur));//å¦ææ¬æ¬¡éå½ç»æ,é£ä¹ä¿å­ç»æ
+        final.push_back(string(res.begin(),res.begin()+cur));
         return;
     }
     if(s[cur]=='9'||s[cur]=='7'){

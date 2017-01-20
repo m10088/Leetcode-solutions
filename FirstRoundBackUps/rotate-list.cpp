@@ -6,7 +6,7 @@
  *     ListNode(int x) : val(x), next(NULL) {}
  * };
  */
-int GetSize(ListNode* head){//å¸¦å¤´èç¹çé¾è¡¨
+int GetSize(ListNode* head){
     auto p=head->next;
     int n=0;
     while(p){
@@ -18,16 +18,16 @@ int GetSize(ListNode* head){//å¸¦å¤´èç¹çé¾è¡¨
 class Solution {
 public:
     ListNode* rotateRight(ListNode* li, int k) {
-        //å»ºç«è¡¨å¤´èç¹
+        
         ListNode*head=new ListNode(-1);
         head->next=li;
-        //å¤æ­å ä¸ªç¹æ®æåµ
+        
         if(!li)return li;
         int n=GetSize(head);
         k=k%n;
         if(k==0)return li;
         auto q=head,p=q->next;
-        int cnt=0,flag=0;//é»è®¤æ æ
+        int cnt=0,flag=0;
         while(p){
             
             q=p;
@@ -38,7 +38,7 @@ public:
                 break;
             }
         }
-        //æ¾å°å°¾å·´èç¹çåä¸ä¸ªèç¹
+        
         auto tail=p;
         while(tail->next){
             tail=tail->next;

@@ -5,16 +5,16 @@ struct Node{
     Node(){}
 };
 bool cmp(const Node&n1,const Node&n2){
-    return n2.x<n1.x;//ä¼åéæ©
+    return n2.x<n1.x;
 }
-bool can(int b,vector<int>& gas, vector<int>& cost){//ä»bå¼å§è½ä¸è½éåå®æ
+bool can(int b,vector<int>& gas, vector<int>& cost){
     
     int accu=0;
     int n=gas.size();
     int cnt=0;
     while(1){
         
-        if(gas[b]+accu>=cost[b]){//è¿ä¸ªå æ²¹ææ¯å¯ä»¥ç
+        if(gas[b]+accu>=cost[b]){
             cnt++;
             if(cnt==n)return true;
             
@@ -28,7 +28,7 @@ bool can(int b,vector<int>& gas, vector<int>& cost){//ä»bå¼å§è½�
 class Solution {
 public:
     int canCompleteCircuit(vector<int>& gas, vector<int>& cost) {
-        //åè¿æ§å¤çä¹ååè¿è¡æ¨¡æ
+        
         int n=gas.size();
         if(n==0)return -1;
         if(n==1){
@@ -51,18 +51,18 @@ public:
             }
         }
         return -1;
-        // int lo=0,hi=n,res,mid;
-        // while(lo<hi){
-        //     mid=lo+(hi-lo)/2;
-        //     if(can(a[mid].id,gas,cost)==false){
-        //         lo=mid+1;
-        //         res=lo;
-        //     }else{
-        //         hi=mid;
-        //         res=hi;
-        //     }
-        // }
-        // if(res==n)return -1;
-        // else return a[res].id;
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
     }
 };

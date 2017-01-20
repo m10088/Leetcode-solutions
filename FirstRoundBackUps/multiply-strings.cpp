@@ -5,32 +5,32 @@
 struct BigNum
 {
 
-    int a[500];    //å¯ä»¥æ§å¶å¤§æ°çä½æ°
-    int len;       //å¤§æ°é¿åº¦
+    int a[500];    
+    int len;       
 
-    BigNum(){ len = 1;memset(a,0,sizeof(a)); }   //æé å½æ°
-    BigNum(const int);       //å°ä¸ä¸ªintç±»åçåéè½¬åä¸ºå¤§æ°
-    BigNum(const char*);     //å°ä¸ä¸ªå­ç¬¦ä¸²ç±»åçåéè½¬åä¸ºå¤§æ°
-    BigNum(const BigNum &);  //æ·è´æé å½æ°
-    BigNum &operator=(const BigNum &);   //éè½½èµå¼è¿ç®ç¬¦ï¼å¤§æ°ä¹é´è¿è¡èµå¼è¿ç®
+    BigNum(){ len = 1;memset(a,0,sizeof(a)); }   
+    BigNum(const int);       
+    BigNum(const char*);     
+    BigNum(const BigNum &);  
+    BigNum &operator=(const BigNum &);   
 
-    friend istream& operator>>(istream&,  BigNum&);   //éè½½è¾å¥è¿ç®ç¬¦
-    friend ostream& operator<<(ostream&,  BigNum&);   //éè½½è¾åºè¿ç®ç¬¦
+    friend istream& operator>>(istream&,  BigNum&);   
+    friend ostream& operator<<(ostream&,  BigNum&);   
 
-    BigNum operator+(const BigNum &) const;   //éè½½å æ³è¿ç®ç¬¦ï¼ä¸¤ä¸ªå¤§æ°ä¹é´çç¸å è¿ç®
-    BigNum operator-(const BigNum &) const;   //éè½½åæ³è¿ç®ç¬¦ï¼ä¸¤ä¸ªå¤§æ°ä¹é´çç¸åè¿ç®
-    BigNum operator*(const BigNum &) const;   //éè½½ä¹æ³è¿ç®ç¬¦ï¼ä¸¤ä¸ªå¤§æ°ä¹é´çç¸ä¹è¿ç®
-    BigNum operator/(const int   &) const;    //éè½½é¤æ³è¿ç®ç¬¦ï¼å¤§æ°å¯¹ä¸ä¸ªæ´æ°è¿è¡ç¸é¤è¿ç®
+    BigNum operator+(const BigNum &) const;   
+    BigNum operator-(const BigNum &) const;   
+    BigNum operator*(const BigNum &) const;   
+    BigNum operator/(const int   &) const;    
 
-    BigNum operator^(const int  &) const;    //å¤§æ°çnæ¬¡æ¹è¿ç®
-    int    operator%(const int  &) const;    //å¤§æ°å¯¹ä¸ä¸ªintç±»åçåéè¿è¡åæ¨¡è¿ç®
-    bool   operator>(const BigNum & T)const;   //å¤§æ°åå¦ä¸ä¸ªå¤§æ°çå¤§å°æ¯è¾
-    bool   operator>(const int & t)const;      //å¤§æ°åä¸ä¸ªintç±»åçåéçå¤§å°æ¯è¾
+    BigNum operator^(const int  &) const;    
+    int    operator%(const int  &) const;    
+    bool   operator>(const BigNum & T)const;   
+    bool   operator>(const int & t)const;      
 
-    string print();       //è¾åºå¤§æ°
+    string print();       
 };
 
-BigNum::BigNum(const char*s)     //å°ä¸ä¸ªå­ç¬¦ä¸²ç±»åçåéè½¬åä¸ºå¤§æ°
+BigNum::BigNum(const char*s)     
 {
     int t,k,index,l,i;
     memset(a,0,sizeof(a));
@@ -51,7 +51,7 @@ BigNum::BigNum(const char*s)     //å°ä¸ä¸ªå­ç¬¦ä¸²ç±»å�
     }
 }
 
-BigNum BigNum::operator*(const BigNum & T) const   //ä¸¤ä¸ªå¤§æ°ä¹é´çç¸ä¹è¿ç®
+BigNum BigNum::operator*(const BigNum & T) const   
 {
     BigNum ret;
     int i,j,up;
@@ -82,7 +82,7 @@ BigNum BigNum::operator*(const BigNum & T) const   //ä¸¤ä¸ªå¤§æ°ä�
         ret.len--;
     return ret;
 }
-std::string fun(BigNum& b)   //éè½½è¾åºè¿ç®ç¬¦
+std::string fun(BigNum& b)   
 {
     std::stringstream sout;
     int i;

@@ -7,7 +7,7 @@ T StringTo(const std::string &s){
     return tmp;
 }
 bool ok(const string & s) {
-    //å·²ç»ä¿è¯äºæ¯1-3ä½æ°ä¹é´
+    
     if (s[0] == '0') {
         if (s.size()==1) return true;
         else return false;
@@ -42,7 +42,7 @@ public:
         vector<string> ret;
         dfs(s, 0, 0, tmp);
       
-       // cout << finaler.size() << endl;
+       
         for (int i=0; i<finaler.size(); i++) {
             string ans;
             for (int j=0; j<3; j++) {

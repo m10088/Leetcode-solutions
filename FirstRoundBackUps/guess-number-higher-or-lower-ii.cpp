@@ -1,9 +1,9 @@
 #define INF 0x3f3f3f3f
 #define N 1005
 int dp[N][N];
-//å¨iå°nä¹é´çæå°è±è´¹
 
-int dfs(int i, int j) { //é­åºé´ï¼å¯ä»¥æå°éè¦è±è´¹å¤å°
+
+int dfs(int i, int j) { 
     if (dp[i][j]!=-1) return dp[i][j];
     else if (i==j) return 0;
     else if (i+1==j) return i;
