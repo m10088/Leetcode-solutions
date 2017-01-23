@@ -16,7 +16,7 @@ matrix[:] = zip( *matrix[::-1])
 
 可以原地每四个元素交换。
 
-```
+```Python
 class Solution(object):
     def rotate(self, m):
         """
@@ -34,7 +34,7 @@ class Solution(object):
 
 实际上是吧数组分成了4个部分，但是，并不是每个元素都进行，交换，如果是这样，那么就相当于没有交换。
 
-```
+```Python
 class Solution(object):
     def rotate(self, m):
         """

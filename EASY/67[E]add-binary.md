@@ -4,7 +4,7 @@
 
 二进制相加之后，给出和的str形式。
 
-```
+```Python
 class Solution(object):
     def addBinary(self, a, b):
         """

@@ -10,7 +10,7 @@
 
 题解:
 
-```
+```Python
 cache = dict()
 class Solution(object):
     def canPartition(self, nums):

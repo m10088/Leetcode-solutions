@@ -8,7 +8,7 @@
 
 这里直接采用hash方法解决。
 
-```
+```Python
 class Solution(object):
     def fourSum(self, nums, target):
         """

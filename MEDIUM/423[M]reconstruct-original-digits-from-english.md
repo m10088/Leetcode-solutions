@@ -21,7 +21,7 @@ TODO: 但是应该研究一下。
 评论区给出了一种巧妙的解决方案。
 
 
-```
+```Python
 class Solution(object):
     def originalDigits(self, s):
         """

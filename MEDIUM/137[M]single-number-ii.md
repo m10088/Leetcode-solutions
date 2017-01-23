@@ -11,7 +11,7 @@
 类似的原理，可以不是仅仅使用在3上，其他也是可以的。
 
 
-```
+```Python
 class Solution(object):
     def singleNumber(self, nums):
         """

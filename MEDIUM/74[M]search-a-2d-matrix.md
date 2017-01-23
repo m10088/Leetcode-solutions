@@ -7,7 +7,7 @@
 这个矩阵的每行是递增的，每列是递增的。
 
 
-```
+```Python
 class Solution(object):
     def searchMatrix(self, matrix, target):
         """

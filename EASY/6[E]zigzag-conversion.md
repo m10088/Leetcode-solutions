@@ -6,7 +6,7 @@ ZigZag变换，锯齿变换。
 
 主要是模拟和python的字符串处理。
 
-```
+```Python
 class Solution(object):
     def convert(self, s, numRows):
         """

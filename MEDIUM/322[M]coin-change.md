@@ -19,7 +19,7 @@
 
 使用一个一维数组从前往后滚动即可。
 
-```
+```Python
 class Solution(object):
     def coinChange(self, coins, amount):
         """

@@ -12,7 +12,7 @@ Given a binary tree, flatten it to a linked list in-place.
 If you notice carefully in the flattened tree, each node's right child points to the next node of a pre-order traversal.
 
 
-```
+```Python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):

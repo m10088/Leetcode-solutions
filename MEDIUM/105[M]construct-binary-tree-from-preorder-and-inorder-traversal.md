@@ -8,7 +8,7 @@
 自己是沿用了106的解法，但是看了别人的解答，发现自己的代码还是不够简洁啊。
 
 
-```
+```Python
 def buildTree(self, preorder, inorder):
     if inorder:
         ind = inorder.index(preorder.pop(0))
@@ -22,7 +22,7 @@ def buildTree(self, preorder, inorder):
 自己的
 
 
-```
+```Python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):

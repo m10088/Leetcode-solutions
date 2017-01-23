@@ -6,7 +6,7 @@
 
 题解:
 
-```
+```Python
 class Solution(object):
     def singleNumber(self, nums):
         """

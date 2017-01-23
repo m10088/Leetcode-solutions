@@ -14,7 +14,7 @@
 
 最后将所有的数字重新排列。
 
-```
+```Python
 class Solution(object):
     def nextPermutation(self, nums):
         """

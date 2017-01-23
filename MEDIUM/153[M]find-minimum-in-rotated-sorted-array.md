@@ -16,7 +16,7 @@
 分析二分查找，但是为了确定下一个扫描的区间，我们需要和最右的元素进行比较，（如果和开始的元素进行比较，是不对的）。
 
 
-```
+```Python
 class Solution(object):
     def findMin(self, nums):
         """

@@ -10,7 +10,7 @@ reorder it to: L0→Ln→L1→Ln-1→L2→Ln-2→…
 
 正确的使用partataion和reverse函数。
 
-```
+```Python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):

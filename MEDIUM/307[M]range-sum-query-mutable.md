@@ -9,7 +9,7 @@
 python还需要好好学。
 
 
-```
+```Python
 class NumArray(object):
     def __init__(self, nums):
         self.update = nums.__setitem__

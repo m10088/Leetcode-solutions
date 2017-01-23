@@ -4,7 +4,7 @@
 
 因子只有2,3,5的数字是丑数，1也是，判断一个数字是不是丑数。
 
-```
+```Python
 class Solution(object):
     def isUgly(self, num):
         """

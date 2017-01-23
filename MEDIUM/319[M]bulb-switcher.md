@@ -30,7 +30,7 @@ So you should return 1, because there is only one bulb is on.
 1-n之间有多少个完全平方数字？
 
 
-```
+```Python
 class Solution(object):
     def bulbSwitch(self, n):
         """

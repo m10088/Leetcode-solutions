@@ -8,7 +8,7 @@
 python_code
 
 
-```
+```Python
 
 class Solution(object):
     def intToRoman(self, num):
@@ -32,7 +32,7 @@ class Solution(object):
 讨论区的另外一种简洁的方法。
 
 
-```
+```C++
 public static String intToRoman(int num) {
     String M[] = {"", "M", "MM", "MMM"};
     String C[] = {"", "C", "CC", "CCC", "CD", "D", "DC", "DCC", "DCCC", "CM"};

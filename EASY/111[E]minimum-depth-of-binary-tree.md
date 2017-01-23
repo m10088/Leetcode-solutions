@@ -8,7 +8,7 @@
 
 直接遍历，遍历的时候，如果到大叶子节点，更新，当前的最小的值。
 
-```
+```Python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -42,7 +42,7 @@ class Solution(object):
 
 另外一种递归方法：
 
-```
+```Python
 def minDepth(self, root):
     if not root:
         return 0

@@ -17,7 +17,7 @@ maxSubArray(A, i) = maxSubArray(A, i - 1) > 0 ? maxSubArray(A, i - 1) : 0 + A[i]
 
 但是这里有一种巧妙的方法，就是记录前缀和，然后使用best_time_buy_stock的方式即可。
 
-```
+```Python
 class Solution(object):
     def maxSubArray(self, nums):
         """

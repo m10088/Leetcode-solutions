@@ -4,7 +4,7 @@
 
 将一个数字，分解求和，如果这个和是一位数，返回，否则递归求解。
 
-```
+```Python
 class Solution(object):
     def addDigits(self, num):
         """

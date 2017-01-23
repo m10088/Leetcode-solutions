@@ -7,7 +7,7 @@
 维护两个dict即可。
 
 
-```
+```Python
 class Solution(object):
     def wordPattern(self, pattern, string):
         """

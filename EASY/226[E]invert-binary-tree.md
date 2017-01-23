@@ -4,7 +4,7 @@
 
 左右方向反转一颗二叉树。
 
-```
+```Python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):

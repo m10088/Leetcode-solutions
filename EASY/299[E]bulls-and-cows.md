@@ -8,7 +8,7 @@
 
 先排除bull不考虑，然后根据字符出现的次数，统计cow。
 
-```
+```Python
 class Solution(object):
     def getHint(self, secret, guess):
         """

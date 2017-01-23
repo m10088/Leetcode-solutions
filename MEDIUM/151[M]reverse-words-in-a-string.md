@@ -11,7 +11,7 @@ return "blue is sky the".
 
 python的解法.
 
-```
+```Python
 class Solution(object):
     def reverseWords(self, s):
         """
@@ -32,7 +32,7 @@ class Solution(object):
 先将字符串整个的反转然后，每个单词进行反转。
 
 
-```
+```C++
 void reverseWords(string &s) {
     reverse(s.begin(), s.end());
     int storeIndex = 0;

@@ -4,7 +4,7 @@
 
 比较两个版本号的大小。注意细节。
 
-```
+```Python
 class Solution(object):
     def compareVersion(self, version1, version2):
         """

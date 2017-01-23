@@ -12,7 +12,7 @@
 
 因此，每次到达一个节点，更新这个数组。(数组每个节点都减去这个节点的val变量。)，因为不仅仅是从根节点起，需要在每个递归节点，将origin_tar加上。
 
-```
+```Python
 class Solution(object):
     def pathSum(self, root, s):
         """

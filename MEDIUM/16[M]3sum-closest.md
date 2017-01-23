@@ -8,7 +8,7 @@
 
 这个题目，明显不能够使用hash，因此考虑排序+双指针，但是要考虑双指针移动的条件。
 
-```
+```Python
 class Solution(object):
     def threeSumClosest(self, num, target):
         num.sort()

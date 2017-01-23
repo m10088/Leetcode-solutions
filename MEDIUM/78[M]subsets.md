@@ -4,7 +4,7 @@
 
 二进制法生成子集。
 
-```
+```Python
 class Solution(object):
     def subsets(self, nums):
         """

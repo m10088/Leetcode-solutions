@@ -19,7 +19,7 @@
 
 在不使用定义新矩阵的情况下，要想解决本问题就需要先定义一组中间状态，中间状态要求能看出一个单元格变化前后两方面的生死情况。
 
-```
+```Python
 class Solution(object):
     def gameOfLife(self, board):
         """

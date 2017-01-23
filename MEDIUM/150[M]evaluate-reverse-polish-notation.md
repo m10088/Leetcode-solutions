@@ -6,7 +6,7 @@
 
 注意的点，python的负数除法和其他的语言不太一样，
 
-```
+```Python
 class Solution(object):
     def evalRPN(self, tokens):
         stack = []

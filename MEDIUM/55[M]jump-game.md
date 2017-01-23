@@ -16,7 +16,7 @@ A = [3,2,1,0,4], return false.
 
 维护一个当前能够跳跃到的最大位置即可，对于扫描的每个位置，如何在最大位置的范围之内，那么就尽量的更新维护的那个值。
 
-```
+```Python
 class Solution(object):
     def canJump(self, nums):
         """

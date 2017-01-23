@@ -6,7 +6,7 @@
 
 模拟即可。
 
-```
+```Python
 class Solution(object):
     # same idea as Part 1...
     def generateMatrix(self, n):

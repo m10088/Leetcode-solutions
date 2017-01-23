@@ -13,7 +13,7 @@ now：当前的状态的字符串是什么，lr，代表左括号和有括号分
 回溯法，但是需要注意回溯状态中一定不能有一种情况，就是左括号剩余的个数不能多于右括号剩余的个数。
 
 
-```
+```Python
 class Solution(object):
     def generateParenthesis(self, n):
         """

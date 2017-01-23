@@ -11,7 +11,7 @@
 3.注意，推文和关注的人，不能重复了。
 
 
-```
+```Python
 class Twitter(object):
 
     def __init__(self):

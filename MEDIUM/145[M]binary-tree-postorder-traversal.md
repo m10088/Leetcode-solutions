@@ -4,7 +4,7 @@
 
 后续遍历二叉树。
 
-```
+```Python
 class Solution(object):
     def postorderTraversal(self, root):
         """

@@ -2,7 +2,7 @@
 
 题意:
 
-```
+```Python
 Given an array of integers A and let n to be its length.
 
 Assume Bk to be an array obtained by rotating the array A k positions clock-wise, we define a "rotation function" F on A as follow:
@@ -30,7 +30,7 @@ So the maximum value of F(0), F(1), F(2), F(3) is F(3) = 26.
 
 暴力肯定不过，主要是找连续的两个结果之间的差值。
 
-```
+```Python
 class Solution(object):
     def maxRotateFunction(self, A):
         """

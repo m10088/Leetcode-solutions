@@ -4,7 +4,7 @@ bfs按层次输出一棵树。
 
 为了标记什么时候到大一层的结束位置，设置标志变量last。
 
-```
+```Python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):

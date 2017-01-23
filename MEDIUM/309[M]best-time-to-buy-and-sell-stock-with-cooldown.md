@@ -26,7 +26,7 @@ C->A 是从冷却状态走出来。
 
 进行状态转移。
 
-```
+```Python
 class Solution(object):
     def maxProfit(self, prices):
         """

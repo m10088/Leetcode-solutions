@@ -6,7 +6,7 @@
 主要是出队的时候，需要访问栈底的元素，因此需要另外一个栈进行倒入然后倒出。
 
 
-```
+```Python
 class Queue(object):
     def __init__(self):
         """

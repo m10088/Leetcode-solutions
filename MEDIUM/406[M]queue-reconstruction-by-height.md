@@ -9,7 +9,7 @@
 题解:
 
 
-```
+```Python
 class Solution(object):
     def reconstructQueue(self, people):
         """

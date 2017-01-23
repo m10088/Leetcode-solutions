@@ -14,7 +14,7 @@
 
 求余，找到分割点，按步骤设置，head和tail即可。
 
-```
+```Python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):

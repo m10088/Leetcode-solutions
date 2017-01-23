@@ -10,7 +10,7 @@
 
 区间贪心问题，很简单，按照区间的结尾进行排序，每次选择区间的最后一个点，进行贪心即可。
 
-```
+```Python
 class Solution(object):
     def findMinArrowShots(self, points):
         """

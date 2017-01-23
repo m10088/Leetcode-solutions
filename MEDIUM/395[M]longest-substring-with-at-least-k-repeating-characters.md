@@ -9,7 +9,7 @@
 
 分治，对于一个字符串，统计出现次数最少的那个元素，然后判断是不是出现次数大于k如果如果是，直接返回如果不是，剔除当前字符，在形成的分隔的子串中递归的进行这个过程。
 
-```
+```Python
 class Solution(object):
     def longestSubstring(self, s, k):
         """

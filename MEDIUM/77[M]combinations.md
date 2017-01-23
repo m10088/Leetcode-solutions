@@ -7,7 +7,7 @@
 这里使用了```C(n,k) = C(n-1, k-1) + C(n-1, k)```的公式。
 
 
-```
+```Python
 class Solution(object):
     def combine(self, n, k):
         """
@@ -28,7 +28,7 @@ class Solution(object):
 
 一般的回溯的解决方案。
 
-```
+```Python
 class Solution(object):
     def combine(self, n, k):
         """

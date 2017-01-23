@@ -8,7 +8,7 @@
 方法很巧妙，类似剥圆葱，的样子，不断的将最外层的叶子节点，删除，同时删除相对应的那条边。
 
 
-```
+```Python
 
 class Solution(object):
     def findMinHeightTrees(self, n, edges):

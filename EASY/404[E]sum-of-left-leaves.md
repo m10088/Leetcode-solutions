@@ -8,7 +8,7 @@
 需要额外的添加一个标志，是左边叶子，还是右边的叶子。
 
 
-```
+```Python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):

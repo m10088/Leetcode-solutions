@@ -8,7 +8,7 @@
 
 但是这里，提供一种更好的dfs的思路，见代码。
 
-```
+```Python
 def dfs2(p1,p2):
     """
     Two pointers.

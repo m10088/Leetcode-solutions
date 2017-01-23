@@ -12,7 +12,7 @@
 
 求中位数的算法，如果使用算法导论上的算法，算法复杂度是O(n)，一般情况下，O(nlgn)排下序就行了。
 
-```
+```Python
 class Solution(object):
     def minMoves2(self, nums):
         """

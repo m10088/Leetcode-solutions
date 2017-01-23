@@ -6,7 +6,7 @@
 
 使用优先队列解法。
 
-```
+```Python
 class Solution(object):
     def findKthLargest(self, nums, k):
         """
@@ -26,7 +26,7 @@ class Solution(object):
 
 使用快速排序中的划分的解法。
 
-```
+```Python
 class Solution(object):
     def findKthLargest(self, nums, k):
         """

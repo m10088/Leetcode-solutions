@@ -6,7 +6,7 @@
 
 这里使用了记忆化搜索解决。
 
-```
+```Python
 class Solution(object):
     cache = {}
     def isScramble(self, s1, s2):

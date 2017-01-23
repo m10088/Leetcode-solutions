@@ -14,7 +14,7 @@
 
 
 
-```
+```Python
 
 
 class Solution(object):

@@ -10,7 +10,7 @@
 
 这里有一种很简单的解决方法，就是维护一个滑动窗口，窗口的大小是k，然后对于每个元素，在窗口中找 x 使得 nums[i]-t <= x <= nums[i]+t，这个华东窗口可以使用map或者set让其有序。
 
-```
+```C++
 public class Solution {
     public boolean containsNearbyAlmostDuplicate(int[] nums, int k, int t) {
         if (nums == null || nums.length == 0 || k <= 0) {
@@ -42,7 +42,7 @@ public class Solution {
 
 在评论区发现了一种“桶”的解决方案。
 
-```
+```Python
 class Solution(object):
     def containsNearbyAlmostDuplicate(self, nums, k, t):
         # Bucket sort. Each bucket has size of t. For each number, the possible

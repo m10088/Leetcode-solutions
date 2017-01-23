@@ -4,7 +4,7 @@
 
 给定string的数组，求所有的字符串的最长公共前缀。
 
-```
+```Python
 class Solution(object):
     def longestCommonPrefix(self, strs):
         """

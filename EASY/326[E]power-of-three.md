@@ -4,7 +4,7 @@
 不用递归的方式判断一个数字是不是3的幂。
 
 
-```
+```Python
 class Solution(object):
     def isPowerOfThree(self, n):
         """

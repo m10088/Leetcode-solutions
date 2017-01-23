@@ -16,7 +16,7 @@
 
 其中一个覆盖另一个。
 
-```
+```Python
 class Solution(object):
     def computeArea(self, A, B, C, D, E, F, G, H):
         """
@@ -58,7 +58,7 @@ class Solution(object):
 
 或者直接统一上述情况，讨论区代码。
 
-```
+```Python
 def computeArea(self, A, B, C, D, E, F, G, H):
     overlap = max(min(C,G)-max(A,E), 0)*max(min(D,H)-max(B,F), 0)
     return (A-C)*(B-D) + (E-G)*(F-H) - overlap

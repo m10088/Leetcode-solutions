@@ -6,7 +6,7 @@
 
 暴力，即可，当然更好的是kmp匹配，这里暂时不考虑。
 
-```
+```Python
 class Solution(object):
     def strStr(self, haystack, needle):
         """
@@ -26,7 +26,7 @@ class Solution(object):
 
 还是贴上kmp的解法吧。
 
-```
+```Python
 class Solution(object):
     def strStr(self, haystack, needle):
         """

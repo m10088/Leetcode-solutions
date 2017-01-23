@@ -8,7 +8,7 @@
 
 pop和top都需要在两个队列之间将元素进行两次迁移。
 
-```
+```Python
 import Queue
 class Stack(object):
     def __init__(self):

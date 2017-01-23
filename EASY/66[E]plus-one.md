@@ -4,7 +4,7 @@
 
 数组表示的数值，返回+1后的数组形式。
 
-```
+```Python
 class Solution(object):
     def plusOne(self, digits):
         """

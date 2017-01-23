@@ -12,7 +12,7 @@
 
 但是这里需要简单的判断下余数，保证是 3 3 4，而不是 3 3 3 1。
 
-```
+```Python
 class Solution(object):
     def integerBreak(self, n):
         """

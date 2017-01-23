@@ -10,7 +10,7 @@ The two words can be "abcw", "xtfn".
 
 题解:
 
-```
+```Python
 class Solution(object):
     def maxProduct(self, words):
         """

@@ -14,7 +14,7 @@
 题解:
 
 
-```
+```Python
 class Solution:
     # @param {integer[]} nums
     # @return {string}

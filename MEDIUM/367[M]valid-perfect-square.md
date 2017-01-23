@@ -7,7 +7,7 @@
 使用二分找到最接近sqrt的数字，然后平方判断即可。
 
 
-```
+```Python
 class Solution(object):
     def isPerfectSquare(self, num):
         """

@@ -12,7 +12,7 @@
 题解:
 
 
-```
+```Python
 class Solution(object):
     def majorityElement(self, nums):
         """

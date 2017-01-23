@@ -6,7 +6,7 @@ houserob升级版，也就是将首和尾部联系起来了。
 
 这样的话，分情况遍历两次就行了。
 
-```
+```Python
 class Solution(object):
     def rob(self, nums):
         """

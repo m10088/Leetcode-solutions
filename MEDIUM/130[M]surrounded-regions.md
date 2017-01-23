@@ -8,7 +8,7 @@
 首先应该想到的思路就是，先将边界的地区，全部进行BFS或者DFS，找到相连的方块，进行标记，标记可以作为S吧，然后，将那些没有翻转到的O，全部翻转，然后将S复原。
 
 
-```
+```Python
 class Solution(object):
     def solve(self, board):
         """

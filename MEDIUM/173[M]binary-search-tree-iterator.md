@@ -6,7 +6,7 @@
 
 使用栈进行模拟即可。
 
-```
+```Python
 # Definition for a  binary tree node
 # class TreeNode(object):
 #     def __init__(self, x):

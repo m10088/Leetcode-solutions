@@ -4,7 +4,7 @@
 
 给定链表，删除链表中给定的值。
 
-```
+```Python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):

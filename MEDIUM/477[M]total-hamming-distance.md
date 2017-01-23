@@ -12,7 +12,7 @@
 
 然后对于每个位置，0的个数 * 1的个数，就能得出当前位，为最后的结果贡献了多少。
 
-```
+```Python
 class Solution(object):
     def totalHammingDistance(self, nums):
         """

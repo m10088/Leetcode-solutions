@@ -6,7 +6,7 @@
 
 使用combination的库，枚举选择的数字，然后分别求和，组合一下即可，注意时间和分钟的有效的范围。
 
-```
+```Python
 class Solution(object):
     def readBinaryWatch(self, num):
         """

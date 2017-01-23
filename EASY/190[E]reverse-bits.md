@@ -6,7 +6,7 @@
 
 hint：python支持bit opr.
 
-```
+```Python
 def reverseBits(self, n):
         ret = 0
         for i in range(32):

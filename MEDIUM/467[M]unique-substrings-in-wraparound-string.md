@@ -26,7 +26,7 @@ Explanation: There are six substrings "z", "a", "b", "za", "ab", "zab" of string
 
 abcd.....zabcd，假如是d，那么我们应该记录的是5，而不是4，也就是那个大的，而且不能重复记录，因为只要记录了5，就包括了 "zabcd","abcd","bcd","cd","d" 也就包含了那些小的了。
 
-```
+```Python
 class Solution(object):
     def findSubstringInWraproundString(self, s):
         """

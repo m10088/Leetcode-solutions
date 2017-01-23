@@ -10,7 +10,7 @@
 双指针，注意退出循环的情况即可。
 
 
-```
+```Python
 class Solution(object):
     def minSubArrayLen(self, target, nums):
         """

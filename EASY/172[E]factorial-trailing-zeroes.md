@@ -11,7 +11,7 @@ n的阶乘的结尾的0的个数。
 
 当然，我们想到了下面的算法。
 
-```
+```Python
 class Solution(object):
     def trailingZeroes(self, n):
         """
@@ -38,7 +38,7 @@ until
 
 公式中 N/5表示不大于N的数中能被5整除的数贡献一个5，```N/(5*5)```表示不大于N的数中能被25整除的数再共享一个5.......
 
-```
+```Python
 class Solution(object):
     def trailingZeroes(self, n):
         """

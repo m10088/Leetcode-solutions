@@ -4,7 +4,7 @@
 
 dfs求联通岛的数目。
 
-```
+```Python
 class Solution(object):
     def numIslands(self, grid):
         """

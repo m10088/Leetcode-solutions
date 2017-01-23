@@ -9,7 +9,7 @@
 
 统计出现的次数即可。
 
-```
+```Python
 class Solution(object):
     def canConstruct(self, ransomNote, magazine):
         """

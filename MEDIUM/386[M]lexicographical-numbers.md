@@ -9,7 +9,7 @@
 
 这个题目很像trie树，如果真的建立一颗trie树的话，那么最后的结果遍历这个tries树即可，但是实际上，没有必要建立这棵树，直接按逻辑进行dfs即可，dfs分支结束的条件就是大于n。
 
-```
+```Python
 class Solution(object):
      def lexicalOrder(self, n):
         def dfs(k, res):

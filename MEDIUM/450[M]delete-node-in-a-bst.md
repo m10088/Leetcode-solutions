@@ -11,7 +11,7 @@ bst中删除一个指定的节点。
 
 本来以为python不能传递引用（like Cpp）但是，实时上也是可以实现的。
 
-```
+```Python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):

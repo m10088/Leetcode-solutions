@@ -12,7 +12,7 @@
 
 因此想到，一步一步的挪动，需要挪动k步。
 
-```
+```Python
 class Solution(object):
     def rotate(self, nums, k):
         """
@@ -43,7 +43,7 @@ step 1 reverse原来的数组
 step 2 reverse 0~ k-1
 step 3 reverse k ~ n-1
 
-```
+```Python
 class Solution(object):
     def rotate(self, li, k):
         """

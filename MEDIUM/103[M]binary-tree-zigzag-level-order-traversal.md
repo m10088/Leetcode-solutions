@@ -6,7 +6,7 @@
 
 参考[103],[107]即可，加上一个标志位zigflag
 
-```
+```Python
 def zigzagLevelOrder(self, root):
         """
         :type root: TreeNode

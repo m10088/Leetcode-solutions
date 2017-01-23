@@ -8,7 +8,7 @@
 
 两个数组滚动使用也可以。
 
-```
+```Python
 class Solution(object):
     def minimumTotal(self, triangle):
         """

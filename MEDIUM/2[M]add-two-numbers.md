@@ -6,7 +6,7 @@
 
 模拟即可，注意特殊情况。
 
-```
+```Python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):

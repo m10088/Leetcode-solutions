@@ -15,7 +15,7 @@
 [详细过程看这里](https://discuss.leetcode.com/topic/53753/brief-explanation-for-reservoir-sampling/2)
 
 
-```
+```Python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):

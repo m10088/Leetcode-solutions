@@ -7,7 +7,7 @@
 思路，快慢指针分割链表，然后，反转第二个链表，然后比较两个链表。
 小心的处理，第一个链表比第二个链表长度大一的情况。
 
-```
+```Python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):

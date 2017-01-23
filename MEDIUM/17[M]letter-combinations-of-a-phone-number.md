@@ -7,7 +7,7 @@
 给出一种很巧妙的reduce的解决方法。
 
 
-```
+```Python
 class Solution(object):
     def letterCombinations(self, digits):
         """

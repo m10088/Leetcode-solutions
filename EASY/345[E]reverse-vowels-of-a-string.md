@@ -10,7 +10,7 @@ str[0] = 'a'
 
 error
 
-```
+```Python
 class Solution(object):
     def reverseVowels(self, s):
         """

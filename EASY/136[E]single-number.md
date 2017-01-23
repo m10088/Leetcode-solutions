@@ -7,7 +7,7 @@
 异或运算的交换律的性质，如果重新排列这些数字，让singlenumber排到最后，那么进行异或之后的结果就是singlenumber。
 
 python_solution
-```
+```Python
 class Solution(object):
     def Xor(self, a, b):
         return a ^ b

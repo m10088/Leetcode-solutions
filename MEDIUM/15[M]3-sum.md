@@ -37,7 +37,7 @@ public List<List<Integer>> threeSum(int[] num) {
 
 hash的方法。
 
-```
+```Python
 class Solution(object):
     def threeSum(self, nums):
         """

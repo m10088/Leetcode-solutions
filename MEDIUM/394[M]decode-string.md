@@ -4,7 +4,7 @@
 
 解码字符串。
 
-```
+```Python
 s = "3[a]2[bc]", return "aaabcbc".
 s = "3[a2[c]]", return "accaccacc".
 s = "2[abc]3[cd]ef", return "abcabccdcdcdef".
@@ -14,7 +14,7 @@ s = "2[abc]3[cd]ef", return "abcabccdcdcdef".
 
 很正统的做法是实现一个栈。
 
-```
+```Python
 class Solution(object):
     def decodeString(self, s):
         """
@@ -40,7 +40,7 @@ class Solution(object):
 
 当然也可以正则表达式。
 
-```
+```Python
 class Solution(object):
     def decodeString(self, s):
         """

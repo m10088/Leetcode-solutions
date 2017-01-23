@@ -14,7 +14,7 @@
 
 tuple保存栈的状态，分别是(self_value, min_value)，这样状态就是唯一的了。
 
-```
+```Python
 class MinStack(object):
 
     def __init__(self):

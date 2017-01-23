@@ -11,7 +11,7 @@
 9x9x8x7x6
 
 
-```
+```Python
 class Solution(object):
     def countNumbersWithUniqueDigits(self, n):
         """

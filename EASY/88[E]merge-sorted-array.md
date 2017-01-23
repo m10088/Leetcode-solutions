@@ -7,7 +7,7 @@
 
 正常思路是需要用到额外的空间的，但是如果从后面开始，这个问题就迎刃而解。
 
-```
+```Python
 class Solution(object):
     def merge(self, nums1, m, nums2, n):
     	"""

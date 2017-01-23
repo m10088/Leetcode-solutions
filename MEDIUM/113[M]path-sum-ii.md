@@ -6,7 +6,7 @@
 
 注意python复制数组可以 ```new = old[:]```。
 
-```
+```Python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):

@@ -8,7 +8,7 @@
 
 思路：贪心，双指针即可。
 
-```
+```Python
 class Solution(object):
     def twoSum(self, numbers, target):
         """

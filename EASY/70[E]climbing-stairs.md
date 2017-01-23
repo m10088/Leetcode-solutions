@@ -6,7 +6,7 @@
 
 递归超时，改为迭代即可。
 
-```
+```Python
 class Solution(object):
     def climbStairs(self, n):
         """

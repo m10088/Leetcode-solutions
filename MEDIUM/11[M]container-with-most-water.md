@@ -20,7 +20,7 @@ a[l] < a[r]
 ```
 那么已经下一步一定是l向右移动而不是r像左边移动。
 
-```
+```Python
 class Solution(object):
     def maxArea(self, height):
         """

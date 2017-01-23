@@ -4,7 +4,7 @@
 
 类似【143】的逆过程，细节较多。
 
-```
+```Python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):

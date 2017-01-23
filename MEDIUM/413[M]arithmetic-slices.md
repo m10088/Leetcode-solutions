@@ -6,7 +6,7 @@
 
 首先找到连续的数字组成等差数列的情况，如果连续的等差数列是n，那么根据简单的公式就能求出三等差数列的个数。
 
-```
+```Python
 class Solution(object):
     def numberOfArithmeticSlices(self, A):
         """

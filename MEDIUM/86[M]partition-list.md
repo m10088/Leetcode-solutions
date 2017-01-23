@@ -6,7 +6,7 @@
 
 链表切分，小于x的放一边，大于x的放一边。
 
-```
+```Python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):

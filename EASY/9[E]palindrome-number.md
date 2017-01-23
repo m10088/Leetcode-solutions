@@ -4,7 +4,7 @@
 
 判断一个数是不是回文数。
 
-```
+```Python
 class Solution(object):
     def isPalindrome(self, x):
         """

@@ -13,7 +13,7 @@ A solution set is:
 也就是说，同一个位置的数字可以出现任意的次数，因为题目中说了集合中的数字是不会重复的，因此，也就不会产生重复。
 
 
-```
+```Python
 
 class Solution(object):
     def combinationSum(self, candidates, target):

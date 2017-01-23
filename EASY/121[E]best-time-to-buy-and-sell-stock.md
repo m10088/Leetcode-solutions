@@ -6,7 +6,7 @@
 
 遍历的同时，维护最小值和结果的最大值即可。
 
-```
+```Python
 class Solution(object):
     def maxProfit(self, prices):
         """

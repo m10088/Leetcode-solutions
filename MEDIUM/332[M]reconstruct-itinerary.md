@@ -9,7 +9,7 @@
 
 
 直接套欧拉回路的模板即可，但是这里有个问题就是最后的哪一个点，显示不出来，简单的修改一下就行了。
-```
+```Python
 class Solution(object):
     def findItinerary(self, tickets):
         """

@@ -13,7 +13,7 @@
 但是巧妙的是，对于每个list类型的节点，应该从后面加入stack中，只要这样第一个被弹出的元素才是，最开始的。
 
 
-```
+```Python
 # """
 # This is the interface that allows for creating nested lists.
 # You should not implement it, or speculate about its implementation

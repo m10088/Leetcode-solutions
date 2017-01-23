@@ -4,7 +4,7 @@
 
 数数字，1221，读作1个1，2个2，1个1，递推为112211，从1开始n次递推之后的数字。
 
-```
+```Python
 class Solution(object):
     def countAndSay(self, n):
         """

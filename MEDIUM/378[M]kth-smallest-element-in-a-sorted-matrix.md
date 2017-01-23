@@ -12,7 +12,7 @@
 
 
 
-```
+```Python
 def upper_bound(a, target):
     res = -1
     lo, hi = 0, len(a)

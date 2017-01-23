@@ -28,7 +28,7 @@ The possible combination ways are:
 
 记忆搜索的的方式。
 
-```
+```Python
 class Solution(object):
     def combinationSum4(self, nums, target):
         """

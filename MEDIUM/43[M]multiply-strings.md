@@ -12,7 +12,7 @@
 
 ![ima](https://drscdn.500px.org/photo/130178585/m%3D2048/300d71f784f679d5e70fadda8ad7d68f)
 
-```
+```Python
 class Solution(object):
     def multiply(self, num1, num2):
         """

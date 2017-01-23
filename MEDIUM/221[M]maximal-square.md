@@ -27,7 +27,7 @@ dp[i][j] = min([dp[i-1][j], dp[i][j-1], dp[i-1][j-1]]) + 1
 
 源码。
 
-```
+```Python
 class Solution(object):
     def maximalSquare(self, matrix):
         """

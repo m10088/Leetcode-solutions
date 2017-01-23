@@ -15,7 +15,7 @@
 
 因为二叉树的良好特征，是不会混淆的，画个图，举个例子就可证明。
 
-```
+```Python
 class Node(object):
     def __init__(self, one=None, zero=None):
         self.one = one

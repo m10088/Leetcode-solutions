@@ -7,7 +7,7 @@
 
 这种解法，没有使用到二叉搜索树的性质，复杂度较高。
 
-```
+```Python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -47,7 +47,7 @@ class Solution(object):
 
 下面方法，使用了迭代优化。
 
-```
+```Python
 class Solution(object):
     def lowestCommonAncestor(self,root,p,q):
         if p.val>q.val:

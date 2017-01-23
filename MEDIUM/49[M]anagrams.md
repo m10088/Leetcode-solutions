@@ -13,7 +13,7 @@ hash即可。
 
 将单词排序即可。然后hash即可。
 
-```
+```Python
 class Solution(object):
     def groupAnagrams(self, strs):
         """

@@ -18,7 +18,7 @@
 
 评论区发现的一种有趣的解法：
 
-```
+```Python
 class Solution:
     # @return a string
     def longestPalindrome(self, s):

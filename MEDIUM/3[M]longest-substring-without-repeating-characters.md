@@ -10,7 +10,7 @@
 
 如果出现过了，那么将当前窗口的已经出现位置的前面的所有元素全部弹出当前窗口，(hash delet)。
 
-```
+```Python
 class Solution(object):
     def lengthOfLongestSubstring(self, s):
         """

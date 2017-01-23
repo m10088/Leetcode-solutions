@@ -10,7 +10,7 @@
 
 然后对s中的每个字母在hash表中查找，因为hash表中的每个链表都是有序的，因此可以使用类似lowerbound进行查找，如果最后能顺利，进行，那么返回true，否则返回false。
 
-```
+```Python
 class Solution(object):
     def isSubsequence(self, s, t):
         """
@@ -56,7 +56,7 @@ class Solution(object):
 
 如果不考虑题目“t是固定的很长的字符串，s是很短的字符串”，那么显然，t是可以每次测试的时候都进行遍历的。
 
-```
+```C++
 bool isSubsequence(char* s, char* t) {
     while (*t)
         s += *s == *t++;

@@ -9,7 +9,7 @@
 
 首先想到的方法是二分。
 
-```
+```Python
 class Solution(object):
     def findPeakElement(self, num):
         """
@@ -30,7 +30,7 @@ class Solution(object):
 
 但是使用顺序查找也行。
 
-```
+```C++
 class Solution {
 public:
     int findPeakElement(const vector<int> &num) {

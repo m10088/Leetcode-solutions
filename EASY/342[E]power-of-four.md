@@ -10,7 +10,7 @@
 最高位的那个1，应该在偶数的位置上。
 
 
-```
+```Python
 class Solution(object):
     def isPowerOfFour(self, num):
         """

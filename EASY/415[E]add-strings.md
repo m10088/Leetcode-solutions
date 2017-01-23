@@ -9,7 +9,7 @@
 
 当然可以，分别定义int2string，string2int的函数，但是效率太低。
 
-```
+```Python
 class Solution(object):
     def addStrings(self, num1, num2):
         """

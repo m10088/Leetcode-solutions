@@ -19,7 +19,7 @@
 
 将所有的gas和cost相加，如果cost > gas，那么无解，反之，一定有解。
 
-```
+```Python
 class Solution(object):
     def canCompleteCircuit(self, gas, cost):
         """

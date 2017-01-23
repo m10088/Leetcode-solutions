@@ -29,7 +29,7 @@ You end up paying $5 + $7 + $9 = $21.
 
 这个题目涉及到最大最小的关系，比较复杂，应该仔细思考。
 
-```
+```Python
 class Solution(object):
     def getMoneyAmount(self, n):
         """

@@ -7,7 +7,7 @@
 
 增加一个空余的节点
 
-```
+```Python
 
 # Definition for singly-linked list.
 # class ListNode(object):

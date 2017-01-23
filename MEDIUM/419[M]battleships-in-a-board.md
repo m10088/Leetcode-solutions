@@ -12,7 +12,7 @@
 为了省去边界条件的判断，使用hashing即可。
 
 
-```
+```Python
 class Solution(object):
     def countBattleships(self, board):
         """

@@ -15,7 +15,7 @@ Output:
 
 简单的回溯问题，但是需要注意返回条件比较多。
 
-```
+```Python
 class Solution(object):
     def combinationSum3(self, k, target):
         """

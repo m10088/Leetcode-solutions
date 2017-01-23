@@ -7,7 +7,7 @@
 
 传统的方法：
 
-```
+```Python
 class Solution(object):
     def hammingWeight(self, n):
         """
@@ -22,7 +22,7 @@ class Solution(object):
 ```
 python库解法。
 
-```
+```Python
 def hammingWeight(self, n): 
        return str(bin(n)).count('1')
 ```

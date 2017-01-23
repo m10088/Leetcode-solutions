@@ -19,7 +19,7 @@ search("b..") -> true
 
 就是一个trie树的数据结构，不过，因为支持模糊查询，如果遇到点的话，那么就应该遍历整个，节点的key。
 
-```
+```Python
 class TrieNode:
     # Initialize your data structure here.
     def __init__(self):

@@ -2,7 +2,7 @@
 
 题意：在**int**范围内反转一个数字，超过，就返回0
 
-```
+```Python
 class Solution(object):
     def reverse(self,x):
         reversedInt=int(str(x)[::-1]) if x>=0 else int('-'+str(x)[1:][::-1])

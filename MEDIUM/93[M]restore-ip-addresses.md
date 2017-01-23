@@ -18,7 +18,7 @@
 
 为了简单，简单返回所有可能的情况，对其进行进一步过滤。
 
-```
+```Python
 class Solution(object):
     def restoreIpAddresses(self, s):
         """
@@ -55,7 +55,7 @@ class Solution(object):
 评论区的一种暴力的解法，很不错。
 
 
-```
+```C++
 // c++  code
     vector<string> restoreIpAddresses(string s) {
         vector<string> ret;

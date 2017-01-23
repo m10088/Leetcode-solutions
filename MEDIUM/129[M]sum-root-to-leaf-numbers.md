@@ -6,7 +6,7 @@
 
 python递归过程修改局部全局变量，不是很方便，但是一般的int变量不能传递引用，使用list封装了下。
 
-```
+```Python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):

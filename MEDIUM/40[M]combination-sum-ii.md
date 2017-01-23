@@ -18,7 +18,7 @@ A solution set is:
 
 建议将下面的解法和combination-sum-i、subset_ii进行对比。
 
-```
+```Python
 
 class Solution(object):
     def combinationSum2(self, candidates, target):

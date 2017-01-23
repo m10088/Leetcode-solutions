@@ -9,7 +9,7 @@
 暴力枚举即可。
 
 
-```
+```Python
 class Solution(object):
     def repeatedSubstringPattern(self, s):
         """

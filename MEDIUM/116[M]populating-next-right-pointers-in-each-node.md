@@ -11,7 +11,7 @@
 因此可以每层每层的遍历，当前层next指针的设置，可以依赖上面的那一层进行。
 
 
-```
+```Python
 # Definition for binary tree with next pointer.
 # class TreeLinkNode:
 #     def __init__(self, x):

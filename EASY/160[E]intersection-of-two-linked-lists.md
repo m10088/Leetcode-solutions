@@ -8,7 +8,7 @@
 
 但是这种方法MLE了，据讨论区说，以前是可以ac的。
 
-```
+```Python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -45,7 +45,7 @@ class Solution(object):
 
 因此从网上看了另外一种解答方案。
 
-```
+```C++
 /**
  * Definition for singly-linked list.
  * struct ListNode {

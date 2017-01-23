@@ -7,7 +7,7 @@
 
 一行代码解决
 
-```
+```Python
 class Solution(object):
     def intersection(self, nums1, nums2):
         """

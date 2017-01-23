@@ -14,7 +14,7 @@
 
 假如 算的是 1 / 6，那么第一个余数是1，而不是4。
 
-```
+```Python
 class Solution(object):
     def fractionToDecimal(self, numerator, denominator):
         """

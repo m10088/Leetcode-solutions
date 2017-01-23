@@ -6,7 +6,7 @@
 
 统计每个字符的出现次数，偶数全加上，奇数少用一个，最后如果有奇数出现，中间还能多用一个。
 
-```
+```Python
 class Solution(object):
     def longestPalindrome(self, s):
         """

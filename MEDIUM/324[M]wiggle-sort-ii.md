@@ -13,7 +13,7 @@ nums[0] < nums[1] > nums[2] < nums[3]
 
 code tells everything.
 
-```
+```Python
 class Solution(object):
     def wiggleSort(self, nums):
         """

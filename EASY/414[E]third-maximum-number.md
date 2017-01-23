@@ -6,7 +6,7 @@
 
 O(n)，遍历根据情况，更新三个值。
 
-```
+```Python
 class Solution(object):
     def thirdMax(self, nums):
         """

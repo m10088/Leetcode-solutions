@@ -9,7 +9,7 @@
 因此可以使用双指针，前面的指针只要比后面的指针的数据大，就写入数据，推进慢指针。
 
 
-```
+```Python
 class Solution(object):
     def removeDuplicates(self, nums):
         """

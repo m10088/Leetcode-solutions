@@ -10,7 +10,7 @@
 maxi[i] : 以i结尾的区间之积的最大值。
 
 
-```
+```Python
 class Solution(object):
     def maxProduct(self, nums):
         """

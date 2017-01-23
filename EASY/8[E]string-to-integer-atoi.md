@@ -19,7 +19,7 @@ string转化成int。
 
 合适的时候，可以巧妙的使用python的异常。
 
-```
+```Python
 class Solution(object):
     def myAtoi(self, s):
         """
@@ -55,7 +55,7 @@ class Solution(object):
 
 讨论区的比较好的答案。
 
-```
+```Python
 class Solution(object):
     def myAtoi(self, s):
         """

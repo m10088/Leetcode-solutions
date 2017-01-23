@@ -6,7 +6,7 @@
 
 典型的位运算。
 
-```
+```C++
 class Solution {
 public:
     bool isPowerOfTwo(int n) {
@@ -17,7 +17,7 @@ public:
 
 可是要用python怎做呢？求log然后看是不是整数。
 
-```
+```Python
 class Solution(object):
     def isPowerOfTwo(self, n):
         """

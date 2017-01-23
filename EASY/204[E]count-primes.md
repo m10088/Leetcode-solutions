@@ -8,7 +8,7 @@
 如果使用naive的判断方法的话，每个数字检查需要O(sqrt(n))的复杂度。
 
 尝试埃氏筛选方法，但是超内存了，
-```
+```Python
 class Solution(object):
     def countPrimes(self, n):
         """

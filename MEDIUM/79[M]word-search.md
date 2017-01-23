@@ -15,7 +15,7 @@ dp = [[0] * m] * n
 正确的解法。
 
 
-```
+```Python
 
 class Solution(object):
     def exist(self, board, word):

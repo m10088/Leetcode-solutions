@@ -11,7 +11,7 @@
 
 对于每个(i, j)状态，返回一个list序列，将两个list按照某种运算求类似笛卡尔乘积。
 
-```
+```Python
 
 class Solution(object):
     

@@ -7,7 +7,7 @@
 
 虽然不知道这个题目，oj是如何判断的，但是很明显是二分的题目。1A。
 
-```
+```Python
 # The guess API is already defined for you.
 # @param num, your guess
 # @return -1 if my number is lower, 1 if my number is higher, otherwise return 0

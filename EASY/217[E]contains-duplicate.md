@@ -6,7 +6,7 @@
 
 hash即可。
 
-```
+```Python
 class Solution(object):
     def containsDuplicate(self, nums):
         """

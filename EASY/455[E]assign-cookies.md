@@ -10,7 +10,7 @@
 
 两个数组排序之后，进行贪心即可。
 
-```
+```Python
 class Solution(object):
     def findContentChildren(self, g, s):
         """

@@ -6,7 +6,7 @@
 
 正则表达式的解法：
 
-```
+```C++
 r'''^
 
 (M{0,3})
@@ -19,7 +19,7 @@ $'''
 
 然后分别检测每一组数字的大小。
 
-```
+```Python
 
 import re
 class Solution(object):
@@ -86,7 +86,7 @@ class Solution(object):
 实际上只要判断一个字符比它前面的字符大还是小就行。
 
 
-```
+```Python
 def romanToInt(self, s):
 
         romans = {'M': 1000, 'D': 500 , 'C': 100, 'L': 50, 'X': 10,'V': 5,'I': 1}

@@ -8,7 +8,7 @@
 思路就是考虑每个方格的上面和左边的情况，一共可以分成3中情况，使用hashing可以避免边界条件检查。
 
 
-```
+```Python
 class Solution(object):
     def islandPerimeter(self, grid):
         """

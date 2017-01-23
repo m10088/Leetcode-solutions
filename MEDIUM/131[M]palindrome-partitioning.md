@@ -8,7 +8,7 @@
 
 简单的回溯，就是注意结束的条件的判断。
 
-```
+```Python
 class Solution(object):
     def partition(self, s):
         """

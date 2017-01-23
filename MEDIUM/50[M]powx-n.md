@@ -7,7 +7,7 @@
 并使用快速幂。
 
 
-```
+```Python
 class Solution(object):
     def myPow(self, x, n):
         """

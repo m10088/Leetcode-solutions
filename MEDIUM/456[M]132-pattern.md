@@ -13,7 +13,7 @@
 题解:
 
 
-```
+```Python
 class Solution(object):
     def find132pattern(self, nums):
         """

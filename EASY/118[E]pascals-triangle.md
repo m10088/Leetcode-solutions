@@ -4,7 +4,7 @@
 
 求杨辉三角：
 
-```
+```Python
 class Solution(object):
     def generate(self, numRows):
         """

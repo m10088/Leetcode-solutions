@@ -26,7 +26,7 @@
 在这总情况下，看这个大小是不是比gap大，如果大于gap那么就，一定是，
 那么中间就没有0，因此是合格的，但是如果比gap小，那么结果就一定是中间出现了0，只要中间出现了0，那么这一位就已经不行了。
 
-```
+```C++
 class Solution {
     public:
         int rangeBitwiseAnd(long long m, long long n) {
@@ -48,7 +48,7 @@ class Solution {
 这是第二种方法：
 
 
-```
+```Python
 class Solution(object):
     def rangeBitwiseAnd(self, m, n):
         """
@@ -79,7 +79,7 @@ class Solution(object):
 
 当然也可以给出递归的解决方案。
 
-```
+```C++
 int rangeBitwiseAnd(int m, int n) {
     return (n > m) ? (rangeBitwiseAnd(m/2, n/2) << 1) : m;
 }

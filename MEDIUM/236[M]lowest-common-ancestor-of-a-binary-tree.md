@@ -11,7 +11,7 @@
 235的方法：从顶向下dfs，每个节点判断是不是一个，lca。
 
 
-```
+```Python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -45,7 +45,7 @@ class Solution(object):
 
 改进策略：
 
-```
+```Python
 def lowestCommonAncestor(self, root, p, q):
         """
         :type root: TreeNode
@@ -69,7 +69,7 @@ def lowestCommonAncestor(self, root, p, q):
 
 当然这里的遍历可以使用stack尽心模拟实现。
 
-```
+```Python
 def lowestCommonAncestor(self, root, p, q):
         def dfs(root, parents, pre):
             if root:

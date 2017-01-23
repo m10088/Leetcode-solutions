@@ -11,7 +11,7 @@ python的hash表支持==操作。
 
 注意在维护的过程中，某个hash的值变为0，要及时的删除。
 
-```
+```Python
 class Solution(object):
     def findAnagrams(self, s, p):
         """

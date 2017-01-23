@@ -8,7 +8,7 @@
 
 简单的方式，就是使用python的优先队列。
 
-```
+```Python
 class Solution(object):
     def kSmallestPairs(self, nums1, nums2, k):
         """

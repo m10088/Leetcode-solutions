@@ -6,7 +6,7 @@
 
 主要是python处理字符串的一些用法。
 
-```
+```Python
 class Solution(object):
     def lengthOfLastWord(self, s):
         """

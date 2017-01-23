@@ -16,7 +16,7 @@ For [1,2], the interval [2,3] has minimum-"right" start point.
 
 题解:
 
-```
+```Python
 # Definition for an interval.
 # class Interval(object):
 #     def __init__(self, s=0, e=0):

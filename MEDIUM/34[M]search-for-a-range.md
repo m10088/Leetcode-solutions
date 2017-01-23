@@ -8,7 +8,7 @@
 
 lowerbound和upperbound
 
-```
+```Python
 class Solution(object):
     def searchRange(self, nums, target):
         """

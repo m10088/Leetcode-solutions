@@ -12,7 +12,7 @@
 为了方便二维数组的大小可以多出一个。
 
 
-```
+```Python
 
 class NumMatrix(object):
       def __init__(self, matrix):

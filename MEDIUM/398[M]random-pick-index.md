@@ -8,7 +8,7 @@
 
 因此需要不断的随机挑选，一直到选到目标的数字为止。
 
-```
+```Python
 class Solution(object):
 
     def __init__(self, nums):

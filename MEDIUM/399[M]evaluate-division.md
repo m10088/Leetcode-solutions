@@ -18,7 +18,7 @@
 
 优化之后，dfs进行一次就行。
 
-```
+```Python
 class Solution(object):
     def calcEquation(self, eqs, vals, queries):
         """

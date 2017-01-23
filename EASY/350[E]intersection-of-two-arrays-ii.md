@@ -9,7 +9,7 @@
 
 hash即可。
 
-```
+```Python
 class Solution(object):
   
     def intersect(self, nums1, nums2):  

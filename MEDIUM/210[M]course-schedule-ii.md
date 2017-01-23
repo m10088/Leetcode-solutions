@@ -6,7 +6,7 @@
 给定课程的依赖关系，进行课程排序，拓扑排序即可。
 
 
-```
+```Python
 class Solution(object):
     def findOrder(self, n, prerequisites):
         """

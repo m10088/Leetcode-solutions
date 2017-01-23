@@ -6,7 +6,7 @@
 
 hash，不断的更新num的位置。即可。
 
-```
+```Python
 class Solution(object):
     def containsNearbyDuplicate(self, nums, k):
         """

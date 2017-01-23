@@ -13,7 +13,7 @@
 
 关键是记录是不是重复必须使用额外的一个数组，但是也有一种方式，就是使用原来的数字的负数，标记已经出现过了，哈哈，聪明哦。
 
-```
+```Python
 class Solution(object):
     def findDuplicates(self, nums):
         """

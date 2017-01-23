@@ -20,7 +20,7 @@
 如果遇到了加减，那么将栈中的运算符，全部弹出并应用。
 
 
-```
+```Python
 class Solution(object):
     def calculate(self, s):
         """

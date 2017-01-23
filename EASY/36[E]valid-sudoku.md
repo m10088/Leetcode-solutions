@@ -8,7 +8,7 @@
 这里的有效不是有解，而是规定的范围内，有没有重复的数字。
 
 
-```
+```Python
     def evaluation(list):
         return len(set(list)) == len(list)
 

@@ -7,7 +7,7 @@
 
 其实，思路很简单，从正向的使用一次乘法累乘，从负向的使用一次乘法累乘即可。
 
-```
+```Python
 class Solution(object):
     def productExceptSelf(self, nums):
         """

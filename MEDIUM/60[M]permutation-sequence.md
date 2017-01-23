@@ -24,7 +24,7 @@
 为了增加性能，可以改为迭代。
 
 
-```
+```Python
 import math
 class Solution:
     # @param {integer} n

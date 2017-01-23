@@ -5,7 +5,7 @@
 
 将一个升序的数组，转化成平衡的BST。
 
-```
+```Python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):

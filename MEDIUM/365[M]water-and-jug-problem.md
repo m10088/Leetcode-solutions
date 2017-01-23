@@ -17,7 +17,7 @@
 因此也就有了下面的代码。
 
 
-```
+```Python
 class Solution(object):
     def canMeasureWater(self, x, y, z):
         """

@@ -14,7 +14,7 @@ dp[i]代表从1-i能偷到的最多的钱。
 
 dp[i] = max(dp[i-1], nums[i] + dp[i-2]);
 
-```
+```Python
 
 class Solution(object):
     def rob(self, nums):
@@ -33,7 +33,7 @@ class Solution(object):
 
 同样是上述的思路，讨论区有人，优化到了空间O(1)。
 
-```
+```C++
 int rob(int num[], int n) {
     int a = 0;
     int b = 0;

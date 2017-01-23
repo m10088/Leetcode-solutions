@@ -6,7 +6,7 @@
 在4个数组中，分别找4个数字让他们的和是0，这里返回的是索引，因此不会产生重复，简单的题目，看代码。
 
 
-```
+```Python
 class Solution(object):
     def fourSumCount(self, A, B, C, D):
         """

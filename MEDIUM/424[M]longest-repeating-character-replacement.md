@@ -12,7 +12,7 @@
 维护一个窗口，满足一个性质，出现次数最多的那个字母出现的次数是x，窗口的当前长度的是l，只要 l <= x + k，窗口就能进一步扩展。
 
 
-```
+```Python
 class Solution(object):
     def characterReplacement(self, s, k):
         """

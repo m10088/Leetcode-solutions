@@ -6,7 +6,7 @@
 
 考虑一些特殊的情况即可。
 
-```
+```Python
 
 def split(head):
     dummy = ListNode(-1)

@@ -8,7 +8,7 @@ C++当然直接调用函数就行了。
 
 如果用python，我们实际上，是可以自己实现下的。
 
-```
+```Python
 class Solution(object):
     def permute(self, nums):
         """
@@ -34,7 +34,7 @@ class Solution(object):
 
 另外一种速度比较快的，使用的python的生成器的解法。
 
-```
+```Python
 class Solution(object):
     
     def permute(self, nums):

@@ -10,7 +10,7 @@
 证明过程，详见算法导论。
 
 
-```
+```Python
 class Solution(object):
 
     def __init__(self, nums):

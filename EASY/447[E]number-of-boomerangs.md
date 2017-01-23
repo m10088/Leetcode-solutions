@@ -7,7 +7,7 @@
 
 因此直接对每个点，进行统计相同的距离的点的个数即可。
 
-```
+```Python
 class Solution(object):
     def numberOfBoomerangs(self, points):
         """

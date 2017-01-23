@@ -8,7 +8,7 @@
 
 题解:
 
-```
+```Python
 class Solution(object):
     def validIPAddress(self, IP):
         """

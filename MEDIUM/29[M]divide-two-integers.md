@@ -17,7 +17,7 @@
 
 除此之外，处理一些简单的细节。
 
-```
+```Python
 class Solution(object):
     def divide(self, dividend, divisor):
         """

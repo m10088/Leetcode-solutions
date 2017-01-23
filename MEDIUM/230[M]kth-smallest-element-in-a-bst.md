@@ -13,7 +13,7 @@
 
 然后使用常规的递归算法。
 
-```
+```Python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):

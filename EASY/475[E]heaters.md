@@ -13,7 +13,7 @@
 
 优化：二分查找，提高效率。
 
-```
+```Python
 class Solution(object):
     def search_floor_ceiling(self, nums, target):
         n = len(nums)

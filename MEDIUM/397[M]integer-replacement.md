@@ -14,7 +14,7 @@
 
 当然这里有一个特殊的点，就是3，需要单独处理。
 
-```
+```Python
 
 class Solution(object):
     def integerReplacement(self, n):

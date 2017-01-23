@@ -7,7 +7,7 @@
 
 因为给定的节点不会是尾部的节点，因此可以删除下一个节点，将下一个节点的内容，放到本节点即可。
 
-```
+```Python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):

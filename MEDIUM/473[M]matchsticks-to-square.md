@@ -16,7 +16,7 @@ dfs的时候先判断哪个数字大的，这样可以有效的减少dfs的层�
 
 先倒序一下，然后dfs即可，尝试每根木棍放到四个组，如果最后成功那么退出。
 
-```
+```Python
 class Solution(object):
     def makesquare(self, nums):
         """

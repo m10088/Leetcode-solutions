@@ -11,7 +11,7 @@ given [0,1,2,4,5,7], return ["0->2","4->5","7"].
 ```
 模拟即可。
 
-```
+```Python
 class Solution(object):
     def summaryRanges(self, nums):
         """

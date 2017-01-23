@@ -2,7 +2,7 @@
 
 求元素中出现次数最多的k个元素，明显是hash。
 
-```
+```Python
 class Solution(object):
     def topKFrequent(self, nums, k):
         """

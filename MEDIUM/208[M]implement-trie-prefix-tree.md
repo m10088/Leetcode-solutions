@@ -8,7 +8,7 @@
 原理算是比较简单吧，但是以前总是使用递归的方式，边界处理的也不是很好。这次使用了迭代的方式进行、
 
 
-```
+```Python
 class TrieNode:
         # Initialize your data structure here.
         def __init__(self):

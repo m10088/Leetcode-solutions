@@ -7,7 +7,7 @@
 
 对于每一个dp元素，如果此位置上有障碍物，那么此位置的dp就是0，否则按原来的方式计算。
 
-```
+```Python
 class Solution(object):
     def uniquePathsWithObstacles(self, obstacleGrid):
         """

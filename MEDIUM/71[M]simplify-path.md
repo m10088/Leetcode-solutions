@@ -9,7 +9,7 @@
 同时需要注意很多特殊情况，code tells everything。
 
 
-```
+```Python
 class Solution(object):
     def simplifyPath(self, path):
         """

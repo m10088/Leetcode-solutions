@@ -10,7 +10,7 @@
 
 使用dict即可。
 
-```
+```C++
 d = {}
 node = head
 while node:
@@ -20,7 +20,7 @@ duplicates = {k for k, v in d.items() if v > 1}
 ```
 
 
-```
+```Python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):

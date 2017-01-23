@@ -10,7 +10,7 @@
 
 使用数组位置取反，代表制定的元素a[i]位置已经出现了。
 
-```
+```Python
 class Solution(object):
     def findDisappearedNumbers(self, nums):
         """

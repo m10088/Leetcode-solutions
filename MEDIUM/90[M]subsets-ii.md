@@ -4,7 +4,7 @@
 
 给定一个集合，找所有的子集，子集不用索引表示，用值表示，因此可能产生，重复，你的工作就是如何避免这种重复。
 
-```
+```Python
 class Solution(object):
     def subsetsWithDup(self, nums):
         """

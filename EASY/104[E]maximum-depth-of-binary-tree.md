@@ -2,7 +2,7 @@
 
 题意求二叉树的最大的高度：
 
-```
+```Python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):

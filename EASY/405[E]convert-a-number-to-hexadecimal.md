@@ -4,7 +4,7 @@
 
 将32bit的数，转化成hex，不能有前导0。
 
-```
+```C++
 class Solution {
 public:
     string toHex(int num) {

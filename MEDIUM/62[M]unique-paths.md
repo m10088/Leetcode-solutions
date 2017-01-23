@@ -6,7 +6,7 @@
 
 首先想到的解决方案。
 
-```
+```C++
 int uniquePaths(int m, int n) {
         vector<vector<int> > path(m, vector<int> (n, 1));
         for (int i = 1; i < m; i++)
@@ -18,7 +18,7 @@ int uniquePaths(int m, int n) {
 
 然后发现可以使用滚动数组。
 
-```
+```C++
  int uniquePaths(int m, int n) {
         if (m > n) return uniquePaths(n, m); 
         vector<int> pre(m, 1);
@@ -34,7 +34,7 @@ int uniquePaths(int m, int n) {
 
 然后发现其实一维数组就够了。
 
-```
+```Python
 
 class Solution(object):
     def uniquePaths(self, m, n):

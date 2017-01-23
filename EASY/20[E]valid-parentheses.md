@@ -6,7 +6,7 @@
 
 用栈模拟即可。
 
-```
+```Python
 class Solution(object):
     def isValid(self, s):
         """
@@ -34,7 +34,7 @@ class Solution(object):
 
 clean and clever solution.
 
-```
+```C++
     while True:
         a = s == s.replace("()","")
         s = s.replace("()","")

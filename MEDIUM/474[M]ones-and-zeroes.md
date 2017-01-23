@@ -8,7 +8,7 @@
 
 背包问题的变形，不过是代价是一个二维的，收获是一个数量。
 
-```
+```Python
 class Solution(object):
     def findMaxForm(self, strs, m, n):
         """

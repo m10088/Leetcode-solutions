@@ -8,7 +8,7 @@
 等差数列求和 - sum即可。
 
 
-```
+```Python
 class Solution(object):
     def missingNumber(self, nums):
         """

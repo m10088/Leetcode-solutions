@@ -4,7 +4,7 @@
 
 判断一个字符串中有几个部分，使用py的正则表达式即可。
 
-```
+```Python
 class Solution(object):
     def countSegments(self, s):
         """

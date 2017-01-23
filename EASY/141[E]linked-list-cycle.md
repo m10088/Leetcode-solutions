@@ -6,7 +6,7 @@
 
 不能使用额外的空间，这个题目使用快慢指针即可。
 
-```
+```Python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):

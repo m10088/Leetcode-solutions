@@ -9,7 +9,7 @@
 bfs或者dfs均可。
 
 
-```
+```Python
 class Solution(object):
     def pacificAtlantic(self, matrix):
         """

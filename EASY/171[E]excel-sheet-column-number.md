@@ -7,7 +7,7 @@
 
 分别计算出，x位字母的时候，最多可以表示多少个，然后加上偏移量，即可。
 
-```
+```Python
 class Solution(object):
     def titleToNumber(self, s):
         """

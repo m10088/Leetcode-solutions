@@ -7,7 +7,7 @@
 实现一个序列的next和hasnext的函数，主要就是在每次next调用之后，以及初始化的时候，提前将下一个数字保存好。
 
 
-```
+```Python
 class PeekingIterator(object):
     def __init__(self, iterator):
         self.iter = iterator

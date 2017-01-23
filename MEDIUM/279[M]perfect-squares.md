@@ -18,7 +18,7 @@ n最少能组成多少个完全平方数字的和。
 
 这是原本的代码。
 
-```
+```Python
 class Solution(object):
     def numSquares(self, n):
         """
@@ -46,7 +46,7 @@ class Solution(object):
 下面是优化之后的代码。
 
 
-```
+```Python
 class Solution(object):
     _dp = [0]
     def numSquares(self, n):

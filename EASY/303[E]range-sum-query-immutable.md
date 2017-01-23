@@ -6,7 +6,7 @@
 
 思路，保存前缀和即可。
 
-```
+```Python
 class NumArray(object):
     def __init__(self, nums):
         """

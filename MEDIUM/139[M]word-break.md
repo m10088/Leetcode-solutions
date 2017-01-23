@@ -13,7 +13,7 @@
 dp保存到当前是不是能够分割，然后根据前面确定出来的状态确定现在的状态。
 
 
-```
+```Python
 class Solution(object):
     def wordBreak(self, s, wordDict):
         """

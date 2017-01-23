@@ -9,7 +9,7 @@
 
 
 
-```
+```Python
 class Solution(object):
     def moveZeroes(self, nums):
         """
@@ -26,7 +26,7 @@ class Solution(object):
 
 或者
 
-```
+```C++
 class Solution {
 public:
     void moveZeroes(vector<int>& nums) {

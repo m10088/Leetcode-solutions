@@ -9,7 +9,7 @@
 
 扫描数组，相邻发现增量的时候，增加到结果中即可。
 
-```
+```Python
 class Solution(object):
     def maxProfit(self, prices):
         """

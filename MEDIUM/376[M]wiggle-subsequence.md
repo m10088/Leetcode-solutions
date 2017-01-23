@@ -7,7 +7,7 @@
 题解:
 
 
-```
+```Python
 class Solution(object):
     def wiggleMaxLength(self, nums):
         """

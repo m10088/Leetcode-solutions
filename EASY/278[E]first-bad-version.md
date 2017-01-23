@@ -8,7 +8,7 @@ false， false，，，，，true，true
 
 二分查找。
 
-```
+```Python
 # The isBadVersion API is already defined for you.
 # @param version, an integer
 # @return a bool

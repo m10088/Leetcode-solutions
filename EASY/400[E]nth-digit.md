@@ -6,7 +6,7 @@
 
 首先，确定范围是在100-999，之间还是1000-9999之间，然后，计算第几个数字的第几位，这里发现，n-1之后处理更加方便。
 
-```
+```Python
 class Solution(object):
     def findNthDigit(self, n):
         """

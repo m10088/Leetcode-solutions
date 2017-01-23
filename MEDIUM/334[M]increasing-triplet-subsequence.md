@@ -14,7 +14,7 @@ such that arr[i] < arr[j] < arr[k] given 0 ≤ i < j < k ≤ n-1 else return fal
 
 但是我们可以在一次扫描的过程中，不断的记录最小的值和次小的值，看是否能发生更新，如果本次不能发生更新，那么说明能够找到这样的值。
 
-```
+```Python
 
 class Solution(object):
     def increasingTriplet(self, nums):

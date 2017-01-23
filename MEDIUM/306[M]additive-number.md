@@ -9,7 +9,7 @@
 
 这道题没有什么好方法，就是暴力回溯，直到找到一个满足题意的为止。
 
-```
+```Python
 class Solution(object):
     def isAdditiveNumber(self, num):
         # 这里保证传入的数字的最开始的一位不是0

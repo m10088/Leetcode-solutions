@@ -7,7 +7,7 @@
 
 递归遍历，然后到叶子节点判断。
 
-```
+```Python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -41,7 +41,7 @@ class Solution(object):
 一种递归的解法：
 
 clean solution
-```
+```Python
 def hasPathSum(self, root, sum):
         if root == None:return False
         if root.val - sum == 0 and root.left == None and root.right == None:return True

@@ -6,7 +6,7 @@
 
 每次将数组扩大一倍，扩大一倍的时候，相当于在原来的对应位置的基础上进行了+1操作。
 
-```
+```Python
 class Solution(object):
     def countBits(self, num):
         """

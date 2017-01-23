@@ -18,7 +18,7 @@
 
 从右向左的时候需要分两种情况讨论。
 
-```
+```Python
 class Solution(object):
     def lastRemaining(self, n):
         """

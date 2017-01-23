@@ -7,7 +7,7 @@
 dp即可。但是这里可是使用滚动数组，优化空间复杂度。
 
 
-```
+```Python
 class Solution(object):
     def minPathSum(self, grid):
         """
@@ -34,7 +34,7 @@ class Solution(object):
 
 滚动数组。
 
-```
+```Python
     def minPathSum(self, grid):
         """
         :type grid: List[List[int]]

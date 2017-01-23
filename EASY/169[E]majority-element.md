@@ -10,7 +10,7 @@
 这个解法能保证时间复杂度只有O(N)，而且不占用更多的空间。虽然你可能觉得你理解了这个方法，比如，当这个最多数全部出现在数组的前端的时候（trivial）。但此解法的严格证明，并非这么简单的。有兴趣的人可以去[A Linear-Time Majority Vote Algorithm](http://www.cs.utexas.edu/~moore/best-ideas/mjrty/)，里面有原作者的paper。
 
 
-```
+```Python
 class Solution(object):
     def majorityElement(self, nums):
         """
@@ -39,7 +39,7 @@ O(\sum_{1}^{\infty}  k(1/2)^k)=O(2)
 每抽一次要花n来验证，所以最后的时间复杂度也是O(N)，并且不占额外的空间。
 
 
-```
+```Python
 class Solution(object):
     def majorityElement(self, nums):
         """

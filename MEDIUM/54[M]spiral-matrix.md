@@ -7,7 +7,7 @@
 
 模拟即可：
 
-```
+```Python
 class Solution(object):
     def spiralOrder(self, matrix):
         """

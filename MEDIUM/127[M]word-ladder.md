@@ -17,7 +17,7 @@
 
 同时也不一定需要预处理，可以每走一步处理一下。
 
-```
+```Python
 import string
 class Solution(object):
     def ladderLength(self, beginWord, endWord, wordList):

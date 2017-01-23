@@ -18,7 +18,7 @@ So we indeed get the right answer by rounding down
 
 we can use binary search as well.
 
-```
+```Python
 class Solution(object):
     def arrangeCoins(self, n):
         """

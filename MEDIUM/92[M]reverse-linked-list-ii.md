@@ -23,7 +23,7 @@ pn->5
 适当修改```reverse```函数，同时返回结尾的指针。
 
 
-```
+```Python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):

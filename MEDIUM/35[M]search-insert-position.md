@@ -7,7 +7,7 @@
 
 实现lower-bound
 
-```
+```Python
 class Solution(object):
     def searchInsert(self, a, target):
         """

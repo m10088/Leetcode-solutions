@@ -20,7 +20,7 @@
 题解:
 
 
-```
+```Python
 class Solution(object):
     def removeKdigits(self, nums, k):
         """

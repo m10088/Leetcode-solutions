@@ -9,7 +9,7 @@
 
 正着考虑很麻烦，逆向思维很重要。
 
-```
+```Python
 class Solution(object):
     def minMoves(self, nums):
         """

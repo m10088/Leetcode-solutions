@@ -4,7 +4,7 @@
 
 找第一个在串中unique的字符。
 
-```
+```Python
 class Solution(object):
     def firstUniqChar(self, s):
         """

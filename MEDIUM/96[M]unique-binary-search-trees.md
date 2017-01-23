@@ -21,7 +21,7 @@ f（n）=h（n）= C（2n,n）/（n+1）= c（2n,n）-c（2n,n+1）（n=0，1，
 最后，令f（0）=1，f（1）=1。
 ```
 
-```
+```Python
 class Solution(object):
     def numTrees(self, n):
         """

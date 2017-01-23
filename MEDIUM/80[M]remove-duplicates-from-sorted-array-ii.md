@@ -12,7 +12,7 @@
 
 需要额外注意一下开始的特殊情况。
 
-```
+```Python
 class Solution(object):
     def removeDuplicates(self, nums):
         """

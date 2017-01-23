@@ -6,7 +6,7 @@
 
 主要是将以前写过的两个function，合理的组合一下。
 
-```
+```Python
 def mergeTwoLists(l1, l2):
         nummy = ListNode(-1)
         p = nummy
@@ -74,7 +74,7 @@ class Solution(object):
 
 当然可以采用bottom_up的方法进行。
 
-```
+```C++
 ListNode *sortList(ListNode *head) {
 		if(!head || !(head->next)) return head;
 		
@@ -106,7 +106,7 @@ ListNode *sortList(ListNode *head) {
 
 helper_function.
 
-```
+```C++
 
 /**
 	 * Divide the linked list into two lists,

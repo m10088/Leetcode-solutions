@@ -7,7 +7,7 @@
 这里不使用传统的bfs的方法，采用dfs进行。
 
 
-```
+```Python
 
 # Definition for a binary tree node.
 # class TreeNode(object):

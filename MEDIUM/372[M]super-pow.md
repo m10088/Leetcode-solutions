@@ -11,7 +11,7 @@
 
 注释中写的很清楚。
 
-```
+```Python
 M = 1337
 class Solution(object):
     def superPow(self, a, b):

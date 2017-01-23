@@ -23,7 +23,7 @@ dir
 
 因此这道题目的最关键的是如何找到某个位置的parent目录，如果当前目录的的级别是3，那么前面最后一次出现2级别的位置，就是parent目录，因此只要不断的维护，x级别最后一次出现的位置就行。
 
-```
+```Python
 class Solution(object):
     def lengthLongestPath(self, input):
         """

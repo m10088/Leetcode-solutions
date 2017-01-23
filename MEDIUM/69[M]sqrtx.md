@@ -7,7 +7,7 @@
 
 但这里我们使用牛顿迭代法。
 
-```
+```Python
 class Solution(object):
     def mySqrt(self, x):
         """

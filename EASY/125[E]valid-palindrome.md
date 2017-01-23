@@ -5,7 +5,7 @@
 判断是不是回文数。数字和字母，其他忽略。
 
 
-```
+```Python
 class Solution(object):
     def isPalindrome(self, s):
         """

@@ -7,7 +7,7 @@
 
 遍历的同时记录即可，注意python的list的 = 并不是复制。
 
-```
+```Python
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
