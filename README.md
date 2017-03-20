@@ -313,6 +313,90 @@
 
 
 
+
+-------------
+
+### Hard-section(updating...)
+
+|NO.|Title|Solution|Difficulty|
+|---|-----|--------|--------|
+|4|[median-of-two-sorted-arrays](https://leetcode.com/problems/median-of-two-sorted-arrays)|[Python](HARD/4[H]median-of-two-sorted-arrays.md)|H|
+|10|[regular-expression-matching](https://leetcode.com/problems/regular-expression-matching)|[Python](HARD/10[H]regular-expression-matching.md)|H|
+|23|[merge-k-sorted-lists](https://leetcode.com/problems/merge-k-sorted-lists)|[Python](HARD/23[H]merge-k-sorted-lists.md)|H|
+|25|[reverse-nodes-in-k-group](https://leetcode.com/problems/reverse-nodes-in-k-group)|[Python](HARD/25[H]reverse-nodes-in-k-group.md)|H|
+|30|[substring-with-concatenation-of-all-words](https://leetcode.com/problems/substring-with-concatenation-of-all-words)|[Python](HARD/30[H]substring-with-concatenation-of-all-words.md)|H|
+|32|[longest-valid-parentheses](https://leetcode.com/problems/longest-valid-parentheses)|[Python](HARD/32[H]longest-valid-parentheses.md)|H|
+|33|[search-in-rotated-sorted-array](https://leetcode.com/problems/search-in-rotated-sorted-array)|[Python](HARD/33[H]search-in-rotated-sorted-array.md)|H|
+|37|[sudoku-solver](https://leetcode.com/problems/sudoku-solver)|[Python](HARD/37[H]sudoku-solver.md)|H|
+|41|[first-missing-positive](https://leetcode.com/problems/first-missing-positive)|[Python](HARD/41[H]first-missing-positive.md)|H|
+|42|[trapping-rain-water](https://leetcode.com/problems/trapping-rain-water)|[Python](HARD/42[H]trapping-rain-water.md)|H|
+|44|[wildcard-matching](https://leetcode.com/problems/wildcard-matching)|[Python](HARD/44[H]wildcard-matching.md)|H|
+|45|[jump-game-ii](https://leetcode.com/problems/jump-game-ii)|[Python](HARD/45[H]jump-game-ii.md)|H|
+|51|[n-queens](https://leetcode.com/problems/n-queens)|[Python](HARD/51[H]n-queens.md)|H|
+|52|[n-queens-ii](https://leetcode.com/problems/n-queens-ii)|[Python](HARD/52[H]n-queens-ii.md)|H|
+|57|[insert-interval](https://leetcode.com/problems/insert-interval)|[Python](HARD/57[H]insert-interval.md)|H|
+|65|[valid-number](https://leetcode.com/problems/valid-number)|[Python](HARD/65[H]valid-number.md)|H|
+|68|[text-justification](https://leetcode.com/problems/text-justification)|[Python](HARD/68[H]text-justification.md)|H|
+|72|[edit-distance](https://leetcode.com/problems/edit-distance)|[Python](HARD/72[H]edit-distance.md)|H|
+|76|[minimum-window-substring](https://leetcode.com/problems/minimum-window-substring)|[Python](HARD/76[H]minimum-window-substring.md)|H|
+|84|[largest-rectangle-in-histogram](https://leetcode.com/problems/largest-rectangle-in-histogram)|[Python](HARD/84[H]largest-rectangle-in-histogram.md)|H|
+|85|[maximal-rectangle](https://leetcode.com/problems/maximal-rectangle)|[Python](HARD/85[H]maximal-rectangle.md)|H|
+|87|[scramble-string](https://leetcode.com/problems/scramble-string)|[Python](HARD/87[H]scramble-string.md)|H|
+|97|[interleaving-string](https://leetcode.com/problems/interleaving-string)|[Python](HARD/97[H]interleaving-string.md)|H|
+|99|[recover-binary-search-tree](https://leetcode.com/problems/recover-binary-search-tree)|[Python](HARD/99[H]recover-binary-search-tree.md)|H|
+|115|[distinct-subsequences](https://leetcode.com/problems/distinct-subsequences)|[Python](HARD/115[H]distinct-subsequences.md)|H|
+|123|[best-time-to-buy-and-sell-stock-iii](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii)|[Python](HARD/123[H]best-time-to-buy-and-sell-stock-iii.md)|H|
+|124|[binary-tree-maximum-path-sum](https://leetcode.com/problems/binary-tree-maximum-path-sum)|[Python](HARD/124[H]binary-tree-maximum-path-sum.md)|H|
+|126|[word-ladder-ii](https://leetcode.com/problems/word-ladder-ii)|[Python](HARD/126[H]word-ladder-ii.md)|H|
+|128|[longest-consecutive-sequence](https://leetcode.com/problems/longest-consecutive-sequence)|[Python](HARD/128[H]longest-consecutive-sequence.md)|H|
+|132|[palindrome-partitioning-ii](https://leetcode.com/problems/palindrome-partitioning-ii)|[Python](HARD/132[H]palindrome-partitioning-ii.md)|H|
+|135|[candy](https://leetcode.com/problems/candy)|[Python](HARD/135[H]candy.md)|H|
+|140|[word-break-ii](https://leetcode.com/problems/word-break-ii)|[Python](HARD/140[H]word-break-ii.md)|H|
+|145|[binary-tree-postorder-traversal](https://leetcode.com/problems/binary-tree-postorder-traversal)|[Python](HARD/145[H]binary-tree-postorder-traversal.md)|H|
+|146|[lru-cache](https://leetcode.com/problems/lru-cache)|[Python](HARD/146[H]lru-cache.md)|H|
+|149|[max-points-on-a-line](https://leetcode.com/problems/max-points-on-a-line)|[Python](HARD/149[H]max-points-on-a-line.md)|H|
+|154|[find-minimum-in-rotated-sorted-array-ii](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii)|[Python](HARD/154[H]find-minimum-in-rotated-sorted-array-ii.md)|H|
+|164|[maximum-gap](https://leetcode.com/problems/maximum-gap)|[Python](HARD/164[H]maximum-gap.md)|H|
+|174|[dungeon-game](https://leetcode.com/problems/dungeon-game)|[Python](HARD/174[H]dungeon-game.md)|H|
+|188|[best-time-to-buy-and-sell-stock-iv](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv)|[Python](HARD/188[H]best-time-to-buy-and-sell-stock-iv.md)|H|
+|212|[word-search-ii](https://leetcode.com/problems/word-search-ii)|[Python](HARD/212[H]word-search-ii.md)|H|
+|214|[shortest-palindrome](https://leetcode.com/problems/shortest-palindrome)|[Python](HARD/214[H]shortest-palindrome.md)|H|
+|218|[the-skyline-problem](https://leetcode.com/problems/the-skyline-problem)|[Python](HARD/218[H]the-skyline-problem.md)|H|
+|224|[basic-calculator](https://leetcode.com/problems/basic-calculator)|[Python](HARD/224[H]basic-calculator.md)|H|
+|233|[number-of-digit-one](https://leetcode.com/problems/number-of-digit-one)|[Python](HARD/233[H]number-of-digit-one.md)|H|
+|239|[sliding-window-maximum](https://leetcode.com/problems/sliding-window-maximum)|[Python](HARD/239[H]sliding-window-maximum.md)|H|
+|273|[integer-to-english-words](https://leetcode.com/problems/integer-to-english-words)|[Python](HARD/273[H]integer-to-english-words.md)|H|
+|282|[expression-add-operators](https://leetcode.com/problems/expression-add-operators)|[Python](HARD/282[H]expression-add-operators.md)|H|
+|295|[find-median-from-data-stream](https://leetcode.com/problems/find-median-from-data-stream)|[Python](HARD/295[H]find-median-from-data-stream.md)|H|
+|297|[serialize-and-deserialize-binary-tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree)|[Python](HARD/297[H]serialize-and-deserialize-binary-tree.md)|H|
+|301|[remove-invalid-parentheses](https://leetcode.com/problems/remove-invalid-parentheses)|[Python](HARD/301[H]remove-invalid-parentheses.md)|H|
+|312|[burst-balloons](https://leetcode.com/problems/burst-balloons)|[Python](HARD/312[H]burst-balloons.md)|H|
+|315|[count-of-smaller-numbers-after-self](https://leetcode.com/problems/count-of-smaller-numbers-after-self)|[Python](HARD/315[H]count-of-smaller-numbers-after-self.md)|H|
+|316|[remove-duplicate-letters](https://leetcode.com/problems/remove-duplicate-letters)|[Python](HARD/316[H]remove-duplicate-letters.md)|H|
+|321|[create-maximum-number](https://leetcode.com/problems/create-maximum-number)|[Python](HARD/321[H]create-maximum-number.md)|H|
+|327|[count-of-range-sum](https://leetcode.com/problems/count-of-range-sum)|[Python](HARD/327[H]count-of-range-sum.md)|H|
+|329|[longest-increasing-path-in-a-matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix)|[Python](HARD/329[H]longest-increasing-path-in-a-matrix.md)|H|
+|330|[patching-array](https://leetcode.com/problems/patching-array)|[Python](HARD/330[H]patching-array.md)|H|
+|335|[self-crossing](https://leetcode.com/problems/self-crossing)|[Python](HARD/335[H]self-crossing.md)|H|
+|336|[palindrome-pairs](https://leetcode.com/problems/palindrome-pairs)|[Python](HARD/336[H]palindrome-pairs.md)|H|
+|352|[data-stream-as-disjoint-intervals](https://leetcode.com/problems/data-stream-as-disjoint-intervals)|[Python](HARD/352[H]data-stream-as-disjoint-intervals.md)|H|
+|354|[russian-doll-envelopes](https://leetcode.com/problems/russian-doll-envelopes)|[Python](HARD/354[H]russian-doll-envelopes.md)|H|
+|363|[max-sum-of-sub-matrix-no-larger-than-k](https://leetcode.com/problems/max-sum-of-sub-matrix-no-larger-than-k)|[Python](HARD/363[H]max-sum-of-sub-matrix-no-larger-than-k.md)|H|
+|381|[insert-delete-getrandom-o1-duplicates-allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed)|[Python](HARD/381[H]insert-delete-getrandom-o1-duplicates-allowed.md)|H|
+|391|[perfect-rectangle](https://leetcode.com/problems/perfect-rectangle)|[Python](HARD/391[H]perfect-rectangle.md)|H|
+|403|[frog-jump](https://leetcode.com/problems/frog-jump)|[Python](HARD/403[H]frog-jump.md)|H|
+|407|[trapping-rain-water-ii](https://leetcode.com/problems/trapping-rain-water-ii)|[Python](HARD/407[H]trapping-rain-water-ii.md)|H|
+|410|[split-array-largest-sum](https://leetcode.com/problems/split-array-largest-sum)|[Python](HARD/410[H]split-array-largest-sum.md)|H|
+|420|[strong-password-checker](https://leetcode.com/problems/strong-password-checker)|[Python](HARD/420[H]strong-password-checker.md)|H|
+|432|[all-oone-data-structure](https://leetcode.com/problems/all-oone-data-structure)|[Python](HARD/432[H]all-oone-data-structure.md)|H|
+|440|[k-th-smallest-in-lexicographical-order](https://leetcode.com/problems/k-th-smallest-in-lexicographical-order)|[Python](HARD/440[H]k-th-smallest-in-lexicographical-order.md)|H|
+|446|[arithmetic-slices-ii-subsequence](https://leetcode.com/problems/arithmetic-slices-ii-subsequence)|[Python](HARD/446[H]arithmetic-slices-ii-subsequence.md)|H|
+|460|[lfu-cache](https://leetcode.com/problems/lfu-cache)|[Python](HARD/460[H]lfu-cache.md)|H|
+|466|[count-the-repetitions](https://leetcode.com/problems/count-the-repetitions)|[Python](HARD/466[H]count-the-repetitions.md)|H|
+|472|[concatenated-words](https://leetcode.com/problems/concatenated-words)|[Python](HARD/472[H]concatenated-words.md)|H|
+
+
+
 ### Remarks
 
-As a beginer, in 2015, I've solved about 290 problems which were mainly implemented in Cpp, which can be found at the **FirstRoundBackUps** folder.
+As a beginer, in 2015, I've solved about 290 problems which were mainly implemented in Cpp, which can be found at the other repo of my github [**Toys-Backups/FirstRoundBackUps**](https://github.com/zhanglanqing/Toys-Backups/tree/master/LeetcodeFirstRoundBackUps) backup folder.
