@@ -147,6 +147,7 @@
 |53|[maximum-subarray](https://leetcode.com/problems/maximum-subarray)|[Python](MEDIUM/53[M]maximum-subarray.md)|M|
 |54|[spiral-matrix](https://leetcode.com/problems/spiral-matrix)|[Python](MEDIUM/54[M]spiral-matrix.md)|M|
 |55|[jump-game](https://leetcode.com/problems/jump-game)|[Python](MEDIUM/55[M]jump-game.md)|M|
+|56|[merge-intervals](https://leetcode.com/problems/merge-intervals)|[Python](MEDIUM/56[M]merge-intervals.md)|M|
 |59|[spiral-matrix-ii](https://leetcode.com/problems/spiral-matrix-ii)|[Python](MEDIUM/59[M]spiral-matrix-ii.md)|M|
 |60|[permutation-sequence](https://leetcode.com/problems/permutation-sequence)|[Python](MEDIUM/60[M]permutation-sequence.md)|M|
 |61|[rotate-list](https://leetcode.com/problems/rotate-list)|[Python](MEDIUM/61[M]rotate-list.md)|M|
@@ -194,6 +195,7 @@
 |134|[gas-station](https://leetcode.com/problems/gas-station)|[Python](MEDIUM/134[M]gas-station.md)|M|
 |137|[single-number-ii](https://leetcode.com/problems/single-number-ii)|[Python](MEDIUM/137[M]single-number-ii.md)|M|
 |139|[word-break](https://leetcode.com/problems/word-break)|[Python](MEDIUM/139[M]word-break.md)|M|
+|138|[copy-list-with-random-pointer](https://leetcode.com/problems/copy-list-with-random-pointer)|[Python](MEDIUM/139[M]copy-list-with-random-pointer.md)|M|
 |142|[linked-list-cycle-ii](https://leetcode.com/problems/linked-list-cycle-ii)|[Python](MEDIUM/142[M]linked-list-cycle-ii.md)|M|
 |143|[reorder-list](https://leetcode.com/problems/reorder-list)|[Python](MEDIUM/143[M]reorder-list.md)|M|
 |144|[binary-tree-preorder-traversal](https://leetcode.com/problems/binary-tree-preorder-traversal)|[Python](MEDIUM/144[M]binary-tree-preorder-traversal.md)|M|
@@ -399,4 +401,4 @@
 
 ### Remarks
 
-As a beginer, in 2015, I've solved about 290 problems which were mainly implemented in Cpp, which can be found at the other repo of my github [**Toys-Backups/FirstRoundBackUps**](https://github.com/zhanglanqing/Toys-Backups/tree/master/LeetcodeFirstRoundBackUps) backup folder.
+As a beginer, in 2015, I've solved about 290 problems which were mainly implemented in Cpp, which can be found at another repo of my github [**Toys-Backups/FirstRoundBackUps**](https://github.com/zhanglanqing/Toys-Backups/tree/master/LeetcodeFirstRoundBackUps) backup folder.

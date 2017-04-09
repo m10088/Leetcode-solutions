@@ -1,8 +1,8 @@
-[原题](https://leetcode.com/problems/insert-interval)
+[原题](https://leetcode.com/problems/merge-intervals)
 
-题意
+题意：
 
-题解
+题解：
 
 ```
 # Definition for an interval.
@@ -35,23 +35,7 @@ class Solution(object):
                 rb, re = b, e
         ret.append(Interval(rb, re))
         return ret
-    def insert(self, intervals, newInterval):
-        """
-        :type intervals: List[Interval]
-        :type newInterval: Interval
-        :rtype: List[Interval]
-        """
-        # python list insert(idx)，在idx前面插入一个数据
-        flag = False
-        for i in range(len(intervals)):
-            if intervals[i].start > newInterval.start:
-                flag = True
-                intervals.insert(i, newInterval)
-                break
-        if not flag:
-            intervals.append(newInterval)
         
-        return self.merge(intervals)
-        
-        
+            
+            
 ```
