@@ -273,6 +273,7 @@
 |376|[wiggle-subsequence](https://leetcode.com/problems/wiggle-subsequence)|[Python](MEDIUM/376[M]wiggle-subsequence.md)|M|
 |377|[combination-sum-iv](https://leetcode.com/problems/combination-sum-iv)|[Python](MEDIUM/377[M]combination-sum-iv.md)|M|
 |378|[kth-smallest-element-in-a-sorted-matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix)|[Python](MEDIUM/378[M]kth-smallest-element-in-a-sorted-matrix.md)|M|
+|380|[insert-delete-getrandom-o1](https://leetcode.com/problems/insert-delete-getrandom-o1)|[Python](MEDIUM/380[M]insert-delete-getrandom-o1.md)|M|
 |382|[linked-list-random-node](https://leetcode.com/problems/linked-list-random-node)|[Python](MEDIUM/382[M]linked-list-random-node.md)|M|
 |384|[shuffle-an-array](https://leetcode.com/problems/shuffle-an-array)|[Python](MEDIUM/384[M]shuffle-an-array.md)|M|
 |385|[mini-parser](https://leetcode.com/problems/mini-parser)|[Python](MEDIUM/385[M]mini-parser.md)|M|
@@ -369,7 +370,8 @@
 |239|[sliding-window-maximum](https://leetcode.com/problems/sliding-window-maximum)|[Python](HARD/239[H]sliding-window-maximum.md)|H|
 |273|[integer-to-english-words](https://leetcode.com/problems/integer-to-english-words)|[Python](HARD/273[H]integer-to-english-words.md)|H|
 |282|[expression-add-operators](https://leetcode.com/problems/expression-add-operators)|[Python](HARD/282[H]expression-add-operators.md)|H|
-|295|[find-median-from-data-stream](https://leetcode.com/problems/find-median-from-data-stream)|[Python](HARD/295[H]find-median-from-data-stream.md)|H|
+|287|[find-the-duplicate-number](https://leetcode.com/problems/find-the-duplicate-number)|[Python](HARD/282[H]find-the-duplicate-number.md)|H|
+|295|[find-median-from-data-stream](https://leetcode.com/problems/find-median-from-data-stream)|[C++](HARD/295[H]find-median-from-data-stream.md)|H|
 |297|[serialize-and-deserialize-binary-tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree)|[Python](HARD/297[H]serialize-and-deserialize-binary-tree.md)|H|
 |301|[remove-invalid-parentheses](https://leetcode.com/problems/remove-invalid-parentheses)|[Python](HARD/301[H]remove-invalid-parentheses.md)|H|
 |312|[burst-balloons](https://leetcode.com/problems/burst-balloons)|[Python](HARD/312[H]burst-balloons.md)|H|
@@ -381,7 +383,7 @@
 |330|[patching-array](https://leetcode.com/problems/patching-array)|[Python](HARD/330[H]patching-array.md)|H|
 |335|[self-crossing](https://leetcode.com/problems/self-crossing)|[Python](HARD/335[H]self-crossing.md)|H|
 |336|[palindrome-pairs](https://leetcode.com/problems/palindrome-pairs)|[Python](HARD/336[H]palindrome-pairs.md)|H|
-|352|[data-stream-as-disjoint-intervals](https://leetcode.com/problems/data-stream-as-disjoint-intervals)|[Python](HARD/352[H]data-stream-as-disjoint-intervals.md)|H|
+|352|[data-stream-as-disjoint-intervals](https://leetcode.com/problems/data-stream-as-disjoint-intervals)|[C++](HARD/352[H]data-stream-as-disjoint-intervals.md)|H|
 |354|[russian-doll-envelopes](https://leetcode.com/problems/russian-doll-envelopes)|[Python](HARD/354[H]russian-doll-envelopes.md)|H|
 |363|[max-sum-of-sub-matrix-no-larger-than-k](https://leetcode.com/problems/max-sum-of-sub-matrix-no-larger-than-k)|[Python](HARD/363[H]max-sum-of-sub-matrix-no-larger-than-k.md)|H|
 |381|[insert-delete-getrandom-o1-duplicates-allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed)|[Python](HARD/381[H]insert-delete-getrandom-o1-duplicates-allowed.md)|H|
@@ -399,6 +401,3 @@
 
 
 
-### Remarks
-
-As a beginer, in 2015, I've solved about 290 problems which were mainly implemented in Cpp, which can be found at another repo of my github [**Toys-Backups/FirstRoundBackUps**](https://github.com/zhanglanqing/Toys-Backups/tree/master/LeetcodeFirstRoundBackUps) backup folder.
