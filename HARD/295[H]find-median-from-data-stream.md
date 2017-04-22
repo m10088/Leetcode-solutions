@@ -4,7 +4,7 @@
 
 题解
 
-```
+```C++
 class MedianFinder {
 public:
     /** initialize your data structure here. */

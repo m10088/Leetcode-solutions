@@ -4,7 +4,7 @@
 
 题解
 
-```
+```Python
 class Solution(object):
     def isInterleave(self, s1, s2, s3):
         """

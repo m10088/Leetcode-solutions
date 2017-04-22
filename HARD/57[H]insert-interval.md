@@ -4,7 +4,7 @@
 
 题解
 
-```
+```Python
 # Definition for an interval.
 # class Interval(object):
 #     def __init__(self, s=0, e=0):

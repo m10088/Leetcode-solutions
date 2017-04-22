@@ -4,7 +4,7 @@
 
 题解
 
-```
+```Python
 # http://images.cnitblog.com/i/627993/201405/012016243309923.png
        
 class Solution:

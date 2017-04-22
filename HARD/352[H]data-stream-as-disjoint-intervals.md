@@ -4,7 +4,7 @@
 
 题解
 
-```
+```C++
 /**
  * Definition for an interval.
  * struct Interval {

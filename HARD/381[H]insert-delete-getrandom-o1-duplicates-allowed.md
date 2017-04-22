@@ -4,7 +4,7 @@
 
 题解
 
-```
+```Python
 class RandomizedCollection(object):
 
     def __init__(self):

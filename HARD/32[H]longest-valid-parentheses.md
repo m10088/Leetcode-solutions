@@ -4,7 +4,7 @@
 
 题解
 
-```
+```Python
 class Solution(object):
     def longestValidParentheses(self, s):
         """

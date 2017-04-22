@@ -4,7 +4,7 @@
 
 题解
 
-```
+```Python
 class Node(object):
     def __init__(self, key, val):
         self.key = key
