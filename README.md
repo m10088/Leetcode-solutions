@@ -392,7 +392,7 @@
 |407|[trapping-rain-water-ii](https://leetcode.com/problems/trapping-rain-water-ii)|[Python](HARD/407[H]trapping-rain-water-ii.md)|H|
 |410|[split-array-largest-sum](https://leetcode.com/problems/split-array-largest-sum)|[Python](HARD/410[H]split-array-largest-sum.md)|H|
 |420|[strong-password-checker](https://leetcode.com/problems/strong-password-checker)|[Python](HARD/420[H]strong-password-checker.md)|H|
-|432|[all-oone-data-structure](https://leetcode.com/problems/all-oone-data-structure)|[Python](HARD/432[H]all-oone-data-structure.md)|H|
+|432|[all-oone-data-structure](https://leetcode.com/problems/all-oone-data-structure)|[C++](HARD/432[H]all-oone-data-structure.md)|H|
 |440|[k-th-smallest-in-lexicographical-order](https://leetcode.com/problems/k-th-smallest-in-lexicographical-order)|[Python](HARD/440[H]k-th-smallest-in-lexicographical-order.md)|H|
 |446|[arithmetic-slices-ii-subsequence](https://leetcode.com/problems/arithmetic-slices-ii-subsequence)|[Python](HARD/446[H]arithmetic-slices-ii-subsequence.md)|H|
 |460|[lfu-cache](https://leetcode.com/problems/lfu-cache)|[Python](HARD/460[H]lfu-cache.md)|H|
